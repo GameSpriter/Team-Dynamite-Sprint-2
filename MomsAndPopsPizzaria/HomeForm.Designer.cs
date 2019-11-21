@@ -1,6 +1,6 @@
 ﻿namespace MomsAndPopsPizzaria
 {
-    partial class MainForm
+    partial class HomeForm
     {
         /// <summary>
         /// Required designer variable.

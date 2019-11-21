@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MomsAndPopsPizzaria
 {
-    public partial class MainForm : Form
+    public partial class HomeForm : Form
     {
-        public MainForm()
+        public HomeForm()
         {
             InitializeComponent();
         }
