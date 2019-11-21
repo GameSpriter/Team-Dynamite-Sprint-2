@@ -58,11 +58,11 @@
     <Compile Include="BottomBarTemplate.Designer.cs">
       <DependentUpon>BottomBarTemplate.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.cs">
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainPage.Designer.cs">
-      <DependentUpon>MainPage.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="PageTemplate.cs">
       <SubType>UserControl</SubType>
