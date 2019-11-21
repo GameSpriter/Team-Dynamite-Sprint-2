@@ -1,31 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="MomsAndPopsPizzaria.PageTemplate">
-    <Position X="2.25" Y="0.5" Width="2.5" />
+    <Position X="4.25" Y="0.5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AACAAAAAACAAAAAAAACAAAACABBAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PageTemplate.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.Item">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Position X="0.5" Y="0.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Item.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.Address">
-    <Position X="0.5" Y="2.25" Width="1.5" />
+    <Position X="0.5" Y="2.25" Width="2.75" />
     <TypeIdentifier>
       <HashCode>QAAAAAAAAAAAAAAMAAAAAAAAAAIAAAAAAAIABQAAAAA=</HashCode>
       <FileName>Address.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.User">
-    <Position X="0.5" Y="5.25" Width="1.5" />
+    <Position X="0.5" Y="5.25" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAEAAAAAAAAAABAAAQAAAAAAAAAACAAACAgAAAAg=</HashCode>
+      <HashCode>AAAAAEAAAAAAAAAABAACQAAAAAIAAAACAAAAAgAAAAg=</HashCode>
       <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsAndPopsPizzaria.Pizza">
+    <Position X="4.25" Y="3.5" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="MomsAndPopsPizzaria.Pizza.Crust" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Pizza.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="MomsAndPopsPizzaria.Pizza.Size" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Pizza.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAEAAAAAAQAAAAAAQAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pizza.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
