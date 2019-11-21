@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,29 +10,21 @@ using System.Windows.Forms;
 
 namespace MomsAndPopsPizzaria
 {
-    public partial class BottomBarTemplate : Form
+    public partial class BottomBarTemplate : UserControl
     {
-        private Form AboutUsForm, ContactUsForm, LocationForm, PolicyInformationForm, NutritionInformationForm;
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void testButton_Click(object sender, EventArgs e)
-        {
-            label1.Text = "Test";
-        }
-
         public BottomBarTemplate()
         {
             InitializeComponent();
         }
 
-        public void ChangePage(Form form)
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            form.Parent = this;
-            form.Show();
+
+        }
+
+        private void AboutUsLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }
