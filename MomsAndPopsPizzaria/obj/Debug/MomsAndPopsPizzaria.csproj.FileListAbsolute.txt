@@ -1,0 +1,10 @@
+E:\Documents\SWE 3313\MomsAndPopsPizzaria\MomsAndPopsPizzaria\bin\Debug\MomsAndPopsPizzaria.exe.config
+E:\Documents\SWE 3313\MomsAndPopsPizzaria\MomsAndPopsPizzaria\bin\Debug\MomsAndPopsPizzaria.exe
+E:\Documents\SWE 3313\MomsAndPopsPizzaria\MomsAndPopsPizzaria\bin\Debug\MomsAndPopsPizzaria.pdb
+E:\Documents\SWE 3313\MomsAndPopsPizzaria\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.csprojAssemblyReference.cache
+E:\Documents\SWE 3313\MomsAndPopsPizzaria\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.BottomBarTemplate.resources
+E:\Documents\SWE 3313\MomsAndPopsPizzaria\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.Properties.Resources.resources
+E:\Documents\SWE 3313\MomsAndPopsPizzaria\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.csproj.GenerateResource.cache
+E:\Documents\SWE 3313\MomsAndPopsPizzaria\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.csproj.CoreCompileInputs.cache
+E:\Documents\SWE 3313\MomsAndPopsPizzaria\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.exe
+E:\Documents\SWE 3313\MomsAndPopsPizzaria\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.pdb
