@@ -52,12 +52,14 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Address.cs" />
     <Compile Include="BottomBarTemplate.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="BottomBarTemplate.Designer.cs">
       <DependentUpon>BottomBarTemplate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Item.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
