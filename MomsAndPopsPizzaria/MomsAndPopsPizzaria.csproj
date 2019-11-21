@@ -80,6 +80,7 @@
     <Compile Include="TopBarTemplate.Designer.cs">
       <DependentUpon>TopBarTemplate.cs</DependentUpon>
     </Compile>
+    <Compile Include="User.cs" />
     <EmbeddedResource Include="BottomBarTemplate.resx">
       <DependentUpon>BottomBarTemplate.cs</DependentUpon>
     </EmbeddedResource>
