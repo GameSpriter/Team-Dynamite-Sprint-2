@@ -61,26 +61,5 @@
       <FileName>TopBarTemplate.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MomsAndPopsPizzaria.FormHome">
-    <Position X="8.25" Y="0.5" Width="3.75" />
-    <TypeIdentifier>
-      <HashCode>AAABAAAIACAAAAAAAACAAAACAAAAAAIAAAAAAAAAAAA=</HashCode>
-      <FileName>FormHome.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="MomsAndPopsPizzaria.FormLogin">
-    <Position X="8.25" Y="3.5" Width="3.75" />
-    <TypeIdentifier>
-      <HashCode>AAABAAAIACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>FormLogin.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="MomsAndPopsPizzaria.FormSignUp">
-    <Position X="8.25" Y="6.25" Width="3.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>FormSignUp.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
