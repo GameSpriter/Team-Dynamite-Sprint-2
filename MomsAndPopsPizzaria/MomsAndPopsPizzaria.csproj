@@ -85,6 +85,9 @@
     <EmbeddedResource Include="BottomBarTemplate.resx">
       <DependentUpon>BottomBarTemplate.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HomeForm.resx">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PageTemplate.resx">
       <DependentUpon>PageTemplate.cs</DependentUpon>
     </EmbeddedResource>
