@@ -92,11 +92,23 @@
     <Compile Include="FormCart.Designer.cs">
       <DependentUpon>FormCart.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormContactUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormContactUs.Designer.cs">
+      <DependentUpon>FormContactUs.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormCustomPizza.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormCustomPizza.Designer.cs">
       <DependentUpon>FormCustomPizza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLocation.Designer.cs">
+      <DependentUpon>FormLocation.cs</DependentUpon>
     </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
@@ -110,11 +122,23 @@
     <Compile Include="FormMenu.Designer.cs">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormNutritionInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNutritionInformation.Designer.cs">
+      <DependentUpon>FormNutritionInformation.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPaymentCheckout.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormPaymentCheckout.Designer.cs">
       <DependentUpon>FormPaymentCheckout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPolicyInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPolicyInformation.Designer.cs">
+      <DependentUpon>FormPolicyInformation.cs</DependentUpon>
     </Compile>
     <Compile Include="FormResetPassword.cs">
       <SubType>Form</SubType>
