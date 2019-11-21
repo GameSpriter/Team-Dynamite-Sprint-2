@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="MomsAndPopsPizzaria.PageTemplate">
-    <Position X="4.25" Y="0.5" Width="3.5" />
+    <Position X="4.25" Y="0.5" Width="3" />
     <TypeIdentifier>
-      <HashCode>AACAAAAAACAAAAAAAACAAAACABBAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AACAAAAAACAAAAAAAACAAAACAABAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PageTemplate.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -47,25 +47,39 @@
       <FileName>Pizza.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MomsAndPopsPizzaria.HomeForm">
-    <Position X="8.25" Y="0.5" Width="2.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>HomeForm.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="MomsAndPopsPizzaria.BottomBarTemplate">
-    <Position X="4.25" Y="6.25" Width="3.5" />
+    <Position X="4.25" Y="6" Width="3" />
     <TypeIdentifier>
       <HashCode>gAAAAAAAACAAAAAAAACRABACAIAgAAAABAAAAAAAABA=</HashCode>
       <FileName>BottomBarTemplate.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.TopBarTemplate">
-    <Position X="4.25" Y="3.5" Width="3.5" />
+    <Position X="4.25" Y="3.25" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAEAACAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TopBarTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsAndPopsPizzaria.FormHome">
+    <Position X="8.25" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAIACAAAAAAAACAAAACAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>FormHome.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsAndPopsPizzaria.FormLogin">
+    <Position X="8.25" Y="3.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAIACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FormLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsAndPopsPizzaria.FormSignUp">
+    <Position X="8.25" Y="6.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FormSignUp.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
