@@ -165,6 +165,12 @@
     <Compile Include="FormHome.Designer.cs">
       <DependentUpon>FormHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuDrinksTemplate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuDrinksTemplate.Designer.cs">
+      <DependentUpon>MenuDrinksTemplate.cs</DependentUpon>
+    </Compile>
     <Compile Include="PageTemplate.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -189,6 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuDrinksTemplate.resx">
+      <DependentUpon>MenuDrinksTemplate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PageTemplate.resx">
       <DependentUpon>PageTemplate.cs</DependentUpon>
