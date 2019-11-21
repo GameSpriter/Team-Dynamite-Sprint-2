@@ -8,3 +8,13 @@ E:\Documents\SWE 3313\MomsAndPopsPizzaria\MomsAndPopsPizzaria\obj\Debug\MomsAndP
 E:\Documents\SWE 3313\MomsAndPopsPizzaria\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.csproj.CoreCompileInputs.cache
 E:\Documents\SWE 3313\MomsAndPopsPizzaria\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.exe
 E:\Documents\SWE 3313\MomsAndPopsPizzaria\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.pdb
+E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\bin\Debug\MomsAndPopsPizzaria.exe.config
+E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\bin\Debug\MomsAndPopsPizzaria.exe
+E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\bin\Debug\MomsAndPopsPizzaria.pdb
+E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.csprojAssemblyReference.cache
+E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.BottomBarTemplate.resources
+E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.Properties.Resources.resources
+E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.csproj.GenerateResource.cache
+E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.csproj.CoreCompileInputs.cache
+E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.exe
+E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.pdb

@@ -14,6 +14,16 @@ namespace MomsAndPopsPizzaria
     {
         private Form AboutUsForm, ContactUsForm, LocationForm, PolicyInformationForm, NutritionInformationForm;
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void testButton_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Test";
+        }
+
         public BottomBarTemplate()
         {
             InitializeComponent();
