@@ -64,7 +64,7 @@
   <Class Name="MomsAndPopsPizzaria.MenuDrinksTemplate">
     <Position X="8.25" Y="0.5" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAAAAACAAAAAARAAAA=</HashCode>
+      <HashCode>QAAEAAAAICEAAAgIAACAAAACABAAAAAAAAACAABAAAA=</HashCode>
       <FileName>MenuDrinksTemplate.cs</FileName>
     </TypeIdentifier>
   </Class>
