@@ -38,3 +38,4 @@ E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\De
 E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateName.resources
 E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplatePage.resources
 E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateTopBar.resources
+E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateNewPassword.resources
