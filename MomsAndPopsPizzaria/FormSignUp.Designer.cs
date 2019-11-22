@@ -35,13 +35,10 @@
             this.addressTemplate1 = new MomsAndPopsPizzaria.TemplateAddress();
             this.PhoneNumberText = new System.Windows.Forms.Label();
             this.PhoneNumberTextBox = new System.Windows.Forms.TextBox();
-            this.PasswordTextBox = new System.Windows.Forms.TextBox();
-            this.PasswordText = new System.Windows.Forms.Label();
-            this.ConfirmPasswordTextBox = new System.Windows.Forms.TextBox();
-            this.ConfirmPasswordText = new System.Windows.Forms.Label();
             this.TermsOfServiceCheckBox = new System.Windows.Forms.CheckBox();
             this.SignUpButton = new System.Windows.Forms.Button();
             this.PreferedAddressText = new System.Windows.Forms.Label();
+            this.templateNewPassword1 = new MomsAndPopsPizzaria.TemplateNewPassword();
             this.SuspendLayout();
             // 
             // DateOfBirthText
@@ -98,42 +95,10 @@
             // 
             // PhoneNumberTextBox
             // 
-            this.PhoneNumberTextBox.Location = new System.Drawing.Point(104, 526);
+            this.PhoneNumberTextBox.Location = new System.Drawing.Point(104, 525);
             this.PhoneNumberTextBox.Name = "PhoneNumberTextBox";
             this.PhoneNumberTextBox.Size = new System.Drawing.Size(117, 20);
             this.PhoneNumberTextBox.TabIndex = 6;
-            // 
-            // PasswordTextBox
-            // 
-            this.PasswordTextBox.Location = new System.Drawing.Point(254, 526);
-            this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.Size = new System.Drawing.Size(117, 20);
-            this.PasswordTextBox.TabIndex = 8;
-            // 
-            // PasswordText
-            // 
-            this.PasswordText.AutoSize = true;
-            this.PasswordText.Location = new System.Drawing.Point(254, 509);
-            this.PasswordText.Name = "PasswordText";
-            this.PasswordText.Size = new System.Drawing.Size(35, 13);
-            this.PasswordText.TabIndex = 7;
-            this.PasswordText.Text = "label1";
-            // 
-            // ConfirmPasswordTextBox
-            // 
-            this.ConfirmPasswordTextBox.Location = new System.Drawing.Point(413, 526);
-            this.ConfirmPasswordTextBox.Name = "ConfirmPasswordTextBox";
-            this.ConfirmPasswordTextBox.Size = new System.Drawing.Size(117, 20);
-            this.ConfirmPasswordTextBox.TabIndex = 10;
-            // 
-            // ConfirmPasswordText
-            // 
-            this.ConfirmPasswordText.AutoSize = true;
-            this.ConfirmPasswordText.Location = new System.Drawing.Point(413, 509);
-            this.ConfirmPasswordText.Name = "ConfirmPasswordText";
-            this.ConfirmPasswordText.Size = new System.Drawing.Size(35, 13);
-            this.ConfirmPasswordText.TabIndex = 9;
-            this.ConfirmPasswordText.Text = "label1";
             // 
             // TermsOfServiceCheckBox
             // 
@@ -154,6 +119,7 @@
             this.SignUpButton.TabIndex = 12;
             this.SignUpButton.Text = "button1";
             this.SignUpButton.UseVisualStyleBackColor = true;
+            this.SignUpButton.Click += new System.EventHandler(this.SignUpButton_Click);
             // 
             // PreferedAddressText
             // 
@@ -164,18 +130,23 @@
             this.PreferedAddressText.TabIndex = 13;
             this.PreferedAddressText.Text = "Save a prefered delivery address";
             // 
+            // templateNewPassword1
+            // 
+            this.templateNewPassword1.BackColor = System.Drawing.Color.Gainsboro;
+            this.templateNewPassword1.Location = new System.Drawing.Point(227, 509);
+            this.templateNewPassword1.Name = "templateNewPassword1";
+            this.templateNewPassword1.Size = new System.Drawing.Size(382, 72);
+            this.templateNewPassword1.TabIndex = 14;
+            // 
             // FormSignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.templateNewPassword1);
             this.Controls.Add(this.PreferedAddressText);
             this.Controls.Add(this.SignUpButton);
             this.Controls.Add(this.TermsOfServiceCheckBox);
-            this.Controls.Add(this.ConfirmPasswordTextBox);
-            this.Controls.Add(this.ConfirmPasswordText);
-            this.Controls.Add(this.PasswordTextBox);
-            this.Controls.Add(this.PasswordText);
             this.Controls.Add(this.PhoneNumberTextBox);
             this.Controls.Add(this.PhoneNumberText);
             this.Controls.Add(this.addressTemplate1);
@@ -199,12 +170,9 @@
         private TemplateAddress addressTemplate1;
         private System.Windows.Forms.Label PhoneNumberText;
         private System.Windows.Forms.TextBox PhoneNumberTextBox;
-        private System.Windows.Forms.TextBox PasswordTextBox;
-        private System.Windows.Forms.Label PasswordText;
-        private System.Windows.Forms.TextBox ConfirmPasswordTextBox;
-        private System.Windows.Forms.Label ConfirmPasswordText;
         private System.Windows.Forms.CheckBox TermsOfServiceCheckBox;
         private System.Windows.Forms.Button SignUpButton;
         private System.Windows.Forms.Label PreferedAddressText;
+        private TemplateNewPassword templateNewPassword1;
     }
 }

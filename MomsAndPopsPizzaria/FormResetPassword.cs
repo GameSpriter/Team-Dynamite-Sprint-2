@@ -16,5 +16,16 @@ namespace MomsAndPopsPizzaria
         {
             InitializeComponent();
         }
+
+        private bool ValidatePassword()
+        {
+            //Check the user class for validation
+            return false; //Default to avoid errors, remove later
+        }
+
+        private void ResetPasswordButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

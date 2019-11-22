@@ -56,5 +56,10 @@ namespace MomsAndPopsPizzaria
         {
 
         }
+
+        private void SignUpButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
