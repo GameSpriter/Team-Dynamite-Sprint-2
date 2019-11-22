@@ -16,5 +16,20 @@ namespace MomsAndPopsPizzaria
         {
             InitializeComponent();
         }
+
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SignUpButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ForgotEmailPasswordLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }
