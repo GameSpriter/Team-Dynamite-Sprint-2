@@ -28,68 +28,68 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.MediumDrinkCounter = new System.Windows.Forms.NumericUpDown();
+            this.SmallDrinkCounter = new System.Windows.Forms.NumericUpDown();
+            this.LargeDrinkCounter = new System.Windows.Forms.NumericUpDown();
+            this.SmallText = new System.Windows.Forms.Label();
+            this.MediumText = new System.Windows.Forms.Label();
+            this.LargeText = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            this.DrinkNameText = new System.Windows.Forms.Label();
+            this.PriceText = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.MediumDrinkCounter)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SmallDrinkCounter)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LargeDrinkCounter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // numericUpDown1
+            // MediumDrinkCounter
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(169, 65);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown1.TabIndex = 0;
+            this.MediumDrinkCounter.Location = new System.Drawing.Point(169, 65);
+            this.MediumDrinkCounter.Name = "MediumDrinkCounter";
+            this.MediumDrinkCounter.Size = new System.Drawing.Size(120, 20);
+            this.MediumDrinkCounter.TabIndex = 0;
             // 
-            // numericUpDown2
+            // SmallDrinkCounter
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(169, 39);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown2.TabIndex = 1;
+            this.SmallDrinkCounter.Location = new System.Drawing.Point(169, 39);
+            this.SmallDrinkCounter.Name = "SmallDrinkCounter";
+            this.SmallDrinkCounter.Size = new System.Drawing.Size(120, 20);
+            this.SmallDrinkCounter.TabIndex = 1;
             // 
-            // numericUpDown3
+            // LargeDrinkCounter
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(169, 91);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(120, 20);
-            this.numericUpDown3.TabIndex = 2;
+            this.LargeDrinkCounter.Location = new System.Drawing.Point(169, 91);
+            this.LargeDrinkCounter.Name = "LargeDrinkCounter";
+            this.LargeDrinkCounter.Size = new System.Drawing.Size(120, 20);
+            this.LargeDrinkCounter.TabIndex = 2;
             // 
-            // label1
+            // SmallText
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(128, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
+            this.SmallText.AutoSize = true;
+            this.SmallText.Location = new System.Drawing.Point(128, 41);
+            this.SmallText.Name = "SmallText";
+            this.SmallText.Size = new System.Drawing.Size(35, 13);
+            this.SmallText.TabIndex = 3;
+            this.SmallText.Text = "label1";
             // 
-            // label2
+            // MediumText
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(128, 67);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "label2";
+            this.MediumText.AutoSize = true;
+            this.MediumText.Location = new System.Drawing.Point(128, 67);
+            this.MediumText.Name = "MediumText";
+            this.MediumText.Size = new System.Drawing.Size(35, 13);
+            this.MediumText.TabIndex = 4;
+            this.MediumText.Text = "label2";
             // 
-            // label3
+            // LargeText
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(128, 93);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "label3";
+            this.LargeText.AutoSize = true;
+            this.LargeText.Location = new System.Drawing.Point(128, 93);
+            this.LargeText.Name = "LargeText";
+            this.LargeText.Size = new System.Drawing.Size(35, 13);
+            this.LargeText.TabIndex = 5;
+            this.LargeText.Text = "label3";
             // 
             // pictureBox1
             // 
@@ -100,42 +100,42 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // label4
+            // DrinkNameText
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(41, 12);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "label4";
+            this.DrinkNameText.AutoSize = true;
+            this.DrinkNameText.Location = new System.Drawing.Point(41, 12);
+            this.DrinkNameText.Name = "DrinkNameText";
+            this.DrinkNameText.Size = new System.Drawing.Size(35, 13);
+            this.DrinkNameText.TabIndex = 7;
+            this.DrinkNameText.Text = "label4";
             // 
-            // label5
+            // PriceText
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(211, 12);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "label5";
+            this.PriceText.AutoSize = true;
+            this.PriceText.Location = new System.Drawing.Point(211, 12);
+            this.PriceText.Name = "PriceText";
+            this.PriceText.Size = new System.Drawing.Size(35, 13);
+            this.PriceText.TabIndex = 8;
+            this.PriceText.Text = "label5";
             // 
             // MenuDrinksTemplate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.PriceText);
+            this.Controls.Add(this.DrinkNameText);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.numericUpDown3);
-            this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.LargeText);
+            this.Controls.Add(this.MediumText);
+            this.Controls.Add(this.SmallText);
+            this.Controls.Add(this.LargeDrinkCounter);
+            this.Controls.Add(this.SmallDrinkCounter);
+            this.Controls.Add(this.MediumDrinkCounter);
             this.Name = "MenuDrinksTemplate";
             this.Size = new System.Drawing.Size(330, 150);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MediumDrinkCounter)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SmallDrinkCounter)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LargeDrinkCounter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -144,14 +144,14 @@
 
         #endregion
 
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.NumericUpDown MediumDrinkCounter;
+        private System.Windows.Forms.NumericUpDown SmallDrinkCounter;
+        private System.Windows.Forms.NumericUpDown LargeDrinkCounter;
+        private System.Windows.Forms.Label SmallText;
+        private System.Windows.Forms.Label MediumText;
+        private System.Windows.Forms.Label LargeText;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label DrinkNameText;
+        private System.Windows.Forms.Label PriceText;
     }
 }
