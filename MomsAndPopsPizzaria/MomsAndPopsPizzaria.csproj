@@ -190,6 +190,9 @@
     <EmbeddedResource Include="BottomBarTemplate.resx">
       <DependentUpon>BottomBarTemplate.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormAboutUs.resx">
+      <DependentUpon>FormAboutUs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>
     </EmbeddedResource>
