@@ -38,6 +38,7 @@
             this.pageTemplate1.Name = "pageTemplate1";
             this.pageTemplate1.Size = new System.Drawing.Size(1280, 720);
             this.pageTemplate1.TabIndex = 0;
+            this.pageTemplate1.Load += new System.EventHandler(this.pageTemplate1_Load);
             // 
             // FormMenu
             // 

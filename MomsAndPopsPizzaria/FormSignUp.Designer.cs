@@ -65,7 +65,7 @@
             // FirstLastNameUserControl
             // 
             this.FirstLastNameUserControl.BackColor = System.Drawing.Color.Gainsboro;
-            this.FirstLastNameUserControl.Location = new System.Drawing.Point(104, 259);
+            this.FirstLastNameUserControl.Location = new System.Drawing.Point(104, 277);
             this.FirstLastNameUserControl.Name = "FirstLastNameUserControl";
             this.FirstLastNameUserControl.Size = new System.Drawing.Size(312, 81);
             this.FirstLastNameUserControl.TabIndex = 1;
