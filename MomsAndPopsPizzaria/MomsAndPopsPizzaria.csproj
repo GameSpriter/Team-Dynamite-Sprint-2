@@ -204,6 +204,12 @@
     <Compile Include="TemplateNewPassword.Designer.cs">
       <DependentUpon>TemplateNewPassword.cs</DependentUpon>
     </Compile>
+    <Compile Include="TemplatePizzaTopping.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TemplatePizzaTopping.Designer.cs">
+      <DependentUpon>TemplatePizzaTopping.cs</DependentUpon>
+    </Compile>
     <Compile Include="TemplateTopBar.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -285,6 +291,9 @@
     </Compile>
     <EmbeddedResource Include="TemplateNewPassword.resx">
       <DependentUpon>TemplateNewPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemplatePizzaTopping.resx">
+      <DependentUpon>TemplatePizzaTopping.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TemplateTopBar.resx">
       <DependentUpon>TemplateTopBar.cs</DependentUpon>
