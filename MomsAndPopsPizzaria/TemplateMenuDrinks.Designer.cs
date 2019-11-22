@@ -45,29 +45,29 @@
             // 
             // MediumDrinkCounter
             // 
-            this.MediumDrinkCounter.Location = new System.Drawing.Point(169, 65);
+            this.MediumDrinkCounter.Location = new System.Drawing.Point(130, 44);
             this.MediumDrinkCounter.Name = "MediumDrinkCounter";
-            this.MediumDrinkCounter.Size = new System.Drawing.Size(120, 20);
+            this.MediumDrinkCounter.Size = new System.Drawing.Size(61, 20);
             this.MediumDrinkCounter.TabIndex = 0;
             // 
             // SmallDrinkCounter
             // 
-            this.SmallDrinkCounter.Location = new System.Drawing.Point(169, 39);
+            this.SmallDrinkCounter.Location = new System.Drawing.Point(130, 18);
             this.SmallDrinkCounter.Name = "SmallDrinkCounter";
-            this.SmallDrinkCounter.Size = new System.Drawing.Size(120, 20);
+            this.SmallDrinkCounter.Size = new System.Drawing.Size(61, 20);
             this.SmallDrinkCounter.TabIndex = 1;
             // 
             // LargeDrinkCounter
             // 
-            this.LargeDrinkCounter.Location = new System.Drawing.Point(169, 91);
+            this.LargeDrinkCounter.Location = new System.Drawing.Point(130, 70);
             this.LargeDrinkCounter.Name = "LargeDrinkCounter";
-            this.LargeDrinkCounter.Size = new System.Drawing.Size(120, 20);
+            this.LargeDrinkCounter.Size = new System.Drawing.Size(61, 20);
             this.LargeDrinkCounter.TabIndex = 2;
             // 
             // SmallText
             // 
             this.SmallText.AutoSize = true;
-            this.SmallText.Location = new System.Drawing.Point(128, 41);
+            this.SmallText.Location = new System.Drawing.Point(89, 20);
             this.SmallText.Name = "SmallText";
             this.SmallText.Size = new System.Drawing.Size(35, 13);
             this.SmallText.TabIndex = 3;
@@ -76,7 +76,7 @@
             // MediumText
             // 
             this.MediumText.AutoSize = true;
-            this.MediumText.Location = new System.Drawing.Point(128, 67);
+            this.MediumText.Location = new System.Drawing.Point(89, 46);
             this.MediumText.Name = "MediumText";
             this.MediumText.Size = new System.Drawing.Size(35, 13);
             this.MediumText.TabIndex = 4;
@@ -85,7 +85,7 @@
             // LargeText
             // 
             this.LargeText.AutoSize = true;
-            this.LargeText.Location = new System.Drawing.Point(128, 93);
+            this.LargeText.Location = new System.Drawing.Point(89, 72);
             this.LargeText.Name = "LargeText";
             this.LargeText.Size = new System.Drawing.Size(35, 13);
             this.LargeText.TabIndex = 5;
@@ -94,16 +94,16 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Gainsboro;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 28);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 18);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(119, 119);
+            this.pictureBox1.Size = new System.Drawing.Size(72, 72);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
             // DrinkNameText
             // 
             this.DrinkNameText.AutoSize = true;
-            this.DrinkNameText.Location = new System.Drawing.Point(41, 12);
+            this.DrinkNameText.Location = new System.Drawing.Point(20, 2);
             this.DrinkNameText.Name = "DrinkNameText";
             this.DrinkNameText.Size = new System.Drawing.Size(35, 13);
             this.DrinkNameText.TabIndex = 7;
@@ -112,13 +112,13 @@
             // PriceText
             // 
             this.PriceText.AutoSize = true;
-            this.PriceText.Location = new System.Drawing.Point(211, 12);
+            this.PriceText.Location = new System.Drawing.Point(127, 2);
             this.PriceText.Name = "PriceText";
             this.PriceText.Size = new System.Drawing.Size(35, 13);
             this.PriceText.TabIndex = 8;
             this.PriceText.Text = "label5";
             // 
-            // MenuDrinksTemplate
+            // TemplateMenuDrinks
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -131,8 +131,8 @@
             this.Controls.Add(this.LargeDrinkCounter);
             this.Controls.Add(this.SmallDrinkCounter);
             this.Controls.Add(this.MediumDrinkCounter);
-            this.Name = "MenuDrinksTemplate";
-            this.Size = new System.Drawing.Size(330, 150);
+            this.Name = "TemplateMenuDrinks";
+            this.Size = new System.Drawing.Size(201, 98);
             ((System.ComponentModel.ISupportInitialize)(this.MediumDrinkCounter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SmallDrinkCounter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LargeDrinkCounter)).EndInit();

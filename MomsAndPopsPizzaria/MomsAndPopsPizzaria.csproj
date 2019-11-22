@@ -177,6 +177,12 @@
     <Compile Include="TemplateMenuDrinks.Designer.cs">
       <DependentUpon>TemplateMenuDrinks.cs</DependentUpon>
     </Compile>
+    <Compile Include="TemplateMenuExtras.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TemplateMenuExtras.Designer.cs">
+      <DependentUpon>TemplateMenuExtras.cs</DependentUpon>
+    </Compile>
     <Compile Include="TemplateName.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -258,6 +264,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TemplateMenuDrinks.resx">
       <DependentUpon>TemplateMenuDrinks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TemplateMenuExtras.resx">
+      <DependentUpon>TemplateMenuExtras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TemplateName.resx">
       <DependentUpon>TemplateName.cs</DependentUpon>

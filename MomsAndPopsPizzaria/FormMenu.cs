@@ -17,7 +17,22 @@ namespace MomsAndPopsPizzaria
             InitializeComponent();
         }
 
+        private void UpdateCart()
+        {
+
+        }
+
         private void pageTemplate1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CreateAPizzaButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CartButton_Click(object sender, EventArgs e)
         {
 
         }
