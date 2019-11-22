@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MomsAndPopsPizzaria
 {
-    public partial class MenuDrinksTemplate : UserControl
+    public partial class TemplateMenuDrinks : UserControl
     {
-        public MenuDrinksTemplate()
+        public TemplateMenuDrinks()
         {
             InitializeComponent();
         }

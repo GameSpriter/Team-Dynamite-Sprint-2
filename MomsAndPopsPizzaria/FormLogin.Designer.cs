@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.LoginButton = new System.Windows.Forms.Button();
-            this.pageTemplate1 = new MomsAndPopsPizzaria.PageTemplate();
+            this.pageTemplate1 = new MomsAndPopsPizzaria.TemplatePage();
             this.SuspendLayout();
             // 
             // LoginButton
@@ -65,6 +65,6 @@
         #endregion
 
         private System.Windows.Forms.Button LoginButton;
-        private PageTemplate pageTemplate1;
+        private TemplatePage pageTemplate1;
     }
 }

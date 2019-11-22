@@ -30,7 +30,7 @@
         {
             this.LoginButton = new System.Windows.Forms.Button();
             this.MenuButton = new System.Windows.Forms.Button();
-            this.pageTemplate1 = new MomsAndPopsPizzaria.PageTemplate();
+            this.pageTemplate1 = new MomsAndPopsPizzaria.TemplatePage();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -116,7 +116,7 @@
 
         private System.Windows.Forms.Button LoginButton;
         private System.Windows.Forms.Button MenuButton;
-        private PageTemplate pageTemplate1;
+        private TemplatePage pageTemplate1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;

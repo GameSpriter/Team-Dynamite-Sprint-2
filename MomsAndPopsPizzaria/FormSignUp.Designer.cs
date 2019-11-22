@@ -30,9 +30,9 @@
         {
             this.DateOfBirthText = new System.Windows.Forms.Label();
             this.DateOfBirthPicker = new System.Windows.Forms.DateTimePicker();
-            this.FirstLastNameUserControl = new MomsAndPopsPizzaria.NameTemplate();
-            this.pageTemplate1 = new MomsAndPopsPizzaria.PageTemplate();
-            this.addressTemplate1 = new MomsAndPopsPizzaria.AddressTemplate();
+            this.FirstLastNameUserControl = new MomsAndPopsPizzaria.TemplateName();
+            this.pageTemplate1 = new MomsAndPopsPizzaria.TemplatePage();
+            this.addressTemplate1 = new MomsAndPopsPizzaria.TemplateAddress();
             this.PhoneNumberText = new System.Windows.Forms.Label();
             this.PhoneNumberTextBox = new System.Windows.Forms.TextBox();
             this.PasswordTextBox = new System.Windows.Forms.TextBox();
@@ -41,6 +41,7 @@
             this.ConfirmPasswordText = new System.Windows.Forms.Label();
             this.TermsOfServiceCheckBox = new System.Windows.Forms.CheckBox();
             this.SignUpButton = new System.Windows.Forms.Button();
+            this.PreferedAddressText = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // DateOfBirthText
@@ -81,7 +82,7 @@
             // addressTemplate1
             // 
             this.addressTemplate1.BackColor = System.Drawing.Color.Gainsboro;
-            this.addressTemplate1.Location = new System.Drawing.Point(104, 364);
+            this.addressTemplate1.Location = new System.Drawing.Point(104, 392);
             this.addressTemplate1.Name = "addressTemplate1";
             this.addressTemplate1.Size = new System.Drawing.Size(391, 114);
             this.addressTemplate1.TabIndex = 4;
@@ -153,11 +154,21 @@
             this.SignUpButton.Text = "button1";
             this.SignUpButton.UseVisualStyleBackColor = true;
             // 
+            // PreferedAddressText
+            // 
+            this.PreferedAddressText.AutoSize = true;
+            this.PreferedAddressText.Location = new System.Drawing.Point(107, 373);
+            this.PreferedAddressText.Name = "PreferedAddressText";
+            this.PreferedAddressText.Size = new System.Drawing.Size(162, 13);
+            this.PreferedAddressText.TabIndex = 13;
+            this.PreferedAddressText.Text = "Save a prefered delivery address";
+            // 
             // FormSignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.PreferedAddressText);
             this.Controls.Add(this.SignUpButton);
             this.Controls.Add(this.TermsOfServiceCheckBox);
             this.Controls.Add(this.ConfirmPasswordTextBox);
@@ -180,11 +191,11 @@
 
         #endregion
 
-        private PageTemplate pageTemplate1;
-        private NameTemplate FirstLastNameUserControl;
+        private TemplatePage pageTemplate1;
+        private TemplateName FirstLastNameUserControl;
         private System.Windows.Forms.Label DateOfBirthText;
         private System.Windows.Forms.DateTimePicker DateOfBirthPicker;
-        private AddressTemplate addressTemplate1;
+        private TemplateAddress addressTemplate1;
         private System.Windows.Forms.Label PhoneNumberText;
         private System.Windows.Forms.TextBox PhoneNumberTextBox;
         private System.Windows.Forms.TextBox PasswordTextBox;
@@ -193,5 +204,6 @@
         private System.Windows.Forms.Label ConfirmPasswordText;
         private System.Windows.Forms.CheckBox TermsOfServiceCheckBox;
         private System.Windows.Forms.Button SignUpButton;
+        private System.Windows.Forms.Label PreferedAddressText;
     }
 }

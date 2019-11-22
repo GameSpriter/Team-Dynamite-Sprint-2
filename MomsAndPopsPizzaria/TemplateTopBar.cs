@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace MomsAndPopsPizzaria
 {
-    public partial class NameTemplate : UserControl
+    public partial class TemplateTopBar : UserControl
     {
-        public NameTemplate()
+        public TemplateTopBar()
         {
             InitializeComponent();
+        }
+
+        private void MomsAndPopsPizzeriaLogo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

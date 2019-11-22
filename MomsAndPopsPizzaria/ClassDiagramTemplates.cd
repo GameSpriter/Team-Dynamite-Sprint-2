@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="MomsAndPopsPizzaria.PageTemplate">
+  <Class Name="MomsAndPopsPizzaria.TemplatePage">
     <Position X="4.25" Y="0.5" Width="3" />
     <TypeIdentifier>
       <HashCode>AACAAAAAACAAAAAAAACAAAACAABAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>PageTemplate.cs</FileName>
+      <FileName>TemplatePage.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.Item">
@@ -47,25 +47,25 @@
       <FileName>Pizza.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MomsAndPopsPizzaria.BottomBarTemplate">
+  <Class Name="MomsAndPopsPizzaria.TemplateBottomBar">
     <Position X="4.25" Y="6" Width="3" />
     <TypeIdentifier>
       <HashCode>gAAAAAAAACAAAAAAAACRABACAIAgAAAABAAAAAAAABA=</HashCode>
-      <FileName>BottomBarTemplate.cs</FileName>
+      <FileName>TemplateBottomBar.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MomsAndPopsPizzaria.TopBarTemplate">
+  <Class Name="MomsAndPopsPizzaria.TemplateTopBar">
     <Position X="4.25" Y="3.25" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAEAACAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>TopBarTemplate.cs</FileName>
+      <FileName>TemplateTopBar.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="MomsAndPopsPizzaria.MenuDrinksTemplate">
+  <Class Name="MomsAndPopsPizzaria.TemplateMenuDrinks">
     <Position X="8.25" Y="0.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>QAAEAAAAICEAAAgIAACAAAACABAAAAAAAAACAABAAAA=</HashCode>
-      <FileName>MenuDrinksTemplate.cs</FileName>
+      <FileName>TemplateMenuDrinks.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

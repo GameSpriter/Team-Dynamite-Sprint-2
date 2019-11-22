@@ -1,6 +1,6 @@
 ﻿namespace MomsAndPopsPizzaria
 {
-    partial class PageTemplate
+    partial class TemplatePage
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.topBarTemplate1 = new MomsAndPopsPizzaria.TopBarTemplate();
-            this.bottomBarTemplate1 = new MomsAndPopsPizzaria.BottomBarTemplate();
+            this.topBarTemplate1 = new MomsAndPopsPizzaria.TemplateTopBar();
+            this.bottomBarTemplate1 = new MomsAndPopsPizzaria.TemplateBottomBar();
             this.SuspendLayout();
             // 
             // topBarTemplate1
@@ -63,7 +63,7 @@
 
         #endregion
 
-        private TopBarTemplate topBarTemplate1;
-        private BottomBarTemplate bottomBarTemplate1;
+        private TemplateTopBar topBarTemplate1;
+        private TemplateBottomBar bottomBarTemplate1;
     }
 }

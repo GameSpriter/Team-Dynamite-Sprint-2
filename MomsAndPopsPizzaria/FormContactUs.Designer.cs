@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pageTemplate1 = new MomsAndPopsPizzaria.PageTemplate();
+            this.pageTemplate1 = new MomsAndPopsPizzaria.TemplatePage();
             this.SuspendLayout();
             // 
             // pageTemplate1
@@ -53,6 +53,6 @@
 
         #endregion
 
-        private PageTemplate pageTemplate1;
+        private TemplatePage pageTemplate1;
     }
 }

@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace MomsAndPopsPizzaria
 {
-    public partial class TopBarTemplate : UserControl
+    public partial class TemplateBottomBar : UserControl
     {
-        public TopBarTemplate()
+        public TemplateBottomBar()
         {
             InitializeComponent();
         }
 
-        private void MomsAndPopsPizzeriaLogo_Click(object sender, EventArgs e)
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void AboutUsLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
 
         }

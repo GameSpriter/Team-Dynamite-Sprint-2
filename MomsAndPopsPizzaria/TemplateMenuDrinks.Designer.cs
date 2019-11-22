@@ -1,6 +1,6 @@
 ﻿namespace MomsAndPopsPizzaria
 {
-    partial class MenuDrinksTemplate
+    partial class TemplateMenuDrinks
     {
         /// <summary> 
         /// Required designer variable.

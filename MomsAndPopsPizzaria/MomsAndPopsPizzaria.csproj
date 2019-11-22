@@ -68,17 +68,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
-    <Compile Include="AddressTemplate.cs">
+    <Compile Include="TemplateAddress.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="AddressTemplate.Designer.cs">
-      <DependentUpon>AddressTemplate.cs</DependentUpon>
+    <Compile Include="TemplateAddress.Designer.cs">
+      <DependentUpon>TemplateAddress.cs</DependentUpon>
     </Compile>
-    <Compile Include="BottomBarTemplate.cs">
+    <Compile Include="TemplateBottomBar.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="BottomBarTemplate.Designer.cs">
-      <DependentUpon>BottomBarTemplate.cs</DependentUpon>
+    <Compile Include="TemplateBottomBar.Designer.cs">
+      <DependentUpon>TemplateBottomBar.cs</DependentUpon>
     </Compile>
     <Compile Include="FormAboutUs.cs">
       <SubType>Form</SubType>
@@ -171,39 +171,39 @@
     <Compile Include="FormHome.Designer.cs">
       <DependentUpon>FormHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuDrinksTemplate.cs">
+    <Compile Include="TemplateMenuDrinks.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="MenuDrinksTemplate.Designer.cs">
-      <DependentUpon>MenuDrinksTemplate.cs</DependentUpon>
+    <Compile Include="TemplateMenuDrinks.Designer.cs">
+      <DependentUpon>TemplateMenuDrinks.cs</DependentUpon>
     </Compile>
-    <Compile Include="NameTemplate.cs">
+    <Compile Include="TemplateName.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="NameTemplate.Designer.cs">
-      <DependentUpon>NameTemplate.cs</DependentUpon>
+    <Compile Include="TemplateName.Designer.cs">
+      <DependentUpon>TemplateName.cs</DependentUpon>
     </Compile>
-    <Compile Include="PageTemplate.cs">
+    <Compile Include="TemplatePage.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="PageTemplate.Designer.cs">
-      <DependentUpon>PageTemplate.cs</DependentUpon>
+    <Compile Include="TemplatePage.Designer.cs">
+      <DependentUpon>TemplatePage.cs</DependentUpon>
     </Compile>
     <Compile Include="Pizza.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TopBarTemplate.cs">
+    <Compile Include="TemplateTopBar.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="TopBarTemplate.Designer.cs">
-      <DependentUpon>TopBarTemplate.cs</DependentUpon>
+    <Compile Include="TemplateTopBar.Designer.cs">
+      <DependentUpon>TemplateTopBar.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
-    <EmbeddedResource Include="AddressTemplate.resx">
-      <DependentUpon>AddressTemplate.cs</DependentUpon>
+    <EmbeddedResource Include="TemplateAddress.resx">
+      <DependentUpon>TemplateAddress.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BottomBarTemplate.resx">
-      <DependentUpon>BottomBarTemplate.cs</DependentUpon>
+    <EmbeddedResource Include="TemplateBottomBar.resx">
+      <DependentUpon>TemplateBottomBar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAboutUs.resx">
       <DependentUpon>FormAboutUs.cs</DependentUpon>
@@ -250,14 +250,14 @@
     <EmbeddedResource Include="FormUserSettings.resx">
       <DependentUpon>FormUserSettings.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuDrinksTemplate.resx">
-      <DependentUpon>MenuDrinksTemplate.cs</DependentUpon>
+    <EmbeddedResource Include="TemplateMenuDrinks.resx">
+      <DependentUpon>TemplateMenuDrinks.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NameTemplate.resx">
-      <DependentUpon>NameTemplate.cs</DependentUpon>
+    <EmbeddedResource Include="TemplateName.resx">
+      <DependentUpon>TemplateName.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PageTemplate.resx">
-      <DependentUpon>PageTemplate.cs</DependentUpon>
+    <EmbeddedResource Include="TemplatePage.resx">
+      <DependentUpon>TemplatePage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -268,8 +268,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="TopBarTemplate.resx">
-      <DependentUpon>TopBarTemplate.cs</DependentUpon>
+    <EmbeddedResource Include="TemplateTopBar.resx">
+      <DependentUpon>TemplateTopBar.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagramForms.cd" />
     <None Include="ClassDiagramTemplates.cd" />
