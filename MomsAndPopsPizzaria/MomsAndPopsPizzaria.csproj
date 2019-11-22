@@ -68,6 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
+    <Compile Include="AddressTemplate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddressTemplate.Designer.cs">
+      <DependentUpon>AddressTemplate.cs</DependentUpon>
+    </Compile>
     <Compile Include="BottomBarTemplate.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -193,6 +199,9 @@
       <DependentUpon>TopBarTemplate.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="AddressTemplate.resx">
+      <DependentUpon>AddressTemplate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BottomBarTemplate.resx">
       <DependentUpon>BottomBarTemplate.cs</DependentUpon>
     </EmbeddedResource>
