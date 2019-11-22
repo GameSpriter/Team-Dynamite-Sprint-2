@@ -28,13 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.pageTemplate1 = new MomsAndPopsPizzaria.PageTemplate();
             this.SuspendLayout();
+            // 
+            // pageTemplate1
+            // 
+            this.pageTemplate1.Location = new System.Drawing.Point(0, 0);
+            this.pageTemplate1.Margin = new System.Windows.Forms.Padding(0);
+            this.pageTemplate1.Name = "pageTemplate1";
+            this.pageTemplate1.Size = new System.Drawing.Size(1280, 720);
+            this.pageTemplate1.TabIndex = 0;
             // 
             // FormAboutUs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.pageTemplate1);
             this.Name = "FormAboutUs";
             this.Text = "FormAboutUs";
             this.ResumeLayout(false);
@@ -42,5 +52,7 @@
         }
 
         #endregion
+
+        private PageTemplate pageTemplate1;
     }
 }

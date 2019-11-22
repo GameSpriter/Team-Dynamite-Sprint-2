@@ -59,7 +59,7 @@
             // 
             // pageTemplate1
             // 
-            this.pageTemplate1.Location = new System.Drawing.Point(0, -1);
+            this.pageTemplate1.Location = new System.Drawing.Point(0, 0);
             this.pageTemplate1.Margin = new System.Windows.Forms.Padding(0);
             this.pageTemplate1.Name = "pageTemplate1";
             this.pageTemplate1.Size = new System.Drawing.Size(1280, 720);

@@ -193,11 +193,47 @@
     <EmbeddedResource Include="FormAboutUs.resx">
       <DependentUpon>FormAboutUs.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormAccountRecovery.resx">
+      <DependentUpon>FormAccountRecovery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCart.resx">
+      <DependentUpon>FormCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormContactUs.resx">
+      <DependentUpon>FormContactUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCustomPizza.resx">
+      <DependentUpon>FormCustomPizza.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormLocation.resx">
+      <DependentUpon>FormLocation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNutritionInformation.resx">
+      <DependentUpon>FormNutritionInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPaymentCheckout.resx">
+      <DependentUpon>FormPaymentCheckout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPolicyInformation.resx">
+      <DependentUpon>FormPolicyInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormResetPassword.resx">
+      <DependentUpon>FormResetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSignUp.resx">
+      <DependentUpon>FormSignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserSettings.resx">
+      <DependentUpon>FormUserSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuDrinksTemplate.resx">
       <DependentUpon>MenuDrinksTemplate.cs</DependentUpon>
