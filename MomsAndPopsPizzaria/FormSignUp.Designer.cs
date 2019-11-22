@@ -144,6 +144,7 @@
             this.TermsOfServiceCheckBox.TabIndex = 11;
             this.TermsOfServiceCheckBox.Text = "checkBox1";
             this.TermsOfServiceCheckBox.UseVisualStyleBackColor = true;
+            this.TermsOfServiceCheckBox.CheckedChanged += new System.EventHandler(this.TermsOfServiceCheckBox_CheckedChanged);
             // 
             // SignUpButton
             // 
