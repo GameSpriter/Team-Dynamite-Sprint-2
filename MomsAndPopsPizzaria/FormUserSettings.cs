@@ -16,5 +16,43 @@ namespace MomsAndPopsPizzaria
         {
             InitializeComponent();
         }
+
+        private bool ValidateName()
+        {
+            //Check the user control for NameTemplate, it should already do this
+            return false; //Default to avoid errors, remove later
+        }
+
+        private bool ValidateDateOfBirth()
+        {
+            return false; //Default to avoid errors, remove later
+        }
+
+        private bool ValidateAddress()
+        {
+            //Check the user control for AddressTemplate, it should already do this
+            return false; //Default to avoid errors, remove later
+        }
+
+        private bool ValidatePhoneNumber()
+        {
+            return false; //Default to avoid errors, remove later
+        }
+
+        private bool ValidatePassword()
+        {
+            //Check the user class for validation
+            return false; //Default to avoid errors, remove later
+        }
+
+        private void SaveChangesButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TermsOfServiceCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
