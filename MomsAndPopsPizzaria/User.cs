@@ -18,9 +18,9 @@ namespace MomsAndPopsPizzaria
 
         }
 
-        public void VerifyPassword()
+        public bool VerifyPassword()
         {
-
+            return false; //Default to avoid errors, remove later
         }
     }
 }
