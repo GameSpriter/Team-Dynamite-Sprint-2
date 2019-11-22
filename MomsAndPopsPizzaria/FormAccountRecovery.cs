@@ -16,5 +16,35 @@ namespace MomsAndPopsPizzaria
         {
             InitializeComponent();
         }
+
+        private bool ValidatePhoneNumber()
+        {
+            return false; //Default to avoid errors, remove later
+        }
+
+        private bool ValidateEmailAddress()
+        {
+            return false; //Default to avoid errors, remove later
+        }
+
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MenuButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RecoverEmailButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RecoverPasswordButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
