@@ -3,7 +3,7 @@
   <Class Name="MomsAndPopsPizzaria.TemplatePage">
     <Position X="4.25" Y="0.5" Width="3" />
     <TypeIdentifier>
-      <HashCode>AACAAAAAACAAAAAAAACAAAACAABAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AACAAAAAACAAAAAAAACAAAACAQBAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TemplatePage.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -62,7 +62,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.TemplateMenuDrinks">
-    <Position X="8.25" Y="0.5" Width="2.75" />
+    <Position X="12" Y="0.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>QAAEAAAAICEAAAgIAACAAAACABAAAAAAAAACAABAAAA=</HashCode>
       <FileName>TemplateMenuDrinks.cs</FileName>

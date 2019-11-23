@@ -1,107 +1,107 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="MomsAndPopsPizzaria.FormAboutUs">
-    <Position X="9.5" Y="0.5" Width="2.25" />
+    <Position X="18" Y="0.5" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>FormAboutUs.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.FormAccountRecovery">
-    <Position X="3.5" Y="10" Width="2.25" />
+    <Position X="3.5" Y="11.25" Width="5.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>QAgBAICIACAAAAAAAACAAAASAAAAAEIAAACAAIkQIAA=</HashCode>
       <FileName>FormAccountRecovery.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.FormCart">
-    <Position X="6.5" Y="5.5" Width="2.25" />
+    <Position X="12.75" Y="0.5" Width="4.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>BAAABCEAACIEAAAQCASAAMAaAAIAAAIAAEAiAAAAQAA=</HashCode>
       <FileName>FormCart.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.FormCustomPizza">
-    <Position X="6.5" Y="3" Width="2.25" />
+    <Position X="9.75" Y="7.25" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>ABAAAEAgBqAUQACACADOCAQCBAAAMAAAIFAhBEAJAgA=</HashCode>
       <FileName>FormCustomPizza.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.FormHome">
     <Position X="0.5" Y="0.5" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAIACAAAAAAAACAAAACAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAABABAIACAAAAAAAACAAAACAAAAAAIAAAAAAABAAAA=</HashCode>
       <FileName>FormHome.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.FormLogin">
-    <Position X="3.5" Y="0.5" Width="2.25" />
+    <Position X="3.5" Y="0.5" Width="5.75" />
     <TypeIdentifier>
-      <HashCode>AAABAAAIACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>CIABAAAAACAAAAAAAACAAAAiAAAAIAIAEACAAIABAAI=</HashCode>
       <FileName>FormLogin.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.FormMenu">
-    <Position X="6.5" Y="0.5" Width="2.25" />
+    <Position X="9.75" Y="0.5" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>CAAABAAcACAAAAAACAKAAEQCAIAAAAYAIBAAwz4AAAA=</HashCode>
       <FileName>FormMenu.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.FormPaymentCheckout">
-    <Position X="6.5" Y="8" Width="2.25" />
+    <Position X="12.75" Y="6.75" Width="4.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>FormPaymentCheckout.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.FormResetPassword">
     <Position X="3.5" Y="5.5" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACgAAAAAAACBAAICAAAAAAIAAAAAAIAAAAA=</HashCode>
       <FileName>FormResetPassword.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.FormSignUp">
-    <Position X="3.5" Y="3.25" Width="2.25" />
+    <Position X="3.5" Y="5" Width="5.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>SEAACAAAACAAAAAEgBCAAAICgBAAggIAAAgAQIAQAQI=</HashCode>
       <FileName>FormSignUp.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.FormUserSettings">
-    <Position X="3.5" Y="7.75" Width="2.25" />
+    <Position X="3.5" Y="16.75" Width="5.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>QEAACAAACSAAAAAEABCAAAICgBAAggIAAAgAQIAQAAA=</HashCode>
       <FileName>FormUserSettings.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.FormPolicyInformation">
-    <Position X="9.5" Y="5.5" Width="2.25" />
+    <Position X="18" Y="5.5" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>FormPolicyInformation.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.FormNutritionInformation">
-    <Position X="9.5" Y="8" Width="2.25" />
+    <Position X="18" Y="8" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>FormNutritionInformation.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.FormLocation">
-    <Position X="9.5" Y="3" Width="2.25" />
+    <Position X="18" Y="3" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>FormLocation.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.FormContactUs">
-    <Position X="9.5" Y="10.25" Width="2.25" />
+    <Position X="18" Y="10.5" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>FormContactUs.cs</FileName>
     </TypeIdentifier>
   </Class>
