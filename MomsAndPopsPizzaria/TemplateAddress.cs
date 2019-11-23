@@ -12,6 +12,7 @@ namespace MomsAndPopsPizzaria
 {
     public partial class TemplateAddress : UserControl
     {
+        //Putting this Template on a page keeps crashing Visual Studio for me.
         public Address StreetAddress
         {
             get
