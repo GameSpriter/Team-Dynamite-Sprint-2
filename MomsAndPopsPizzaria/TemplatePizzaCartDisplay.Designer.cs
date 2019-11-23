@@ -1,6 +1,6 @@
 ﻿namespace MomsAndPopsPizzaria
 {
-    partial class TemaplatePizzaCartDisplay
+    partial class TemplatePizzaCartDisplay
     {
         /// <summary> 
         /// Required designer variable.

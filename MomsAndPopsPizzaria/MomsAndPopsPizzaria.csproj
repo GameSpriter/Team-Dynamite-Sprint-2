@@ -68,11 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
-    <Compile Include="TemaplatePizzaCartDisplay.cs">
+    <Compile Include="TemplatePizzaCartDisplay.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="TemaplatePizzaCartDisplay.Designer.cs">
-      <DependentUpon>TemaplatePizzaCartDisplay.cs</DependentUpon>
+    <Compile Include="TemplatePizzaCartDisplay.Designer.cs">
+      <DependentUpon>TemplatePizzaCartDisplay.cs</DependentUpon>
     </Compile>
     <Compile Include="TemplateAddress.cs">
       <SubType>UserControl</SubType>
@@ -223,8 +223,8 @@
       <DependentUpon>TemplateTopBar.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
-    <EmbeddedResource Include="TemaplatePizzaCartDisplay.resx">
-      <DependentUpon>TemaplatePizzaCartDisplay.cs</DependentUpon>
+    <EmbeddedResource Include="TemplatePizzaCartDisplay.resx">
+      <DependentUpon>TemplatePizzaCartDisplay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TemplateAddress.resx">
       <DependentUpon>TemplateAddress.cs</DependentUpon>

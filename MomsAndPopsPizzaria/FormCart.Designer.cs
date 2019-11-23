@@ -30,11 +30,6 @@
         {
             this.pageTemplate1 = new MomsAndPopsPizzaria.TemplatePage();
             this.PizzasInCartLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.temaplatePizzaCartDisplay5 = new MomsAndPopsPizzaria.TemaplatePizzaCartDisplay();
-            this.temaplatePizzaCartDisplay1 = new MomsAndPopsPizzaria.TemaplatePizzaCartDisplay();
-            this.temaplatePizzaCartDisplay2 = new MomsAndPopsPizzaria.TemaplatePizzaCartDisplay();
-            this.temaplatePizzaCartDisplay3 = new MomsAndPopsPizzaria.TemaplatePizzaCartDisplay();
-            this.DrinksAppetizersCartDisplay = new MomsAndPopsPizzaria.TemaplatePizzaCartDisplay();
             this.SubtotalText = new System.Windows.Forms.Label();
             this.SubtotalValueText = new System.Windows.Forms.Label();
             this.TaxText = new System.Windows.Forms.Label();
@@ -46,6 +41,11 @@
             this.TipTextBox = new System.Windows.Forms.TextBox();
             this.CartTotalText = new System.Windows.Forms.Label();
             this.CheckoutButton = new System.Windows.Forms.Button();
+            this.templatePizzaCartDisplay1 = new MomsAndPopsPizzaria.TemplatePizzaCartDisplay();
+            this.templatePizzaCartDisplay2 = new MomsAndPopsPizzaria.TemplatePizzaCartDisplay();
+            this.templatePizzaCartDisplay3 = new MomsAndPopsPizzaria.TemplatePizzaCartDisplay();
+            this.templatePizzaCartDisplay4 = new MomsAndPopsPizzaria.TemplatePizzaCartDisplay();
+            this.DrinksAppetizersCartLayout = new MomsAndPopsPizzaria.TemplatePizzaCartDisplay();
             this.PizzasInCartLayoutPanel.SuspendLayout();
             this.PizzaLayoutPanel.SuspendLayout();
             this.SuspendLayout();
@@ -60,55 +60,14 @@
             // 
             // PizzasInCartLayoutPanel
             // 
-            this.PizzasInCartLayoutPanel.Controls.Add(this.temaplatePizzaCartDisplay5);
-            this.PizzasInCartLayoutPanel.Controls.Add(this.temaplatePizzaCartDisplay1);
-            this.PizzasInCartLayoutPanel.Controls.Add(this.temaplatePizzaCartDisplay2);
-            this.PizzasInCartLayoutPanel.Controls.Add(this.temaplatePizzaCartDisplay3);
+            this.PizzasInCartLayoutPanel.Controls.Add(this.templatePizzaCartDisplay1);
+            this.PizzasInCartLayoutPanel.Controls.Add(this.templatePizzaCartDisplay2);
+            this.PizzasInCartLayoutPanel.Controls.Add(this.templatePizzaCartDisplay3);
+            this.PizzasInCartLayoutPanel.Controls.Add(this.templatePizzaCartDisplay4);
             this.PizzasInCartLayoutPanel.Location = new System.Drawing.Point(13, 209);
             this.PizzasInCartLayoutPanel.Name = "PizzasInCartLayoutPanel";
             this.PizzasInCartLayoutPanel.Size = new System.Drawing.Size(792, 463);
             this.PizzasInCartLayoutPanel.TabIndex = 1;
-            // 
-            // temaplatePizzaCartDisplay5
-            // 
-            this.temaplatePizzaCartDisplay5.Location = new System.Drawing.Point(3, 3);
-            this.temaplatePizzaCartDisplay5.Name = "temaplatePizzaCartDisplay5";
-            this.temaplatePizzaCartDisplay5.Padding = new System.Windows.Forms.Padding(3);
-            this.temaplatePizzaCartDisplay5.Size = new System.Drawing.Size(190, 452);
-            this.temaplatePizzaCartDisplay5.TabIndex = 4;
-            // 
-            // temaplatePizzaCartDisplay1
-            // 
-            this.temaplatePizzaCartDisplay1.Location = new System.Drawing.Point(199, 3);
-            this.temaplatePizzaCartDisplay1.Name = "temaplatePizzaCartDisplay1";
-            this.temaplatePizzaCartDisplay1.Padding = new System.Windows.Forms.Padding(3);
-            this.temaplatePizzaCartDisplay1.Size = new System.Drawing.Size(190, 452);
-            this.temaplatePizzaCartDisplay1.TabIndex = 0;
-            // 
-            // temaplatePizzaCartDisplay2
-            // 
-            this.temaplatePizzaCartDisplay2.Location = new System.Drawing.Point(395, 3);
-            this.temaplatePizzaCartDisplay2.Name = "temaplatePizzaCartDisplay2";
-            this.temaplatePizzaCartDisplay2.Padding = new System.Windows.Forms.Padding(3);
-            this.temaplatePizzaCartDisplay2.Size = new System.Drawing.Size(190, 452);
-            this.temaplatePizzaCartDisplay2.TabIndex = 1;
-            // 
-            // temaplatePizzaCartDisplay3
-            // 
-            this.temaplatePizzaCartDisplay3.Location = new System.Drawing.Point(591, 3);
-            this.temaplatePizzaCartDisplay3.Name = "temaplatePizzaCartDisplay3";
-            this.temaplatePizzaCartDisplay3.Padding = new System.Windows.Forms.Padding(3);
-            this.temaplatePizzaCartDisplay3.Size = new System.Drawing.Size(190, 452);
-            this.temaplatePizzaCartDisplay3.TabIndex = 2;
-            // 
-            // DrinksAppetizersCartDisplay
-            // 
-            this.DrinksAppetizersCartDisplay.Location = new System.Drawing.Point(811, 212);
-            this.DrinksAppetizersCartDisplay.Name = "DrinksAppetizersCartDisplay";
-            this.DrinksAppetizersCartDisplay.Padding = new System.Windows.Forms.Padding(3);
-            this.DrinksAppetizersCartDisplay.Size = new System.Drawing.Size(190, 452);
-            this.DrinksAppetizersCartDisplay.TabIndex = 3;
-            this.DrinksAppetizersCartDisplay.Load += new System.EventHandler(this.DrinksAppetizersCartDisplay_Load);
             // 
             // SubtotalText
             // 
@@ -236,15 +195,50 @@
             this.CheckoutButton.UseVisualStyleBackColor = true;
             this.CheckoutButton.Click += new System.EventHandler(this.CheckoutButton_Click);
             // 
+            // templatePizzaCartDisplay1
+            // 
+            this.templatePizzaCartDisplay1.Location = new System.Drawing.Point(3, 3);
+            this.templatePizzaCartDisplay1.Name = "templatePizzaCartDisplay1";
+            this.templatePizzaCartDisplay1.Size = new System.Drawing.Size(190, 452);
+            this.templatePizzaCartDisplay1.TabIndex = 0;
+            // 
+            // templatePizzaCartDisplay2
+            // 
+            this.templatePizzaCartDisplay2.Location = new System.Drawing.Point(199, 3);
+            this.templatePizzaCartDisplay2.Name = "templatePizzaCartDisplay2";
+            this.templatePizzaCartDisplay2.Size = new System.Drawing.Size(190, 452);
+            this.templatePizzaCartDisplay2.TabIndex = 1;
+            // 
+            // templatePizzaCartDisplay3
+            // 
+            this.templatePizzaCartDisplay3.Location = new System.Drawing.Point(395, 3);
+            this.templatePizzaCartDisplay3.Name = "templatePizzaCartDisplay3";
+            this.templatePizzaCartDisplay3.Size = new System.Drawing.Size(190, 452);
+            this.templatePizzaCartDisplay3.TabIndex = 2;
+            // 
+            // templatePizzaCartDisplay4
+            // 
+            this.templatePizzaCartDisplay4.Location = new System.Drawing.Point(591, 3);
+            this.templatePizzaCartDisplay4.Name = "templatePizzaCartDisplay4";
+            this.templatePizzaCartDisplay4.Size = new System.Drawing.Size(190, 452);
+            this.templatePizzaCartDisplay4.TabIndex = 3;
+            // 
+            // DrinksAppetizersCartLayout
+            // 
+            this.DrinksAppetizersCartLayout.Location = new System.Drawing.Point(812, 212);
+            this.DrinksAppetizersCartLayout.Name = "DrinksAppetizersCartLayout";
+            this.DrinksAppetizersCartLayout.Size = new System.Drawing.Size(190, 452);
+            this.DrinksAppetizersCartLayout.TabIndex = 7;
+            // 
             // FormCart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.DrinksAppetizersCartLayout);
             this.Controls.Add(this.CheckoutButton);
             this.Controls.Add(this.PizzaLayoutPanel);
             this.Controls.Add(this.CartTotalText);
-            this.Controls.Add(this.DrinksAppetizersCartDisplay);
             this.Controls.Add(this.PizzasInCartLayoutPanel);
             this.Controls.Add(this.pageTemplate1);
             this.Name = "FormCart";
@@ -261,11 +255,6 @@
 
         private TemplatePage pageTemplate1;
         private System.Windows.Forms.FlowLayoutPanel PizzasInCartLayoutPanel;
-        private TemaplatePizzaCartDisplay temaplatePizzaCartDisplay5;
-        private TemaplatePizzaCartDisplay temaplatePizzaCartDisplay1;
-        private TemaplatePizzaCartDisplay temaplatePizzaCartDisplay2;
-        private TemaplatePizzaCartDisplay temaplatePizzaCartDisplay3;
-        private TemaplatePizzaCartDisplay DrinksAppetizersCartDisplay;
         private System.Windows.Forms.Label SubtotalText;
         private System.Windows.Forms.Label SubtotalValueText;
         private System.Windows.Forms.Label TaxText;
@@ -277,5 +266,10 @@
         private System.Windows.Forms.TextBox TipTextBox;
         private System.Windows.Forms.Label CartTotalText;
         private System.Windows.Forms.Button CheckoutButton;
+        private TemplatePizzaCartDisplay templatePizzaCartDisplay1;
+        private TemplatePizzaCartDisplay templatePizzaCartDisplay2;
+        private TemplatePizzaCartDisplay templatePizzaCartDisplay3;
+        private TemplatePizzaCartDisplay templatePizzaCartDisplay4;
+        private TemplatePizzaCartDisplay DrinksAppetizersCartLayout;
     }
 }
