@@ -62,10 +62,52 @@
     </TypeIdentifier>
   </Class>
   <Class Name="MomsAndPopsPizzaria.TemplateMenuDrinks">
-    <Position X="12" Y="0.5" Width="2.75" />
+    <Position X="11.5" Y="0.5" Width="4.5" />
     <TypeIdentifier>
       <HashCode>QAAEAAAAICEAAAgIAACAAAACABAAAAAAAAACAABAAAA=</HashCode>
       <FileName>TemplateMenuDrinks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsAndPopsPizzaria.TemplateAddress">
+    <Position X="8" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>CAgAABiAAKAAICAIAACACAACkDAAABAAAEARgAAAABA=</HashCode>
+      <FileName>TemplateAddress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsAndPopsPizzaria.TemplateMenuExtras">
+    <Position X="11.5" Y="4.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACgAAAAAAACIAAACAAAAAAAAAABAAEAAAAA=</HashCode>
+      <FileName>TemplateMenuExtras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsAndPopsPizzaria.TemplateName">
+    <Position X="8" Y="7.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AIEAAAAAACAAAAAAAACAoAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TemplateName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsAndPopsPizzaria.TemplateNewPassword">
+    <Position X="8" Y="10.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAAAACAACAiAAAAAAAQEAAAAIAAAAA=</HashCode>
+      <FileName>TemplateNewPassword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsAndPopsPizzaria.TemplatePizzaTopping">
+    <Position X="11.5" Y="8" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgAAAACAAgAAAAACAAAACAAAAAAAgAAAAAAAAAAE=</HashCode>
+      <FileName>TemplatePizzaTopping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MomsAndPopsPizzaria.TemplatePizzaCartDisplay">
+    <Position X="11.5" Y="11.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>/wAAAAAAACAAABAQAACAAAACAAAAAAAAAAAAAACgADA=</HashCode>
+      <FileName>TemplatePizzaCartDisplay.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
