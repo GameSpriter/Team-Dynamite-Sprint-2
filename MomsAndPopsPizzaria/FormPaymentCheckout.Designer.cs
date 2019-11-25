@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.pageTemplate1 = new MomsAndPopsPizzaria.TemplatePage();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.SuspendLayout();
             // 
             // pageTemplate1
@@ -39,11 +40,19 @@
             this.pageTemplate1.Size = new System.Drawing.Size(1280, 720);
             this.pageTemplate1.TabIndex = 0;
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(57, 291);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(475, 278);
+            this.flowLayoutPanel1.TabIndex = 1;
+            // 
             // FormPaymentCheckout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.pageTemplate1);
             this.Name = "FormPaymentCheckout";
             this.Text = "FormPaymentCheckout";
@@ -54,5 +63,6 @@
         #endregion
 
         private TemplatePage pageTemplate1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
