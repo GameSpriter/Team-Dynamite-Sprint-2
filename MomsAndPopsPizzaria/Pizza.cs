@@ -7,12 +7,11 @@ namespace MomsAndPopsPizzaria
 {
     public class Pizza
     {
-        public enum Crusts { };
-        public Crusts SelectedCrust;
-        public enum Sizes { };
-        public Sizes SelectedSize;
-        public enum Toppings { };
-        public List<Item> SelectedToppings;
+        public enum Crust { };
+        public Crust SelectedCrust;
+        public enum Size { };
+        public Size SelectedSize;
+        public List<Item> ToppingsList;
         public float price;
 
         public Pizza()

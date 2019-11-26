@@ -30,10 +30,6 @@
         {
             this.pageTemplate1 = new MomsAndPopsPizzaria.TemplatePage();
             this.PizzasInCartLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.templatePizzaCartDisplay1 = new MomsAndPopsPizzaria.TemplatePizzaCartDisplay();
-            this.templatePizzaCartDisplay2 = new MomsAndPopsPizzaria.TemplatePizzaCartDisplay();
-            this.templatePizzaCartDisplay3 = new MomsAndPopsPizzaria.TemplatePizzaCartDisplay();
-            this.templatePizzaCartDisplay4 = new MomsAndPopsPizzaria.TemplatePizzaCartDisplay();
             this.SubtotalText = new System.Windows.Forms.Label();
             this.SubtotalValueText = new System.Windows.Forms.Label();
             this.TaxText = new System.Windows.Forms.Label();
@@ -45,6 +41,10 @@
             this.TipTextBox = new System.Windows.Forms.TextBox();
             this.CartTotalText = new System.Windows.Forms.Label();
             this.CheckoutButton = new System.Windows.Forms.Button();
+            this.templatePizzaCartDisplay1 = new MomsAndPopsPizzaria.TemplatePizzaCartDisplay();
+            this.templatePizzaCartDisplay2 = new MomsAndPopsPizzaria.TemplatePizzaCartDisplay();
+            this.templatePizzaCartDisplay3 = new MomsAndPopsPizzaria.TemplatePizzaCartDisplay();
+            this.templatePizzaCartDisplay4 = new MomsAndPopsPizzaria.TemplatePizzaCartDisplay();
             this.DrinksAppetizersCartLayout = new MomsAndPopsPizzaria.TemplatePizzaCartDisplay();
             this.PizzasInCartLayoutPanel.SuspendLayout();
             this.PizzaLayoutPanel.SuspendLayout();
@@ -69,34 +69,6 @@
             this.PizzasInCartLayoutPanel.Size = new System.Drawing.Size(792, 463);
             this.PizzasInCartLayoutPanel.TabIndex = 1;
             // 
-            // templatePizzaCartDisplay1
-            // 
-            this.templatePizzaCartDisplay1.Location = new System.Drawing.Point(3, 3);
-            this.templatePizzaCartDisplay1.Name = "templatePizzaCartDisplay1";
-            this.templatePizzaCartDisplay1.Size = new System.Drawing.Size(190, 452);
-            this.templatePizzaCartDisplay1.TabIndex = 0;
-            // 
-            // templatePizzaCartDisplay2
-            // 
-            this.templatePizzaCartDisplay2.Location = new System.Drawing.Point(199, 3);
-            this.templatePizzaCartDisplay2.Name = "templatePizzaCartDisplay2";
-            this.templatePizzaCartDisplay2.Size = new System.Drawing.Size(190, 452);
-            this.templatePizzaCartDisplay2.TabIndex = 1;
-            // 
-            // templatePizzaCartDisplay3
-            // 
-            this.templatePizzaCartDisplay3.Location = new System.Drawing.Point(395, 3);
-            this.templatePizzaCartDisplay3.Name = "templatePizzaCartDisplay3";
-            this.templatePizzaCartDisplay3.Size = new System.Drawing.Size(190, 452);
-            this.templatePizzaCartDisplay3.TabIndex = 2;
-            // 
-            // templatePizzaCartDisplay4
-            // 
-            this.templatePizzaCartDisplay4.Location = new System.Drawing.Point(591, 3);
-            this.templatePizzaCartDisplay4.Name = "templatePizzaCartDisplay4";
-            this.templatePizzaCartDisplay4.Size = new System.Drawing.Size(190, 452);
-            this.templatePizzaCartDisplay4.TabIndex = 3;
-            // 
             // SubtotalText
             // 
             this.SubtotalText.AutoSize = true;
@@ -104,9 +76,9 @@
             this.SubtotalText.Location = new System.Drawing.Point(6, 3);
             this.SubtotalText.Name = "SubtotalText";
             this.SubtotalText.Padding = new System.Windows.Forms.Padding(3);
-            this.SubtotalText.Size = new System.Drawing.Size(142, 26);
+            this.SubtotalText.Size = new System.Drawing.Size(57, 26);
             this.SubtotalText.TabIndex = 0;
-            this.SubtotalText.Text = "Change the name";
+            this.SubtotalText.Text = "label1";
             // 
             // SubtotalValueText
             // 
@@ -222,6 +194,34 @@
             this.CheckoutButton.Text = "button1";
             this.CheckoutButton.UseVisualStyleBackColor = true;
             this.CheckoutButton.Click += new System.EventHandler(this.CheckoutButton_Click);
+            // 
+            // templatePizzaCartDisplay1
+            // 
+            this.templatePizzaCartDisplay1.Location = new System.Drawing.Point(3, 3);
+            this.templatePizzaCartDisplay1.Name = "templatePizzaCartDisplay1";
+            this.templatePizzaCartDisplay1.Size = new System.Drawing.Size(190, 452);
+            this.templatePizzaCartDisplay1.TabIndex = 0;
+            // 
+            // templatePizzaCartDisplay2
+            // 
+            this.templatePizzaCartDisplay2.Location = new System.Drawing.Point(199, 3);
+            this.templatePizzaCartDisplay2.Name = "templatePizzaCartDisplay2";
+            this.templatePizzaCartDisplay2.Size = new System.Drawing.Size(190, 452);
+            this.templatePizzaCartDisplay2.TabIndex = 1;
+            // 
+            // templatePizzaCartDisplay3
+            // 
+            this.templatePizzaCartDisplay3.Location = new System.Drawing.Point(395, 3);
+            this.templatePizzaCartDisplay3.Name = "templatePizzaCartDisplay3";
+            this.templatePizzaCartDisplay3.Size = new System.Drawing.Size(190, 452);
+            this.templatePizzaCartDisplay3.TabIndex = 2;
+            // 
+            // templatePizzaCartDisplay4
+            // 
+            this.templatePizzaCartDisplay4.Location = new System.Drawing.Point(591, 3);
+            this.templatePizzaCartDisplay4.Name = "templatePizzaCartDisplay4";
+            this.templatePizzaCartDisplay4.Size = new System.Drawing.Size(190, 452);
+            this.templatePizzaCartDisplay4.TabIndex = 3;
             // 
             // DrinksAppetizersCartLayout
             // 
