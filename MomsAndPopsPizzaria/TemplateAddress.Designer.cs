@@ -45,102 +45,115 @@
             // StreetAddressText
             // 
             this.StreetAddressText.AutoSize = true;
-            this.StreetAddressText.Location = new System.Drawing.Point(9, 11);
+            this.StreetAddressText.Location = new System.Drawing.Point(12, 14);
+            this.StreetAddressText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.StreetAddressText.Name = "StreetAddressText";
-            this.StreetAddressText.Size = new System.Drawing.Size(35, 13);
+            this.StreetAddressText.Size = new System.Drawing.Size(115, 17);
             this.StreetAddressText.TabIndex = 0;
-            this.StreetAddressText.Text = "label1";
+            this.StreetAddressText.Text = "Delivery Address";
             // 
             // ApartmentText
             // 
             this.ApartmentText.AutoSize = true;
-            this.ApartmentText.Location = new System.Drawing.Point(245, 11);
+            this.ApartmentText.Location = new System.Drawing.Point(327, 14);
+            this.ApartmentText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ApartmentText.Name = "ApartmentText";
-            this.ApartmentText.Size = new System.Drawing.Size(35, 13);
+            this.ApartmentText.Size = new System.Drawing.Size(37, 17);
             this.ApartmentText.TabIndex = 1;
-            this.ApartmentText.Text = "label2";
+            this.ApartmentText.Text = "Apt. ";
             // 
             // CityText
             // 
             this.CityText.AutoSize = true;
-            this.CityText.Location = new System.Drawing.Point(9, 62);
+            this.CityText.Location = new System.Drawing.Point(12, 76);
+            this.CityText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CityText.Name = "CityText";
-            this.CityText.Size = new System.Drawing.Size(35, 13);
+            this.CityText.Size = new System.Drawing.Size(31, 17);
             this.CityText.TabIndex = 2;
-            this.CityText.Text = "label3";
+            this.CityText.Text = "City";
             // 
             // StateText
             // 
             this.StateText.AutoSize = true;
-            this.StateText.Location = new System.Drawing.Point(115, 62);
+            this.StateText.Location = new System.Drawing.Point(153, 76);
+            this.StateText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.StateText.Name = "StateText";
-            this.StateText.Size = new System.Drawing.Size(35, 13);
+            this.StateText.Size = new System.Drawing.Size(41, 17);
             this.StateText.TabIndex = 3;
-            this.StateText.Text = "label4";
+            this.StateText.Text = "State";
             // 
             // ZipCodeText
             // 
             this.ZipCodeText.AutoSize = true;
-            this.ZipCodeText.Location = new System.Drawing.Point(214, 62);
+            this.ZipCodeText.Location = new System.Drawing.Point(285, 76);
+            this.ZipCodeText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ZipCodeText.Name = "ZipCodeText";
-            this.ZipCodeText.Size = new System.Drawing.Size(35, 13);
+            this.ZipCodeText.Size = new System.Drawing.Size(59, 17);
             this.ZipCodeText.TabIndex = 4;
-            this.ZipCodeText.Text = "label5";
+            this.ZipCodeText.Text = "Zipcode";
             // 
             // CountryText
             // 
             this.CountryText.AutoSize = true;
-            this.CountryText.Location = new System.Drawing.Point(275, 62);
+            this.CountryText.Location = new System.Drawing.Point(367, 76);
+            this.CountryText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CountryText.Name = "CountryText";
-            this.CountryText.Size = new System.Drawing.Size(35, 13);
+            this.CountryText.Size = new System.Drawing.Size(57, 17);
             this.CountryText.TabIndex = 5;
-            this.CountryText.Text = "label6";
+            this.CountryText.Text = "Country";
             // 
             // StreetAddressTextBox
             // 
-            this.StreetAddressTextBox.Location = new System.Drawing.Point(12, 28);
+            this.StreetAddressTextBox.Location = new System.Drawing.Point(16, 34);
+            this.StreetAddressTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.StreetAddressTextBox.Name = "StreetAddressTextBox";
-            this.StreetAddressTextBox.Size = new System.Drawing.Size(230, 20);
+            this.StreetAddressTextBox.Size = new System.Drawing.Size(305, 22);
             this.StreetAddressTextBox.TabIndex = 6;
+            this.StreetAddressTextBox.TextChanged += new System.EventHandler(this.StreetAddressTextBox_TextChanged);
             // 
             // ApartmentTextBox
             // 
-            this.ApartmentTextBox.Location = new System.Drawing.Point(248, 28);
+            this.ApartmentTextBox.Location = new System.Drawing.Point(331, 34);
+            this.ApartmentTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.ApartmentTextBox.Name = "ApartmentTextBox";
-            this.ApartmentTextBox.Size = new System.Drawing.Size(130, 20);
+            this.ApartmentTextBox.Size = new System.Drawing.Size(172, 22);
             this.ApartmentTextBox.TabIndex = 7;
             // 
             // CityTextBox
             // 
-            this.CityTextBox.Location = new System.Drawing.Point(12, 78);
+            this.CityTextBox.Location = new System.Drawing.Point(16, 96);
+            this.CityTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.CityTextBox.Name = "CityTextBox";
-            this.CityTextBox.Size = new System.Drawing.Size(100, 20);
+            this.CityTextBox.Size = new System.Drawing.Size(132, 22);
             this.CityTextBox.TabIndex = 8;
             // 
             // StateTextBox
             // 
-            this.StateTextBox.Location = new System.Drawing.Point(118, 78);
+            this.StateTextBox.Location = new System.Drawing.Point(157, 96);
+            this.StateTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.StateTextBox.Name = "StateTextBox";
-            this.StateTextBox.Size = new System.Drawing.Size(93, 20);
+            this.StateTextBox.Size = new System.Drawing.Size(123, 22);
             this.StateTextBox.TabIndex = 9;
             // 
             // ZipCodeTextBox
             // 
-            this.ZipCodeTextBox.Location = new System.Drawing.Point(217, 78);
+            this.ZipCodeTextBox.Location = new System.Drawing.Point(289, 96);
+            this.ZipCodeTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.ZipCodeTextBox.Name = "ZipCodeTextBox";
-            this.ZipCodeTextBox.Size = new System.Drawing.Size(55, 20);
+            this.ZipCodeTextBox.Size = new System.Drawing.Size(72, 22);
             this.ZipCodeTextBox.TabIndex = 10;
             // 
             // CountryTextBox
             // 
-            this.CountryTextBox.Location = new System.Drawing.Point(278, 78);
+            this.CountryTextBox.Location = new System.Drawing.Point(371, 96);
+            this.CountryTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.CountryTextBox.Name = "CountryTextBox";
-            this.CountryTextBox.Size = new System.Drawing.Size(100, 20);
+            this.CountryTextBox.Size = new System.Drawing.Size(132, 22);
             this.CountryTextBox.TabIndex = 11;
             // 
-            // AddressTemplate
+            // TemplateAddress
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.Controls.Add(this.CountryTextBox);
@@ -155,8 +168,9 @@
             this.Controls.Add(this.CityText);
             this.Controls.Add(this.ApartmentText);
             this.Controls.Add(this.StreetAddressText);
-            this.Name = "AddressTemplate";
-            this.Size = new System.Drawing.Size(391, 114);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "TemplateAddress";
+            this.Size = new System.Drawing.Size(521, 140);
             this.ResumeLayout(false);
             this.PerformLayout();
 

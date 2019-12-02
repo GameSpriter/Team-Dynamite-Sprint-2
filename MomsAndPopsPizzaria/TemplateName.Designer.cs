@@ -37,45 +37,50 @@
             // FirstNameText
             // 
             this.FirstNameText.AutoSize = true;
-            this.FirstNameText.Location = new System.Drawing.Point(34, 21);
+            this.FirstNameText.Location = new System.Drawing.Point(4, 39);
+            this.FirstNameText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.FirstNameText.Name = "FirstNameText";
-            this.FirstNameText.Size = new System.Drawing.Size(35, 13);
+            this.FirstNameText.Size = new System.Drawing.Size(81, 17);
             this.FirstNameText.TabIndex = 0;
-            this.FirstNameText.Text = "label1";
+            this.FirstNameText.Text = "First Name*";
             // 
             // LastNameText
             // 
             this.LastNameText.AutoSize = true;
-            this.LastNameText.Location = new System.Drawing.Point(128, 10);
+            this.LastNameText.Location = new System.Drawing.Point(220, 39);
+            this.LastNameText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LastNameText.Name = "LastNameText";
-            this.LastNameText.Size = new System.Drawing.Size(35, 13);
+            this.LastNameText.Size = new System.Drawing.Size(81, 17);
             this.LastNameText.TabIndex = 1;
-            this.LastNameText.Text = "label1";
+            this.LastNameText.Text = "Last Name*";
             // 
             // FirstNameTextBox
             // 
-            this.FirstNameTextBox.Location = new System.Drawing.Point(3, 49);
+            this.FirstNameTextBox.Location = new System.Drawing.Point(4, 60);
+            this.FirstNameTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.FirstNameTextBox.Name = "FirstNameTextBox";
-            this.FirstNameTextBox.Size = new System.Drawing.Size(141, 20);
+            this.FirstNameTextBox.Size = new System.Drawing.Size(187, 22);
             this.FirstNameTextBox.TabIndex = 2;
             // 
             // LastNameTextBox
             // 
-            this.LastNameTextBox.Location = new System.Drawing.Point(167, 39);
+            this.LastNameTextBox.Location = new System.Drawing.Point(223, 60);
+            this.LastNameTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.LastNameTextBox.Name = "LastNameTextBox";
-            this.LastNameTextBox.Size = new System.Drawing.Size(124, 20);
+            this.LastNameTextBox.Size = new System.Drawing.Size(164, 22);
             this.LastNameTextBox.TabIndex = 3;
             // 
-            // NameTemplate
+            // TemplateName
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.LastNameTextBox);
             this.Controls.Add(this.FirstNameTextBox);
             this.Controls.Add(this.LastNameText);
             this.Controls.Add(this.FirstNameText);
-            this.Name = "NameTemplate";
-            this.Size = new System.Drawing.Size(312, 81);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "TemplateName";
+            this.Size = new System.Drawing.Size(416, 100);
             this.ResumeLayout(false);
             this.PerformLayout();
 
