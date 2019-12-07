@@ -21,14 +21,8 @@ namespace MomsAndPopsPizzaria
             Parent.Hide(); //Hiding FormController didn't work in FormController's constructor due to timings
         }
 
-        public void OpenForm(string formName)
-        {
-            Parent.OpenForm(formName);
-        }
-
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            OpenForm("Location");
         }
     }
 }
