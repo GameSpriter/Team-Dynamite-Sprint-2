@@ -12,8 +12,11 @@ namespace MomsAndPopsPizzaria
 {
     public partial class FormController : Form
     {
-        private Form child;
+        public User user;
+        public List<Pizza> pizzas;
+        public List<Item> extras;
 
+        private Form child;
         private Timer formHider = new Timer();
 
         public FormController()
