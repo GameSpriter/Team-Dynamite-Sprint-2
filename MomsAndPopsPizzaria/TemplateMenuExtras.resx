@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Breadstick Bites" xml:space="preserve">
+    <value>$2.00</value>
+  </data>
+  <data name="Breadsticks" xml:space="preserve">
+    <value>$2.00</value>
+  </data>
+  <data name="Large Chocolate Chip Cookie" xml:space="preserve">
+    <value>$4.00</value>
+  </data>
 </root>
