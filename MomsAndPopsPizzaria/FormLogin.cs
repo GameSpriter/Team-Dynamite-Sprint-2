@@ -12,8 +12,11 @@ namespace MomsAndPopsPizzaria
 {
     public partial class FormLogin : Form
     {
-        public FormLogin()
+        FormController Parent;
+
+        public FormLogin(FormController Parent)
         {
+            this.Parent = Parent;
             InitializeComponent();
         }
 

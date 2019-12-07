@@ -46,17 +46,74 @@ namespace MomsAndPopsPizzaria
         }
 
         /// <summary>
-        /// Call to open another form. It will automatically close the form that is currently active
+        /// Call to open another form. It will automatically close the form that is currently active.
         /// </summary>
-        /// <param name="formName">The name of the form to open. To open "FormLocation" use string "Location".</param>
+        /// <param name="formName">To open "FormLocation" use "Location" or "FormLocation". Not case Sensitive.</param>
         public void OpenForm(string formName)
         {
             child.Close();
             child = null;
-            switch (formName)
+            switch (formName.ToLower())
             {
-                case "Location":
+                case "formaboutus":
+                case "aboutus":
+                    child = new FormAboutUs(this);
+                    break;
+                case "formaccountrecovery":
+                case "accountrecovery":
+                    child = new FormAccountRecovery(this);
+                    break;
+                case "formcart":
+                case "cart":
+                    child = new FormCart(this);
+                    break;
+                case "formcontactus":
+                case "contactus":
+                    child = new FormContactUs(this);
+                    break;
+                case "formcustompizza":
+                case "custompizza":
+                    child = new FormCustomPizza(this);
+                    break;
+                case "formhome":
+                case "home":
+                    child = new FormHome(this);
+                    break;
+                case "formlocation":
+                case "location":
                     child = new FormLocation(this);
+                    break;
+                case "formlogin":
+                case "login":
+                    child = new FormLogin(this);
+                    break;
+                case "formmenu":
+                case "menu":
+                    child = new FormMenu(this);
+                    break;
+                case "formnutritioninformation":
+                case "nutritioninformation":
+                    child = new FormNutritionInformation(this);
+                    break;
+                case "formpaymentcheckout":
+                case "paymentcheckout":
+                    child = new FormPaymentCheckout(this);
+                    break;
+                case "formpolicyinformation":
+                case "policyinformation":
+                    child = new FormPolicyInformation(this);
+                    break;
+                case "formresetpassword":
+                case "resetpassword":
+                    child = new FormResetPassword(this);
+                    break;
+                case "formsignup":
+                case "signup":
+                    child = new FormSignUp(this);
+                    break;
+                case "formusersettings":
+                case "usersettings":
+                    child = new FormUserSettings(this);
                     break;
             }
             child.Show();

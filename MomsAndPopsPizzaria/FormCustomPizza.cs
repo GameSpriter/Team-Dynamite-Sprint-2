@@ -13,9 +13,11 @@ namespace MomsAndPopsPizzaria
     public partial class FormCustomPizza : Form
     {
         private Pizza pizza;
+        FormController Parent;
 
-        public FormCustomPizza()
+        public FormCustomPizza(FormController Parent)
         {
+            this.Parent = Parent;
             InitializeComponent();
         }
 

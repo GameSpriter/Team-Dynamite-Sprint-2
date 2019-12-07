@@ -12,8 +12,11 @@ namespace MomsAndPopsPizzaria
 {
     public partial class FormPaymentCheckout : Form
     {
-        public FormPaymentCheckout()
+        FormController Parent;
+
+        public FormPaymentCheckout(FormController Parent)
         {
+            this.Parent = Parent;
             InitializeComponent();
         }
     }
