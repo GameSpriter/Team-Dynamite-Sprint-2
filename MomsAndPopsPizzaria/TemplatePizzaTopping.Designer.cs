@@ -30,8 +30,8 @@
         {
             this.ToppingImageBox = new System.Windows.Forms.PictureBox();
             this.ToppingGroupBox = new System.Windows.Forms.GroupBox();
-            this.ToppingCheckBox = new System.Windows.Forms.CheckBox();
             this.ToppingExtraCheckBox = new System.Windows.Forms.CheckBox();
+            this.ToppingCheckBox = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.ToppingImageBox)).BeginInit();
             this.ToppingGroupBox.SuspendLayout();
             this.SuspendLayout();
@@ -49,31 +49,31 @@
             // 
             this.ToppingGroupBox.Controls.Add(this.ToppingExtraCheckBox);
             this.ToppingGroupBox.Controls.Add(this.ToppingCheckBox);
-            this.ToppingGroupBox.Location = new System.Drawing.Point(100, 3);
+            this.ToppingGroupBox.Location = new System.Drawing.Point(100, 0);
             this.ToppingGroupBox.Name = "ToppingGroupBox";
-            this.ToppingGroupBox.Size = new System.Drawing.Size(128, 91);
+            this.ToppingGroupBox.Size = new System.Drawing.Size(128, 98);
             this.ToppingGroupBox.TabIndex = 1;
             this.ToppingGroupBox.TabStop = false;
+            // 
+            // ToppingExtraCheckBox
+            // 
+            this.ToppingExtraCheckBox.AutoSize = true;
+            this.ToppingExtraCheckBox.Location = new System.Drawing.Point(7, 64);
+            this.ToppingExtraCheckBox.Name = "ToppingExtraCheckBox";
+            this.ToppingExtraCheckBox.Size = new System.Drawing.Size(117, 17);
+            this.ToppingExtraCheckBox.TabIndex = 1;
+            this.ToppingExtraCheckBox.Text = "ExtraToppingName";
+            this.ToppingExtraCheckBox.UseVisualStyleBackColor = true;
             // 
             // ToppingCheckBox
             // 
             this.ToppingCheckBox.AutoSize = true;
             this.ToppingCheckBox.Location = new System.Drawing.Point(7, 19);
             this.ToppingCheckBox.Name = "ToppingCheckBox";
-            this.ToppingCheckBox.Size = new System.Drawing.Size(80, 17);
+            this.ToppingCheckBox.Size = new System.Drawing.Size(93, 17);
             this.ToppingCheckBox.TabIndex = 0;
-            this.ToppingCheckBox.Text = "checkBox1";
+            this.ToppingCheckBox.Text = "ToppingName";
             this.ToppingCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // ToppingExtraCheckBox
-            // 
-            this.ToppingExtraCheckBox.AutoSize = true;
-            this.ToppingExtraCheckBox.Location = new System.Drawing.Point(7, 42);
-            this.ToppingExtraCheckBox.Name = "ToppingExtraCheckBox";
-            this.ToppingExtraCheckBox.Size = new System.Drawing.Size(80, 17);
-            this.ToppingExtraCheckBox.TabIndex = 1;
-            this.ToppingExtraCheckBox.Text = "checkBox1";
-            this.ToppingExtraCheckBox.UseVisualStyleBackColor = true;
             // 
             // TemplatePizzaTopping
             // 
@@ -82,7 +82,7 @@
             this.Controls.Add(this.ToppingGroupBox);
             this.Controls.Add(this.ToppingImageBox);
             this.Name = "TemplatePizzaTopping";
-            this.Size = new System.Drawing.Size(238, 103);
+            this.Size = new System.Drawing.Size(234, 98);
             ((System.ComponentModel.ISupportInitialize)(this.ToppingImageBox)).EndInit();
             this.ToppingGroupBox.ResumeLayout(false);
             this.ToppingGroupBox.PerformLayout();

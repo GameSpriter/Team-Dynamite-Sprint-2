@@ -26,7 +26,7 @@ namespace MomsAndPopsPizzaria
 
         private void FormController_Load(object sender, EventArgs e)
         {
-            child = new FormHome(this);
+            child = new FormCustomPizza(this);
             child.Show();
             formHider.Interval = 20;
             formHider.Enabled = true;

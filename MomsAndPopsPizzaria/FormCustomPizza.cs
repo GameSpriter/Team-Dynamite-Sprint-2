@@ -13,12 +13,32 @@ namespace MomsAndPopsPizzaria
     public partial class FormCustomPizza : Form
     {
         private Pizza pizza;
+        private enum Toppings
+        {
+            Cheese, Pepperoni, Onion
+        }
         FormController Parent;
 
         public FormCustomPizza(FormController Parent)
         {
             this.Parent = Parent;
             InitializeComponent();
+        }
+
+        /// <summary>
+        /// On Load
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void FormCustomPizza_Load(object sender, EventArgs e)
+        {
+            Control.ControlCollection templatePizzaToppingsCollection = ToppingsLayoutPanel.Controls;
+            int i = 0;
+            foreach(TemplatePizzaTopping template in templatePizzaToppingsCollection)
+            {
+                //template.Topping = new Item(Enum.GetName(typeof(Toppings), i);
+                i++;
+            }
         }
 
         private void updateCart()

@@ -18,5 +18,10 @@ namespace MomsAndPopsPizzaria
         {
             InitializeComponent();
         }
+
+        public void Setup(string ToppingName)
+        {
+            ToppingImageBox.Image = Image.FromFile(ToppingName);
+        }
     }
 }

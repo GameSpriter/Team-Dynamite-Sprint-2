@@ -35,7 +35,16 @@
             this.CancelButton = new System.Windows.Forms.Button();
             this.AddToCartButton = new System.Windows.Forms.Button();
             this.SizeGroupBox = new System.Windows.Forms.GroupBox();
+            this.SizeLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.SmallSizeRadioButton = new System.Windows.Forms.RadioButton();
+            this.MeduimSizeRadioButton = new System.Windows.Forms.RadioButton();
+            this.LargeSizeRadioButton = new System.Windows.Forms.RadioButton();
+            this.ExtraLargeSizeRadioButton = new System.Windows.Forms.RadioButton();
             this.CrustGroupBox = new System.Windows.Forms.GroupBox();
+            this.CrustLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
+            this.ThinCrustRadioButton = new System.Windows.Forms.RadioButton();
+            this.PanCrustRadioButton = new System.Windows.Forms.RadioButton();
+            this.RegularCrustRadioButton = new System.Windows.Forms.RadioButton();
             this.ToppingsGroupBox = new System.Windows.Forms.GroupBox();
             this.ToppingsLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.templatePizzaTopping1 = new MomsAndPopsPizzaria.TemplatePizzaTopping();
@@ -47,21 +56,12 @@
             this.templatePizzaTopping7 = new MomsAndPopsPizzaria.TemplatePizzaTopping();
             this.templatePizzaTopping8 = new MomsAndPopsPizzaria.TemplatePizzaTopping();
             this.templatePizzaTopping9 = new MomsAndPopsPizzaria.TemplatePizzaTopping();
-            this.SizeLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.CrustLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.SmallSizeRadioButton = new System.Windows.Forms.RadioButton();
-            this.MeduimSizeRadioButton = new System.Windows.Forms.RadioButton();
-            this.LargeSizeRadioButton = new System.Windows.Forms.RadioButton();
-            this.ExtraLargeSizeRadioButton = new System.Windows.Forms.RadioButton();
-            this.ThinCrustRadioButton = new System.Windows.Forms.RadioButton();
-            this.PanCrustRadioButton = new System.Windows.Forms.RadioButton();
-            this.RegularCrustRadioButton = new System.Windows.Forms.RadioButton();
             this.SizeGroupBox.SuspendLayout();
+            this.SizeLayoutPanel.SuspendLayout();
             this.CrustGroupBox.SuspendLayout();
+            this.CrustLayoutPanel.SuspendLayout();
             this.ToppingsGroupBox.SuspendLayout();
             this.ToppingsLayoutPanel.SuspendLayout();
-            this.SizeLayoutPanel.SuspendLayout();
-            this.CrustLayoutPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // templatePage1
@@ -129,6 +129,68 @@
             this.SizeGroupBox.TabStop = false;
             this.SizeGroupBox.Text = "groupBox1";
             // 
+            // SizeLayoutPanel
+            // 
+            this.SizeLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.SizeLayoutPanel.Controls.Add(this.SmallSizeRadioButton);
+            this.SizeLayoutPanel.Controls.Add(this.MeduimSizeRadioButton);
+            this.SizeLayoutPanel.Controls.Add(this.LargeSizeRadioButton);
+            this.SizeLayoutPanel.Controls.Add(this.ExtraLargeSizeRadioButton);
+            this.SizeLayoutPanel.Location = new System.Drawing.Point(7, 20);
+            this.SizeLayoutPanel.Name = "SizeLayoutPanel";
+            this.SizeLayoutPanel.Size = new System.Drawing.Size(113, 329);
+            this.SizeLayoutPanel.TabIndex = 0;
+            // 
+            // SmallSizeRadioButton
+            // 
+            this.SmallSizeRadioButton.AutoSize = true;
+            this.SmallSizeRadioButton.Location = new System.Drawing.Point(3, 3);
+            this.SmallSizeRadioButton.Name = "SmallSizeRadioButton";
+            this.SmallSizeRadioButton.Size = new System.Drawing.Size(85, 17);
+            this.SmallSizeRadioButton.TabIndex = 0;
+            this.SmallSizeRadioButton.TabStop = true;
+            this.SmallSizeRadioButton.Text = "radioButton1";
+            this.SmallSizeRadioButton.UseVisualStyleBackColor = true;
+            this.SmallSizeRadioButton.CheckedChanged += new System.EventHandler(this.SmallSizeRadioButton_CheckedChanged);
+            // 
+            // MeduimSizeRadioButton
+            // 
+            this.MeduimSizeRadioButton.AutoSize = true;
+            this.MeduimSizeRadioButton.Location = new System.Drawing.Point(3, 26);
+            this.MeduimSizeRadioButton.Name = "MeduimSizeRadioButton";
+            this.MeduimSizeRadioButton.Size = new System.Drawing.Size(85, 17);
+            this.MeduimSizeRadioButton.TabIndex = 1;
+            this.MeduimSizeRadioButton.TabStop = true;
+            this.MeduimSizeRadioButton.Text = "radioButton2";
+            this.MeduimSizeRadioButton.UseVisualStyleBackColor = true;
+            this.MeduimSizeRadioButton.CheckedChanged += new System.EventHandler(this.MeduimSizeRadioButton_CheckedChanged);
+            // 
+            // LargeSizeRadioButton
+            // 
+            this.LargeSizeRadioButton.AutoSize = true;
+            this.LargeSizeRadioButton.Location = new System.Drawing.Point(3, 49);
+            this.LargeSizeRadioButton.Name = "LargeSizeRadioButton";
+            this.LargeSizeRadioButton.Size = new System.Drawing.Size(85, 17);
+            this.LargeSizeRadioButton.TabIndex = 2;
+            this.LargeSizeRadioButton.TabStop = true;
+            this.LargeSizeRadioButton.Text = "radioButton3";
+            this.LargeSizeRadioButton.UseVisualStyleBackColor = true;
+            this.LargeSizeRadioButton.CheckedChanged += new System.EventHandler(this.LargeSizeRadioButton_CheckedChanged);
+            // 
+            // ExtraLargeSizeRadioButton
+            // 
+            this.ExtraLargeSizeRadioButton.AutoSize = true;
+            this.ExtraLargeSizeRadioButton.Location = new System.Drawing.Point(3, 72);
+            this.ExtraLargeSizeRadioButton.Name = "ExtraLargeSizeRadioButton";
+            this.ExtraLargeSizeRadioButton.Size = new System.Drawing.Size(85, 17);
+            this.ExtraLargeSizeRadioButton.TabIndex = 3;
+            this.ExtraLargeSizeRadioButton.TabStop = true;
+            this.ExtraLargeSizeRadioButton.Text = "radioButton4";
+            this.ExtraLargeSizeRadioButton.UseVisualStyleBackColor = true;
+            this.ExtraLargeSizeRadioButton.CheckedChanged += new System.EventHandler(this.ExtraLargeSizeRadioButton_CheckedChanged);
+            // 
             // CrustGroupBox
             // 
             this.CrustGroupBox.Controls.Add(this.CrustLayoutPanel);
@@ -139,6 +201,58 @@
             this.CrustGroupBox.TabStop = false;
             this.CrustGroupBox.Text = "groupBox2";
             // 
+            // CrustLayoutPanel
+            // 
+            this.CrustLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.CrustLayoutPanel.Controls.Add(this.ThinCrustRadioButton);
+            this.CrustLayoutPanel.Controls.Add(this.PanCrustRadioButton);
+            this.CrustLayoutPanel.Controls.Add(this.RegularCrustRadioButton);
+            this.CrustLayoutPanel.Location = new System.Drawing.Point(7, 20);
+            this.CrustLayoutPanel.Name = "CrustLayoutPanel";
+            this.CrustLayoutPanel.Size = new System.Drawing.Size(173, 329);
+            this.CrustLayoutPanel.TabIndex = 0;
+            // 
+            // ThinCrustRadioButton
+            // 
+            this.ThinCrustRadioButton.AutoSize = true;
+            this.ThinCrustRadioButton.Location = new System.Drawing.Point(3, 3);
+            this.ThinCrustRadioButton.Name = "ThinCrustRadioButton";
+            this.ThinCrustRadioButton.Size = new System.Drawing.Size(85, 17);
+            this.ThinCrustRadioButton.TabIndex = 3;
+            this.ThinCrustRadioButton.TabStop = true;
+            this.ThinCrustRadioButton.Text = "radioButton1";
+            this.ThinCrustRadioButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.ThinCrustRadioButton.UseVisualStyleBackColor = true;
+            this.ThinCrustRadioButton.CheckedChanged += new System.EventHandler(this.ThinCrustRadioButton_CheckedChanged);
+            // 
+            // PanCrustRadioButton
+            // 
+            this.PanCrustRadioButton.AutoSize = true;
+            this.PanCrustRadioButton.Location = new System.Drawing.Point(3, 26);
+            this.PanCrustRadioButton.Name = "PanCrustRadioButton";
+            this.PanCrustRadioButton.Size = new System.Drawing.Size(85, 17);
+            this.PanCrustRadioButton.TabIndex = 4;
+            this.PanCrustRadioButton.TabStop = true;
+            this.PanCrustRadioButton.Text = "radioButton2";
+            this.PanCrustRadioButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.PanCrustRadioButton.UseVisualStyleBackColor = true;
+            this.PanCrustRadioButton.CheckedChanged += new System.EventHandler(this.PanCrustRadioButton_CheckedChanged);
+            // 
+            // RegularCrustRadioButton
+            // 
+            this.RegularCrustRadioButton.AutoSize = true;
+            this.RegularCrustRadioButton.Location = new System.Drawing.Point(3, 49);
+            this.RegularCrustRadioButton.Name = "RegularCrustRadioButton";
+            this.RegularCrustRadioButton.Size = new System.Drawing.Size(85, 17);
+            this.RegularCrustRadioButton.TabIndex = 5;
+            this.RegularCrustRadioButton.TabStop = true;
+            this.RegularCrustRadioButton.Text = "radioButton3";
+            this.RegularCrustRadioButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.RegularCrustRadioButton.UseVisualStyleBackColor = true;
+            this.RegularCrustRadioButton.CheckedChanged += new System.EventHandler(this.RegularCrustRadioButton_CheckedChanged);
+            // 
             // ToppingsGroupBox
             // 
             this.ToppingsGroupBox.Controls.Add(this.ToppingsLayoutPanel);
@@ -147,7 +261,6 @@
             this.ToppingsGroupBox.Size = new System.Drawing.Size(754, 355);
             this.ToppingsGroupBox.TabIndex = 7;
             this.ToppingsGroupBox.TabStop = false;
-            this.ToppingsGroupBox.Text = "groupBox3";
             // 
             // ToppingsLayoutPanel
             // 
@@ -231,120 +344,6 @@
             this.templatePizzaTopping9.Size = new System.Drawing.Size(238, 103);
             this.templatePizzaTopping9.TabIndex = 8;
             // 
-            // SizeLayoutPanel
-            // 
-            this.SizeLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.SizeLayoutPanel.Controls.Add(this.SmallSizeRadioButton);
-            this.SizeLayoutPanel.Controls.Add(this.MeduimSizeRadioButton);
-            this.SizeLayoutPanel.Controls.Add(this.LargeSizeRadioButton);
-            this.SizeLayoutPanel.Controls.Add(this.ExtraLargeSizeRadioButton);
-            this.SizeLayoutPanel.Location = new System.Drawing.Point(7, 20);
-            this.SizeLayoutPanel.Name = "SizeLayoutPanel";
-            this.SizeLayoutPanel.Size = new System.Drawing.Size(113, 329);
-            this.SizeLayoutPanel.TabIndex = 0;
-            // 
-            // CrustLayoutPanel
-            // 
-            this.CrustLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.CrustLayoutPanel.Controls.Add(this.ThinCrustRadioButton);
-            this.CrustLayoutPanel.Controls.Add(this.PanCrustRadioButton);
-            this.CrustLayoutPanel.Controls.Add(this.RegularCrustRadioButton);
-            this.CrustLayoutPanel.Location = new System.Drawing.Point(7, 20);
-            this.CrustLayoutPanel.Name = "CrustLayoutPanel";
-            this.CrustLayoutPanel.Size = new System.Drawing.Size(173, 329);
-            this.CrustLayoutPanel.TabIndex = 0;
-            // 
-            // SmallSizeRadioButton
-            // 
-            this.SmallSizeRadioButton.AutoSize = true;
-            this.SmallSizeRadioButton.Location = new System.Drawing.Point(3, 3);
-            this.SmallSizeRadioButton.Name = "SmallSizeRadioButton";
-            this.SmallSizeRadioButton.Size = new System.Drawing.Size(85, 17);
-            this.SmallSizeRadioButton.TabIndex = 0;
-            this.SmallSizeRadioButton.TabStop = true;
-            this.SmallSizeRadioButton.Text = "radioButton1";
-            this.SmallSizeRadioButton.UseVisualStyleBackColor = true;
-            this.SmallSizeRadioButton.CheckedChanged += new System.EventHandler(this.SmallSizeRadioButton_CheckedChanged);
-            // 
-            // MeduimSizeRadioButton
-            // 
-            this.MeduimSizeRadioButton.AutoSize = true;
-            this.MeduimSizeRadioButton.Location = new System.Drawing.Point(3, 26);
-            this.MeduimSizeRadioButton.Name = "MeduimSizeRadioButton";
-            this.MeduimSizeRadioButton.Size = new System.Drawing.Size(85, 17);
-            this.MeduimSizeRadioButton.TabIndex = 1;
-            this.MeduimSizeRadioButton.TabStop = true;
-            this.MeduimSizeRadioButton.Text = "radioButton2";
-            this.MeduimSizeRadioButton.UseVisualStyleBackColor = true;
-            this.MeduimSizeRadioButton.CheckedChanged += new System.EventHandler(this.MeduimSizeRadioButton_CheckedChanged);
-            // 
-            // LargeSizeRadioButton
-            // 
-            this.LargeSizeRadioButton.AutoSize = true;
-            this.LargeSizeRadioButton.Location = new System.Drawing.Point(3, 49);
-            this.LargeSizeRadioButton.Name = "LargeSizeRadioButton";
-            this.LargeSizeRadioButton.Size = new System.Drawing.Size(85, 17);
-            this.LargeSizeRadioButton.TabIndex = 2;
-            this.LargeSizeRadioButton.TabStop = true;
-            this.LargeSizeRadioButton.Text = "radioButton3";
-            this.LargeSizeRadioButton.UseVisualStyleBackColor = true;
-            this.LargeSizeRadioButton.CheckedChanged += new System.EventHandler(this.LargeSizeRadioButton_CheckedChanged);
-            // 
-            // ExtraLargeSizeRadioButton
-            // 
-            this.ExtraLargeSizeRadioButton.AutoSize = true;
-            this.ExtraLargeSizeRadioButton.Location = new System.Drawing.Point(3, 72);
-            this.ExtraLargeSizeRadioButton.Name = "ExtraLargeSizeRadioButton";
-            this.ExtraLargeSizeRadioButton.Size = new System.Drawing.Size(85, 17);
-            this.ExtraLargeSizeRadioButton.TabIndex = 3;
-            this.ExtraLargeSizeRadioButton.TabStop = true;
-            this.ExtraLargeSizeRadioButton.Text = "radioButton4";
-            this.ExtraLargeSizeRadioButton.UseVisualStyleBackColor = true;
-            this.ExtraLargeSizeRadioButton.CheckedChanged += new System.EventHandler(this.ExtraLargeSizeRadioButton_CheckedChanged);
-            // 
-            // ThinCrustRadioButton
-            // 
-            this.ThinCrustRadioButton.AutoSize = true;
-            this.ThinCrustRadioButton.Location = new System.Drawing.Point(3, 3);
-            this.ThinCrustRadioButton.Name = "ThinCrustRadioButton";
-            this.ThinCrustRadioButton.Size = new System.Drawing.Size(85, 17);
-            this.ThinCrustRadioButton.TabIndex = 3;
-            this.ThinCrustRadioButton.TabStop = true;
-            this.ThinCrustRadioButton.Text = "radioButton1";
-            this.ThinCrustRadioButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.ThinCrustRadioButton.UseVisualStyleBackColor = true;
-            this.ThinCrustRadioButton.CheckedChanged += new System.EventHandler(this.ThinCrustRadioButton_CheckedChanged);
-            // 
-            // PanCrustRadioButton
-            // 
-            this.PanCrustRadioButton.AutoSize = true;
-            this.PanCrustRadioButton.Location = new System.Drawing.Point(3, 26);
-            this.PanCrustRadioButton.Name = "PanCrustRadioButton";
-            this.PanCrustRadioButton.Size = new System.Drawing.Size(85, 17);
-            this.PanCrustRadioButton.TabIndex = 4;
-            this.PanCrustRadioButton.TabStop = true;
-            this.PanCrustRadioButton.Text = "radioButton2";
-            this.PanCrustRadioButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.PanCrustRadioButton.UseVisualStyleBackColor = true;
-            this.PanCrustRadioButton.CheckedChanged += new System.EventHandler(this.PanCrustRadioButton_CheckedChanged);
-            // 
-            // RegularCrustRadioButton
-            // 
-            this.RegularCrustRadioButton.AutoSize = true;
-            this.RegularCrustRadioButton.Location = new System.Drawing.Point(3, 49);
-            this.RegularCrustRadioButton.Name = "RegularCrustRadioButton";
-            this.RegularCrustRadioButton.Size = new System.Drawing.Size(85, 17);
-            this.RegularCrustRadioButton.TabIndex = 5;
-            this.RegularCrustRadioButton.TabStop = true;
-            this.RegularCrustRadioButton.Text = "radioButton3";
-            this.RegularCrustRadioButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.RegularCrustRadioButton.UseVisualStyleBackColor = true;
-            this.RegularCrustRadioButton.CheckedChanged += new System.EventHandler(this.RegularCrustRadioButton_CheckedChanged);
-            // 
             // FormCustomPizza
             // 
             this.ClientSize = new System.Drawing.Size(1280, 720);
@@ -358,14 +357,15 @@
             this.Controls.Add(this.FirstToppingFreeText);
             this.Controls.Add(this.templatePage1);
             this.Name = "FormCustomPizza";
+            this.Load += new System.EventHandler(this.FormCustomPizza_Load);
             this.SizeGroupBox.ResumeLayout(false);
-            this.CrustGroupBox.ResumeLayout(false);
-            this.ToppingsGroupBox.ResumeLayout(false);
-            this.ToppingsLayoutPanel.ResumeLayout(false);
             this.SizeLayoutPanel.ResumeLayout(false);
             this.SizeLayoutPanel.PerformLayout();
+            this.CrustGroupBox.ResumeLayout(false);
             this.CrustLayoutPanel.ResumeLayout(false);
             this.CrustLayoutPanel.PerformLayout();
+            this.ToppingsGroupBox.ResumeLayout(false);
+            this.ToppingsLayoutPanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
