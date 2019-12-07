@@ -18,6 +18,7 @@ namespace MomsAndPopsPizzaria
         {
             this.Parent = Parent;
             InitializeComponent();
+            Parent.Hide(); //Hiding FormController didn't work in FormController's constructor due to timings
         }
 
         public void OpenForm(string formName)
