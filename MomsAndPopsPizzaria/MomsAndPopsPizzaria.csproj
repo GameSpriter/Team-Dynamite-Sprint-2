@@ -68,6 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
+    <Compile Include="FormController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormController.Designer.cs">
+      <DependentUpon>FormController.cs</DependentUpon>
+    </Compile>
     <Compile Include="TemplatePizzaCartDisplay.cs">
       <SubType>UserControl</SubType>
     </Compile>

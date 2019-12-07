@@ -12,9 +12,22 @@ namespace MomsAndPopsPizzaria
 {
     public partial class FormHome : Form
     {
-        public FormHome()
+        FormController Parent;
+
+        public FormHome(FormController Parent)
         {
+            this.Parent = Parent;
             InitializeComponent();
+        }
+
+        public void OpenForm(string formName)
+        {
+            Parent.OpenForm(formName);
+        }
+
+        private void LoginButton_Click(object sender, EventArgs e)
+        {
+            OpenForm("Location");
         }
     }
 }
