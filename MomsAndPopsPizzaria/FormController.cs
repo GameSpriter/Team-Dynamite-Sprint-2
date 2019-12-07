@@ -30,7 +30,19 @@ namespace MomsAndPopsPizzaria
             child.Show();
             formHider.Interval = 20;
             formHider.Enabled = true;
-            formHider.Tick += new EventHandler(formHide_Tick);
+            formHider.Tick += new EventHandler(FormHide_Tick);
+
+            child.FormClosed += new FormClosedEventHandler(EndApplication);
+        }
+
+        /// <summary>
+        /// Event call to handle closing the application when a child form is closed.
+        /// </summary>
+        /// <param name="sender">The script that sent the call</param>
+        /// <param name="e">The event arguments</param>
+        private void EndApplication(object sender, EventArgs e)
+        {
+            Close();
         }
 
         /// <summary>
@@ -38,11 +50,11 @@ namespace MomsAndPopsPizzaria
         /// </summary>
         /// <param name="sender">The script that sent the call</param>
         /// <param name="e">The event arguments</param>
-        private void formHide_Tick(object sender, EventArgs e)
+        private void FormHide_Tick(object sender, EventArgs e)
         {
             
             formHider.Stop();
-            formHider.Tick -= new EventHandler(formHide_Tick);
+            formHider.Tick -= new EventHandler(FormHide_Tick);
             formHider = null;
 
             Hide();
