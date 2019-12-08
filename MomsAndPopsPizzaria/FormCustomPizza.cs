@@ -12,6 +12,7 @@ namespace MomsAndPopsPizzaria
 {
     public partial class FormCustomPizza : Form
     {
+        private readonly string AdditionalToppings = "Additional toppings: ";
         private Pizza pizza;
         private float toppingPrice;
         FormController Parent;
@@ -36,9 +37,8 @@ namespace MomsAndPopsPizzaria
             pizza = new Pizza();
             templatePage1.ChangeName("Pizza");
 
-            Control.ControlCollection templatePizzaToppingsCollection = ToppingsLayoutPanel.Controls;
             int i = 0;
-            foreach(TemplatePizzaTopping template in templatePizzaToppingsCollection)
+            foreach(TemplatePizzaTopping template in ToppingsLayoutPanel.Controls)
             {
                 string toppingName = "";
 
@@ -84,7 +84,11 @@ namespace MomsAndPopsPizzaria
         /// </summary>
         private void updateCart()
         {
-            Parent.pizzas.Add(pizza);
+            foreach (TemplatePizzaTopping template in ToppingsLayoutPanel.Controls)
+            {
+                pizza.addTopping(template.Topping);
+            }
+                Parent.pizzas.Add(pizza);
         }
 
         /// <summary>
@@ -101,24 +105,28 @@ namespace MomsAndPopsPizzaria
         private void SmallSizeRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             toppingPrice = 0.50f;
+            AdditionalToppingsCostText.Text = AdditionalToppings + "$0.50";
             pizza.SelectedSize = Pizza.Sizes.small;
         }
 
         private void MeduimSizeRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             toppingPrice = 0.75f;
+            AdditionalToppingsCostText.Text = AdditionalToppings + "$0.75";
             pizza.SelectedSize = Pizza.Sizes.medium;
         }
 
         private void LargeSizeRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             toppingPrice = 1.00f;
+            AdditionalToppingsCostText.Text = AdditionalToppings + "$1.00";
             pizza.SelectedSize = Pizza.Sizes.large;
         }
 
         private void ExtraLargeSizeRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             toppingPrice = 1.25f;
+            AdditionalToppingsCostText.Text = AdditionalToppings + "$1.25";
             pizza.SelectedSize = Pizza.Sizes.extraLarge;
         }
 
@@ -130,17 +138,17 @@ namespace MomsAndPopsPizzaria
 
         private void ThinCrustRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-
+            pizza.SelectedCrust = Pizza.Crusts.thin;
         }
 
         private void PanCrustRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-
+            pizza.SelectedCrust = Pizza.Crusts.thin;
         }
 
         private void RegularCrustRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-
+            pizza.SelectedCrust = Pizza.Crusts.thin;
         }
     }
 }
