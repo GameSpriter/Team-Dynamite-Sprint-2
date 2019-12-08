@@ -16,6 +16,10 @@ namespace MomsAndPopsPizzaria
         private float toppingPrice;
         FormController Parent;
 
+        /// <summary>
+        /// Constructor for the FormCustomPizza class
+        /// </summary>
+        /// <param name="Parent">The parent FormController</param>
         public FormCustomPizza(FormController Parent)
         {
             this.Parent = Parent;
@@ -29,25 +33,34 @@ namespace MomsAndPopsPizzaria
         /// <param name="e"></param>
         private void FormCustomPizza_Load(object sender, EventArgs e)
         {
+            pizza = new Pizza();
+
             Control.ControlCollection templatePizzaToppingsCollection = ToppingsLayoutPanel.Controls;
             int i = 0;
             foreach(TemplatePizzaTopping template in templatePizzaToppingsCollection)
             {
-
                 template.Topping = new Item(Enum.GetName(typeof(Pizza.Toppings), i), 1, toppingPrice);
                 i++;
             }
         }
 
+        /// <summary>
+        /// Adds the current Pizza to the cart
+        /// </summary>
         private void updateCart()
         {
-
+            Parent.pizzas.Add(pizza);
         }
 
+        /// <summary>
+        /// Does not add the pizza to the cart and returns to the menu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void CancelButton_Click(object sender, EventArgs e)
         {
             pizza = null;
-
+            Parent.OpenForm("FormMenu");
         }
 
         private void SmallSizeRadioButton_CheckedChanged(object sender, EventArgs e)
