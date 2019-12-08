@@ -7,15 +7,16 @@ namespace MomsAndPopsPizzaria
 {
     public class User
     {
-        public string FirstName, LastName, EmailAddress, PhoneNumber;
+        public string firstName, lastName, emailAddress, phoneNumber;
         public DateTime birthdate;
         public Address address;
 
-        private string Password;
+        private string password;
 
         public User()
         {
-
+            emailAddress = "";
+            password = "";
         }
 
         public bool VerifyPassword()

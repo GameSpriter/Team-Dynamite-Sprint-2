@@ -16,5 +16,31 @@ namespace MomsAndPopsPizzaria
         {
             InitializeComponent();
         }
+        /// <summary>
+        /// Title click event
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void PageTitle_Click(object sender, EventArgs e)
+        {
+                
+        }
+
+        /// <summary>
+        /// Template title
+        /// </summary>
+        protected void TemplatePageTitle()
+        {
+            PageTitle.Font = new Font("Arial", 24);
+        }
+        /// <summary>
+        /// Template page
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void TemplatePage_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

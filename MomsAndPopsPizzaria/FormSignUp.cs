@@ -69,7 +69,6 @@ namespace MomsAndPopsPizzaria
 
         private void FirstLastNameUserControl_Load(object sender, EventArgs e)
         {
-            
         }
     }
 }

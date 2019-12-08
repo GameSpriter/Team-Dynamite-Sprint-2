@@ -56,7 +56,7 @@
             // 
             // FirstNameTextBox
             // 
-            this.FirstNameTextBox.Location = new System.Drawing.Point(4, 60);
+            this.FirstNameTextBox.Location = new System.Drawing.Point(4, 62);
             this.FirstNameTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.FirstNameTextBox.Name = "FirstNameTextBox";
             this.FirstNameTextBox.Size = new System.Drawing.Size(187, 22);
@@ -64,7 +64,7 @@
             // 
             // LastNameTextBox
             // 
-            this.LastNameTextBox.Location = new System.Drawing.Point(223, 60);
+            this.LastNameTextBox.Location = new System.Drawing.Point(223, 62);
             this.LastNameTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.LastNameTextBox.Name = "LastNameTextBox";
             this.LastNameTextBox.Size = new System.Drawing.Size(164, 22);

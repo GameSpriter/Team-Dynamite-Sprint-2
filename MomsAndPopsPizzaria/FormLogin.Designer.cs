@@ -41,7 +41,7 @@
             // LoginButton
             // 
             this.LoginButton.Location = new System.Drawing.Point(792, 373);
-            this.LoginButton.Margin = new System.Windows.Forms.Padding(4);
+            this.LoginButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LoginButton.Name = "LoginButton";
             this.LoginButton.Size = new System.Drawing.Size(100, 28);
             this.LoginButton.TabIndex = 0;
@@ -51,16 +51,18 @@
             // 
             // pageTemplate1
             // 
+            this.pageTemplate1.BackColor = System.Drawing.Color.White;
             this.pageTemplate1.Location = new System.Drawing.Point(0, 0);
             this.pageTemplate1.Margin = new System.Windows.Forms.Padding(0);
             this.pageTemplate1.Name = "pageTemplate1";
             this.pageTemplate1.Size = new System.Drawing.Size(1707, 886);
             this.pageTemplate1.TabIndex = 2;
+            this.pageTemplate1.Load += new System.EventHandler(this.pageTemplate1_Load);
             // 
             // EmailTextBox
             // 
             this.EmailTextBox.Location = new System.Drawing.Point(451, 375);
-            this.EmailTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.EmailTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EmailTextBox.Name = "EmailTextBox";
             this.EmailTextBox.Size = new System.Drawing.Size(227, 22);
             this.EmailTextBox.TabIndex = 3;
@@ -90,7 +92,7 @@
             // PasswordTextBox
             // 
             this.PasswordTextBox.Location = new System.Drawing.Point(451, 444);
-            this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PasswordTextBox.Name = "PasswordTextBox";
             this.PasswordTextBox.Size = new System.Drawing.Size(227, 22);
             this.PasswordTextBox.TabIndex = 5;
@@ -100,11 +102,11 @@
             // SignUpButton
             // 
             this.SignUpButton.Location = new System.Drawing.Point(792, 442);
-            this.SignUpButton.Margin = new System.Windows.Forms.Padding(4);
+            this.SignUpButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SignUpButton.Name = "SignUpButton";
             this.SignUpButton.Size = new System.Drawing.Size(100, 28);
             this.SignUpButton.TabIndex = 7;
-            this.SignUpButton.Text = "SignUp";
+            this.SignUpButton.Text = "Sign Up";
             this.SignUpButton.UseVisualStyleBackColor = true;
             this.SignUpButton.Click += new System.EventHandler(this.SignUpButton_Click);
             // 
@@ -124,7 +126,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1707, 886);
+            this.ClientSize = new System.Drawing.Size(1540, 846);
             this.Controls.Add(this.ForgotEmailPasswordLink);
             this.Controls.Add(this.SignUpButton);
             this.Controls.Add(this.PasswordText);
@@ -133,7 +135,7 @@
             this.Controls.Add(this.EmailTextBox);
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.pageTemplate1);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormLogin";
             this.Text = "FormLogin";
             this.ResumeLayout(false);

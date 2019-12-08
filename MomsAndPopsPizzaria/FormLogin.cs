@@ -7,21 +7,70 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace MomsAndPopsPizzaria
 {
     public partial class FormLogin : Form
     {
         FormSignUp signUpForm = new FormSignUp();
-        FormResetPassword forgotPassword = new FormResetPassword();
+        FormMenu menuForm = new FormMenu();
+        //FormResetPassword forgotPassword = new FormResetPassword();
+
+        public string filename = "LoginInfo.txt";
+        
         public FormLogin()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Takes the values in the "Email" and "Password" textboxes and reads a file to see if the account is created.
+        /// If it is, log the user in and take the user to the menu screen. If not, add them and take the user to the menu screen
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void LoginButton_Click(object sender, EventArgs e)
         {
+            if (EmailTextBox != null && PasswordTextBox != null)
+            {
+                try
+                {
 
+                    if (!File.Exists(filename))
+                    {
+                        using (var stream = File.Create(filename)) ;
+                    }
+
+                    else if(filename != null)
+                    {
+                        string readText = File.ReadAllText(filename);
+                        if (readText.Contains(EmailTextBox.Text) == true && readText.Contains(PasswordTextBox.Text)==true)
+                        {
+                            menuForm.Show();
+                        }
+                        else
+                        {
+                            File.WriteAllText(filename, "Email/Username: " + EmailTextBox.Text + "," + " Password: " + PasswordTextBox.Text);
+                            Console.WriteLine("Account Created!");
+                            menuForm.Show();
+                        }
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+                finally
+                {
+                    
+                }
+            }
+            else
+            {
+                Console.WriteLine("Enter username and password");
+            }
         }
         /// <summary>
         /// Takes the user to the sign up screen
@@ -46,20 +95,14 @@ namespace MomsAndPopsPizzaria
             }
         }
 
+        /// <summary>
+        /// Not needed
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ForgotEmailPasswordLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            try
-            {
-                forgotPassword.Show();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-            finally
-            {
-                //this.Hide();
-            }
+            
         }
 
         /// <summary>
@@ -92,5 +135,14 @@ namespace MomsAndPopsPizzaria
         {
             string password = PasswordTextBox.Text;
         }
+        /// <summary>
+        /// Page template
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void pageTemplate1_Load(object sender, EventArgs e)
+        {
+        }
+        
     }
 }
