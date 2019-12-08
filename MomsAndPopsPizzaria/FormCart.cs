@@ -17,14 +17,9 @@ namespace MomsAndPopsPizzaria
             InitializeComponent();
         }
 
-        private void CheckoutButton_Click(object sender, EventArgs e)
+        private void FormCart_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void DrinksAppetizersCartDisplay_Load(object sender, EventArgs e)
-        {
-
+            pageTemplate1.ChangePageTitle("Pizza");
         }
     }
 }
