@@ -12,7 +12,12 @@ namespace MomsAndPopsPizzaria
         public float Price;
     }
 
-    
+    public Item(string n, int c, float p)
+    {
+        Name = n;
+        Count = c;
+        Price = p;
+    }
 
     
 

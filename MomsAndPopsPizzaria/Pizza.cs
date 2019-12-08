@@ -57,7 +57,17 @@ namespace MomsAndPopsPizzaria
 
         public void addTopping(string topping)
         {
-            //What is the purpose of this method?
+            for(int i = 0; i < SelectedToppings.Count; i++)
+            {
+                if(SelectedToppings[i] == topping)
+                {
+                    SelectedToppings[i].Count ++;
+                }
+                else
+                {
+                    SelectedToppings.Add(topping);
+                }
+            }
         }
 
         private void updatePrice()
