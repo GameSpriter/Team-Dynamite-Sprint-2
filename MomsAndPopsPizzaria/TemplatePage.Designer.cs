@@ -54,10 +54,10 @@
             // PageTitle
             // 
             this.PageTitle.AutoSize = true;
-            this.PageTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PageTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PageTitle.Location = new System.Drawing.Point(4, 164);
             this.PageTitle.Name = "PageTitle";
-            this.PageTitle.Size = new System.Drawing.Size(140, 36);
+            this.PageTitle.Size = new System.Drawing.Size(151, 37);
             this.PageTitle.TabIndex = 2;
             this.PageTitle.Text = "PageTitle";
             // 
