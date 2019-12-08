@@ -21,10 +21,22 @@ namespace MomsAndPopsPizzaria
 
         public void Setup()
         {
-            ToppingImageBox.Image = Properties.Resources.Pepperoni;
-            Console.WriteLine(ToppingImageBox.Image.Height);
+            ToppingImageBox.Image = (Image) Properties.Resources.ResourceManager.GetObject(Topping.Name.Replace(' ', '_'));
             ToppingCheckBox.Text = Topping.Name;
-            ToppingExtraCheckBox.Text = "Extra " + Topping.Name;
+            ToppingExtraCheckBox.Text = "Extra\n" + Topping.Name;
+        }
+
+        private void ToppingCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if(ToppingCheckBox.Checked)
+            {
+
+            }
+        }
+
+        private void ToppingExtraCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

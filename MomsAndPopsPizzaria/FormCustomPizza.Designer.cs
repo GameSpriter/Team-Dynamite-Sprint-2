@@ -67,48 +67,55 @@
             // FirstToppingFreeText
             // 
             this.FirstToppingFreeText.AutoSize = true;
-            this.FirstToppingFreeText.Location = new System.Drawing.Point(642, 164);
+            this.FirstToppingFreeText.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FirstToppingFreeText.Location = new System.Drawing.Point(518, 164);
             this.FirstToppingFreeText.Name = "FirstToppingFreeText";
-            this.FirstToppingFreeText.Size = new System.Drawing.Size(35, 13);
+            this.FirstToppingFreeText.Size = new System.Drawing.Size(210, 24);
             this.FirstToppingFreeText.TabIndex = 1;
-            this.FirstToppingFreeText.Text = "label1";
+            this.FirstToppingFreeText.Text = "Your first topping is free!";
             // 
             // AdditionalToppingsCostText
             // 
             this.AdditionalToppingsCostText.AutoSize = true;
-            this.AdditionalToppingsCostText.Location = new System.Drawing.Point(642, 208);
+            this.AdditionalToppingsCostText.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdditionalToppingsCostText.Location = new System.Drawing.Point(518, 208);
             this.AdditionalToppingsCostText.Name = "AdditionalToppingsCostText";
-            this.AdditionalToppingsCostText.Size = new System.Drawing.Size(35, 13);
+            this.AdditionalToppingsCostText.Size = new System.Drawing.Size(180, 24);
             this.AdditionalToppingsCostText.TabIndex = 2;
-            this.AdditionalToppingsCostText.Text = "label1";
+            this.AdditionalToppingsCostText.Text = "Additional toppings: ";
             // 
             // SubtotalText
             // 
             this.SubtotalText.AutoSize = true;
-            this.SubtotalText.Location = new System.Drawing.Point(983, 164);
+            this.SubtotalText.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SubtotalText.Location = new System.Drawing.Point(826, 164);
             this.SubtotalText.Name = "SubtotalText";
-            this.SubtotalText.Size = new System.Drawing.Size(35, 13);
+            this.SubtotalText.Size = new System.Drawing.Size(110, 24);
             this.SubtotalText.TabIndex = 3;
-            this.SubtotalText.Text = "label1";
+            this.SubtotalText.Text = "Pizza Total: ";
             // 
             // CancelButton
             // 
-            this.CancelButton.Location = new System.Drawing.Point(986, 198);
+            this.CancelButton.BackColor = System.Drawing.Color.Transparent;
+            this.CancelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CancelButton.Location = new System.Drawing.Point(830, 198);
             this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(124, 32);
+            this.CancelButton.Size = new System.Drawing.Size(216, 34);
             this.CancelButton.TabIndex = 4;
-            this.CancelButton.Text = "button1";
-            this.CancelButton.UseVisualStyleBackColor = true;
+            this.CancelButton.Text = "Cancel";
+            this.CancelButton.UseVisualStyleBackColor = false;
             this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
             // 
             // AddToCartButton
             // 
-            this.AddToCartButton.Location = new System.Drawing.Point(1116, 164);
+            this.AddToCartButton.BackColor = System.Drawing.Color.Transparent;
+            this.AddToCartButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddToCartButton.Location = new System.Drawing.Point(1052, 164);
             this.AddToCartButton.Name = "AddToCartButton";
-            this.AddToCartButton.Size = new System.Drawing.Size(152, 66);
+            this.AddToCartButton.Size = new System.Drawing.Size(216, 68);
             this.AddToCartButton.TabIndex = 5;
-            this.AddToCartButton.Text = "button1";
-            this.AddToCartButton.UseVisualStyleBackColor = true;
+            this.AddToCartButton.Text = "Add to\r\nCart";
+            this.AddToCartButton.UseVisualStyleBackColor = false;
             this.AddToCartButton.Click += new System.EventHandler(this.AddToCartButton_Click);
             // 
             // SizeGroupBox

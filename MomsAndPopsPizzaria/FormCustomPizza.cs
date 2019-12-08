@@ -34,7 +34,7 @@ namespace MomsAndPopsPizzaria
         private void FormCustomPizza_Load(object sender, EventArgs e)
         {
             pizza = new Pizza();
-            //TODO: Function to change the page name. "pageTemplate1.ChangeName("Pizza");
+            templatePage1.ChangeName("Pizza");
 
             Control.ControlCollection templatePizzaToppingsCollection = ToppingsLayoutPanel.Controls;
             int i = 0;
@@ -57,7 +57,7 @@ namespace MomsAndPopsPizzaria
                         toppingName = "Ham";
                         break;
                     case (int)Pizza.Toppings.greenPeppers:
-                        toppingName = "Green Peppers";
+                        toppingName = @"Green Peppers";
                         break;
                     case (int)Pizza.Toppings.onions:
                         toppingName = "Onion";

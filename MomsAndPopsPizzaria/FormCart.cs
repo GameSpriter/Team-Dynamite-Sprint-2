@@ -24,10 +24,5 @@ namespace MomsAndPopsPizzaria
         {
 
         }
-
-        private void DrinksAppetizersCartDisplay_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

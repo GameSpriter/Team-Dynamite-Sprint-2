@@ -28,23 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ToppingImageBox = new System.Windows.Forms.PictureBox();
             this.ToppingExtraCheckBox = new System.Windows.Forms.CheckBox();
             this.ToppingCheckBox = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.ToppingImageBox)).BeginInit();
+            this.ToppingImageBox = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ToppingImageBox)).BeginInit();
             this.SuspendLayout();
-            // 
-            // ToppingImageBox
-            // 
-            this.ToppingImageBox.BackColor = System.Drawing.Color.Gainsboro;
-            this.ToppingImageBox.InitialImage = global::MomsAndPopsPizzaria.Properties.Resources.Pepperoni;
-            this.ToppingImageBox.Location = new System.Drawing.Point(4, 4);
-            this.ToppingImageBox.Name = "ToppingImageBox";
-            this.ToppingImageBox.Size = new System.Drawing.Size(127, 127);
-            this.ToppingImageBox.TabIndex = 0;
-            this.ToppingImageBox.TabStop = false;
             // 
             // ToppingExtraCheckBox
             // 
@@ -57,6 +47,7 @@
             this.ToppingExtraCheckBox.TabIndex = 1;
             this.ToppingExtraCheckBox.Text = "Extra\r\nToppingName";
             this.ToppingExtraCheckBox.UseVisualStyleBackColor = true;
+            this.ToppingExtraCheckBox.CheckedChanged += new System.EventHandler(this.ToppingExtraCheckBox_CheckedChanged);
             // 
             // ToppingCheckBox
             // 
@@ -68,6 +59,7 @@
             this.ToppingCheckBox.TabIndex = 0;
             this.ToppingCheckBox.Text = "ToppingName";
             this.ToppingCheckBox.UseVisualStyleBackColor = true;
+            this.ToppingCheckBox.CheckedChanged += new System.EventHandler(this.ToppingCheckBox_CheckedChanged);
             // 
             // panel1
             // 
@@ -78,6 +70,16 @@
             this.panel1.Size = new System.Drawing.Size(159, 127);
             this.panel1.TabIndex = 2;
             // 
+            // ToppingImageBox
+            // 
+            this.ToppingImageBox.BackColor = System.Drawing.Color.Gainsboro;
+            this.ToppingImageBox.InitialImage = global::MomsAndPopsPizzaria.Properties.Resources.Pepperoni;
+            this.ToppingImageBox.Location = new System.Drawing.Point(4, 4);
+            this.ToppingImageBox.Name = "ToppingImageBox";
+            this.ToppingImageBox.Size = new System.Drawing.Size(127, 127);
+            this.ToppingImageBox.TabIndex = 0;
+            this.ToppingImageBox.TabStop = false;
+            // 
             // TemplatePizzaTopping
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -86,9 +88,9 @@
             this.Controls.Add(this.ToppingImageBox);
             this.Name = "TemplatePizzaTopping";
             this.Size = new System.Drawing.Size(300, 134);
-            ((System.ComponentModel.ISupportInitialize)(this.ToppingImageBox)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ToppingImageBox)).EndInit();
             this.ResumeLayout(false);
 
         }
