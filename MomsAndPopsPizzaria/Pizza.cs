@@ -37,10 +37,10 @@ namespace MomsAndPopsPizzaria
         public List<Item> SelectedToppings;
         public float price;
 
-        public Pizze()
+        public Pizza()
         {
-            Crusts = 0;
-            Sizes = 0;
+            SelectedCrust = 0;
+            SelectedSize = 0;
         }
 
         public Pizza(Crusts c, Sizes s, List<Item> st)
@@ -62,26 +62,26 @@ namespace MomsAndPopsPizzaria
 
         private void updatePrice()
         {
-            if(SelectedSize == 0) 
+            if(SelectedSize == Sizes.small) 
             {
-                price  += 4.00;
+                price += 4.00f;
             }
-            else if(SelectedSize == 1)
+            else if(SelectedSize == Sizes.medium)
             {
-                price += 6.00;
+                price += 6.00f;
             }
-            else if(SelectedSize == 2)
+            else if(SelectedSize == Sizes.large)
             {
-                price += 8.00;
+                price += 8.00f;
             } 
-            else 
+            else
             {
-                price += 10.00;
+                price += 10.00f;
             }
 
             if(SelectedToppings.Count > 1)
             {
-                price += 1.00;
+                price += 1.00f;
             }
 
         }
