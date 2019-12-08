@@ -39,6 +39,7 @@
             // ToppingImageBox
             // 
             this.ToppingImageBox.BackColor = System.Drawing.Color.Gainsboro;
+            this.ToppingImageBox.InitialImage = global::MomsAndPopsPizzaria.Properties.Resources.Pepperoni;
             this.ToppingImageBox.Location = new System.Drawing.Point(4, 4);
             this.ToppingImageBox.Name = "ToppingImageBox";
             this.ToppingImageBox.Size = new System.Drawing.Size(90, 90);

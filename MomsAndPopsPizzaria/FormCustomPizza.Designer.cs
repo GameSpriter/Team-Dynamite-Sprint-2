@@ -75,7 +75,7 @@
             // FirstToppingFreeText
             // 
             this.FirstToppingFreeText.AutoSize = true;
-            this.FirstToppingFreeText.Location = new System.Drawing.Point(499, 182);
+            this.FirstToppingFreeText.Location = new System.Drawing.Point(642, 164);
             this.FirstToppingFreeText.Name = "FirstToppingFreeText";
             this.FirstToppingFreeText.Size = new System.Drawing.Size(35, 13);
             this.FirstToppingFreeText.TabIndex = 1;
@@ -84,7 +84,7 @@
             // AdditionalToppingsCostText
             // 
             this.AdditionalToppingsCostText.AutoSize = true;
-            this.AdditionalToppingsCostText.Location = new System.Drawing.Point(499, 217);
+            this.AdditionalToppingsCostText.Location = new System.Drawing.Point(642, 208);
             this.AdditionalToppingsCostText.Name = "AdditionalToppingsCostText";
             this.AdditionalToppingsCostText.Size = new System.Drawing.Size(35, 13);
             this.AdditionalToppingsCostText.TabIndex = 2;
@@ -93,7 +93,7 @@
             // SubtotalText
             // 
             this.SubtotalText.AutoSize = true;
-            this.SubtotalText.Location = new System.Drawing.Point(675, 182);
+            this.SubtotalText.Location = new System.Drawing.Point(983, 164);
             this.SubtotalText.Name = "SubtotalText";
             this.SubtotalText.Size = new System.Drawing.Size(35, 13);
             this.SubtotalText.TabIndex = 3;
@@ -101,9 +101,9 @@
             // 
             // CancelButton
             // 
-            this.CancelButton.Location = new System.Drawing.Point(678, 217);
+            this.CancelButton.Location = new System.Drawing.Point(986, 198);
             this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(75, 23);
+            this.CancelButton.Size = new System.Drawing.Size(124, 32);
             this.CancelButton.TabIndex = 4;
             this.CancelButton.Text = "button1";
             this.CancelButton.UseVisualStyleBackColor = true;
@@ -111,9 +111,9 @@
             // 
             // AddToCartButton
             // 
-            this.AddToCartButton.Location = new System.Drawing.Point(818, 182);
+            this.AddToCartButton.Location = new System.Drawing.Point(1116, 164);
             this.AddToCartButton.Name = "AddToCartButton";
-            this.AddToCartButton.Size = new System.Drawing.Size(103, 48);
+            this.AddToCartButton.Size = new System.Drawing.Size(152, 66);
             this.AddToCartButton.TabIndex = 5;
             this.AddToCartButton.Text = "button1";
             this.AddToCartButton.UseVisualStyleBackColor = true;
@@ -122,12 +122,13 @@
             // SizeGroupBox
             // 
             this.SizeGroupBox.Controls.Add(this.SizeLayoutPanel);
-            this.SizeGroupBox.Location = new System.Drawing.Point(62, 301);
+            this.SizeGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SizeGroupBox.Location = new System.Drawing.Point(12, 236);
             this.SizeGroupBox.Name = "SizeGroupBox";
-            this.SizeGroupBox.Size = new System.Drawing.Size(126, 355);
+            this.SizeGroupBox.Size = new System.Drawing.Size(171, 439);
             this.SizeGroupBox.TabIndex = 6;
             this.SizeGroupBox.TabStop = false;
-            this.SizeGroupBox.Text = "groupBox1";
+            this.SizeGroupBox.Text = "Size";
             // 
             // SizeLayoutPanel
             // 
@@ -138,17 +139,18 @@
             this.SizeLayoutPanel.Controls.Add(this.MeduimSizeRadioButton);
             this.SizeLayoutPanel.Controls.Add(this.LargeSizeRadioButton);
             this.SizeLayoutPanel.Controls.Add(this.ExtraLargeSizeRadioButton);
-            this.SizeLayoutPanel.Location = new System.Drawing.Point(7, 20);
+            this.SizeLayoutPanel.Location = new System.Drawing.Point(7, 31);
             this.SizeLayoutPanel.Name = "SizeLayoutPanel";
-            this.SizeLayoutPanel.Size = new System.Drawing.Size(113, 329);
+            this.SizeLayoutPanel.Size = new System.Drawing.Size(158, 402);
             this.SizeLayoutPanel.TabIndex = 0;
             // 
             // SmallSizeRadioButton
             // 
             this.SmallSizeRadioButton.AutoSize = true;
+            this.SmallSizeRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SmallSizeRadioButton.Location = new System.Drawing.Point(3, 3);
             this.SmallSizeRadioButton.Name = "SmallSizeRadioButton";
-            this.SmallSizeRadioButton.Size = new System.Drawing.Size(85, 17);
+            this.SmallSizeRadioButton.Size = new System.Drawing.Size(133, 28);
             this.SmallSizeRadioButton.TabIndex = 0;
             this.SmallSizeRadioButton.TabStop = true;
             this.SmallSizeRadioButton.Text = "radioButton1";
@@ -158,9 +160,10 @@
             // MeduimSizeRadioButton
             // 
             this.MeduimSizeRadioButton.AutoSize = true;
-            this.MeduimSizeRadioButton.Location = new System.Drawing.Point(3, 26);
+            this.MeduimSizeRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MeduimSizeRadioButton.Location = new System.Drawing.Point(3, 37);
             this.MeduimSizeRadioButton.Name = "MeduimSizeRadioButton";
-            this.MeduimSizeRadioButton.Size = new System.Drawing.Size(85, 17);
+            this.MeduimSizeRadioButton.Size = new System.Drawing.Size(133, 28);
             this.MeduimSizeRadioButton.TabIndex = 1;
             this.MeduimSizeRadioButton.TabStop = true;
             this.MeduimSizeRadioButton.Text = "radioButton2";
@@ -170,9 +173,10 @@
             // LargeSizeRadioButton
             // 
             this.LargeSizeRadioButton.AutoSize = true;
-            this.LargeSizeRadioButton.Location = new System.Drawing.Point(3, 49);
+            this.LargeSizeRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LargeSizeRadioButton.Location = new System.Drawing.Point(3, 71);
             this.LargeSizeRadioButton.Name = "LargeSizeRadioButton";
-            this.LargeSizeRadioButton.Size = new System.Drawing.Size(85, 17);
+            this.LargeSizeRadioButton.Size = new System.Drawing.Size(133, 28);
             this.LargeSizeRadioButton.TabIndex = 2;
             this.LargeSizeRadioButton.TabStop = true;
             this.LargeSizeRadioButton.Text = "radioButton3";
@@ -182,9 +186,10 @@
             // ExtraLargeSizeRadioButton
             // 
             this.ExtraLargeSizeRadioButton.AutoSize = true;
-            this.ExtraLargeSizeRadioButton.Location = new System.Drawing.Point(3, 72);
+            this.ExtraLargeSizeRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExtraLargeSizeRadioButton.Location = new System.Drawing.Point(3, 105);
             this.ExtraLargeSizeRadioButton.Name = "ExtraLargeSizeRadioButton";
-            this.ExtraLargeSizeRadioButton.Size = new System.Drawing.Size(85, 17);
+            this.ExtraLargeSizeRadioButton.Size = new System.Drawing.Size(133, 28);
             this.ExtraLargeSizeRadioButton.TabIndex = 3;
             this.ExtraLargeSizeRadioButton.TabStop = true;
             this.ExtraLargeSizeRadioButton.Text = "radioButton4";
@@ -194,12 +199,13 @@
             // CrustGroupBox
             // 
             this.CrustGroupBox.Controls.Add(this.CrustLayoutPanel);
-            this.CrustGroupBox.Location = new System.Drawing.Point(268, 301);
+            this.CrustGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CrustGroupBox.Location = new System.Drawing.Point(189, 236);
             this.CrustGroupBox.Name = "CrustGroupBox";
-            this.CrustGroupBox.Size = new System.Drawing.Size(186, 355);
+            this.CrustGroupBox.Size = new System.Drawing.Size(161, 439);
             this.CrustGroupBox.TabIndex = 7;
             this.CrustGroupBox.TabStop = false;
-            this.CrustGroupBox.Text = "groupBox2";
+            this.CrustGroupBox.Text = "Crust";
             // 
             // CrustLayoutPanel
             // 
@@ -209,17 +215,18 @@
             this.CrustLayoutPanel.Controls.Add(this.ThinCrustRadioButton);
             this.CrustLayoutPanel.Controls.Add(this.PanCrustRadioButton);
             this.CrustLayoutPanel.Controls.Add(this.RegularCrustRadioButton);
-            this.CrustLayoutPanel.Location = new System.Drawing.Point(7, 20);
+            this.CrustLayoutPanel.Location = new System.Drawing.Point(7, 31);
             this.CrustLayoutPanel.Name = "CrustLayoutPanel";
-            this.CrustLayoutPanel.Size = new System.Drawing.Size(173, 329);
+            this.CrustLayoutPanel.Size = new System.Drawing.Size(148, 402);
             this.CrustLayoutPanel.TabIndex = 0;
             // 
             // ThinCrustRadioButton
             // 
             this.ThinCrustRadioButton.AutoSize = true;
+            this.ThinCrustRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ThinCrustRadioButton.Location = new System.Drawing.Point(3, 3);
             this.ThinCrustRadioButton.Name = "ThinCrustRadioButton";
-            this.ThinCrustRadioButton.Size = new System.Drawing.Size(85, 17);
+            this.ThinCrustRadioButton.Size = new System.Drawing.Size(133, 28);
             this.ThinCrustRadioButton.TabIndex = 3;
             this.ThinCrustRadioButton.TabStop = true;
             this.ThinCrustRadioButton.Text = "radioButton1";
@@ -230,9 +237,10 @@
             // PanCrustRadioButton
             // 
             this.PanCrustRadioButton.AutoSize = true;
-            this.PanCrustRadioButton.Location = new System.Drawing.Point(3, 26);
+            this.PanCrustRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanCrustRadioButton.Location = new System.Drawing.Point(3, 37);
             this.PanCrustRadioButton.Name = "PanCrustRadioButton";
-            this.PanCrustRadioButton.Size = new System.Drawing.Size(85, 17);
+            this.PanCrustRadioButton.Size = new System.Drawing.Size(133, 28);
             this.PanCrustRadioButton.TabIndex = 4;
             this.PanCrustRadioButton.TabStop = true;
             this.PanCrustRadioButton.Text = "radioButton2";
@@ -243,9 +251,10 @@
             // RegularCrustRadioButton
             // 
             this.RegularCrustRadioButton.AutoSize = true;
-            this.RegularCrustRadioButton.Location = new System.Drawing.Point(3, 49);
+            this.RegularCrustRadioButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegularCrustRadioButton.Location = new System.Drawing.Point(3, 71);
             this.RegularCrustRadioButton.Name = "RegularCrustRadioButton";
-            this.RegularCrustRadioButton.Size = new System.Drawing.Size(85, 17);
+            this.RegularCrustRadioButton.Size = new System.Drawing.Size(133, 28);
             this.RegularCrustRadioButton.TabIndex = 5;
             this.RegularCrustRadioButton.TabStop = true;
             this.RegularCrustRadioButton.Text = "radioButton3";
@@ -256,11 +265,13 @@
             // ToppingsGroupBox
             // 
             this.ToppingsGroupBox.Controls.Add(this.ToppingsLayoutPanel);
-            this.ToppingsGroupBox.Location = new System.Drawing.Point(474, 301);
+            this.ToppingsGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ToppingsGroupBox.Location = new System.Drawing.Point(356, 236);
             this.ToppingsGroupBox.Name = "ToppingsGroupBox";
-            this.ToppingsGroupBox.Size = new System.Drawing.Size(754, 355);
+            this.ToppingsGroupBox.Size = new System.Drawing.Size(912, 439);
             this.ToppingsGroupBox.TabIndex = 7;
             this.ToppingsGroupBox.TabStop = false;
+            this.ToppingsGroupBox.Text = "Toppings";
             // 
             // ToppingsLayoutPanel
             // 
@@ -276,70 +287,80 @@
             this.ToppingsLayoutPanel.Controls.Add(this.templatePizzaTopping7);
             this.ToppingsLayoutPanel.Controls.Add(this.templatePizzaTopping8);
             this.ToppingsLayoutPanel.Controls.Add(this.templatePizzaTopping9);
-            this.ToppingsLayoutPanel.Location = new System.Drawing.Point(7, 20);
+            this.ToppingsLayoutPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ToppingsLayoutPanel.Location = new System.Drawing.Point(7, 31);
             this.ToppingsLayoutPanel.Name = "ToppingsLayoutPanel";
-            this.ToppingsLayoutPanel.Size = new System.Drawing.Size(741, 329);
+            this.ToppingsLayoutPanel.Size = new System.Drawing.Size(900, 402);
             this.ToppingsLayoutPanel.TabIndex = 0;
             // 
             // templatePizzaTopping1
             // 
-            this.templatePizzaTopping1.Location = new System.Drawing.Point(3, 3);
+            this.templatePizzaTopping1.Location = new System.Drawing.Point(0, 0);
+            this.templatePizzaTopping1.Margin = new System.Windows.Forms.Padding(0);
             this.templatePizzaTopping1.Name = "templatePizzaTopping1";
             this.templatePizzaTopping1.Size = new System.Drawing.Size(238, 103);
             this.templatePizzaTopping1.TabIndex = 0;
             // 
             // templatePizzaTopping2
             // 
-            this.templatePizzaTopping2.Location = new System.Drawing.Point(247, 3);
+            this.templatePizzaTopping2.Location = new System.Drawing.Point(238, 0);
+            this.templatePizzaTopping2.Margin = new System.Windows.Forms.Padding(0);
             this.templatePizzaTopping2.Name = "templatePizzaTopping2";
             this.templatePizzaTopping2.Size = new System.Drawing.Size(238, 103);
             this.templatePizzaTopping2.TabIndex = 1;
             // 
             // templatePizzaTopping3
             // 
-            this.templatePizzaTopping3.Location = new System.Drawing.Point(491, 3);
+            this.templatePizzaTopping3.Location = new System.Drawing.Point(476, 0);
+            this.templatePizzaTopping3.Margin = new System.Windows.Forms.Padding(0);
             this.templatePizzaTopping3.Name = "templatePizzaTopping3";
             this.templatePizzaTopping3.Size = new System.Drawing.Size(238, 103);
             this.templatePizzaTopping3.TabIndex = 2;
             // 
             // templatePizzaTopping4
             // 
-            this.templatePizzaTopping4.Location = new System.Drawing.Point(3, 112);
+            this.templatePizzaTopping4.Location = new System.Drawing.Point(0, 103);
+            this.templatePizzaTopping4.Margin = new System.Windows.Forms.Padding(0);
             this.templatePizzaTopping4.Name = "templatePizzaTopping4";
             this.templatePizzaTopping4.Size = new System.Drawing.Size(238, 103);
             this.templatePizzaTopping4.TabIndex = 3;
             // 
             // templatePizzaTopping5
             // 
-            this.templatePizzaTopping5.Location = new System.Drawing.Point(247, 112);
+            this.templatePizzaTopping5.Location = new System.Drawing.Point(238, 103);
+            this.templatePizzaTopping5.Margin = new System.Windows.Forms.Padding(0);
             this.templatePizzaTopping5.Name = "templatePizzaTopping5";
             this.templatePizzaTopping5.Size = new System.Drawing.Size(238, 103);
             this.templatePizzaTopping5.TabIndex = 4;
             // 
             // templatePizzaTopping6
             // 
-            this.templatePizzaTopping6.Location = new System.Drawing.Point(491, 112);
+            this.templatePizzaTopping6.Location = new System.Drawing.Point(476, 103);
+            this.templatePizzaTopping6.Margin = new System.Windows.Forms.Padding(0);
             this.templatePizzaTopping6.Name = "templatePizzaTopping6";
             this.templatePizzaTopping6.Size = new System.Drawing.Size(238, 103);
             this.templatePizzaTopping6.TabIndex = 5;
             // 
             // templatePizzaTopping7
             // 
-            this.templatePizzaTopping7.Location = new System.Drawing.Point(3, 221);
+            this.templatePizzaTopping7.Location = new System.Drawing.Point(0, 206);
+            this.templatePizzaTopping7.Margin = new System.Windows.Forms.Padding(0);
             this.templatePizzaTopping7.Name = "templatePizzaTopping7";
             this.templatePizzaTopping7.Size = new System.Drawing.Size(238, 103);
             this.templatePizzaTopping7.TabIndex = 6;
             // 
             // templatePizzaTopping8
             // 
-            this.templatePizzaTopping8.Location = new System.Drawing.Point(247, 221);
+            this.templatePizzaTopping8.Location = new System.Drawing.Point(238, 206);
+            this.templatePizzaTopping8.Margin = new System.Windows.Forms.Padding(0);
             this.templatePizzaTopping8.Name = "templatePizzaTopping8";
             this.templatePizzaTopping8.Size = new System.Drawing.Size(238, 103);
             this.templatePizzaTopping8.TabIndex = 7;
             // 
             // templatePizzaTopping9
             // 
-            this.templatePizzaTopping9.Location = new System.Drawing.Point(491, 221);
+            this.templatePizzaTopping9.Location = new System.Drawing.Point(476, 206);
+            this.templatePizzaTopping9.Margin = new System.Windows.Forms.Padding(0);
             this.templatePizzaTopping9.Name = "templatePizzaTopping9";
             this.templatePizzaTopping9.Size = new System.Drawing.Size(238, 103);
             this.templatePizzaTopping9.TabIndex = 8;

@@ -39,7 +39,41 @@ namespace MomsAndPopsPizzaria
             int i = 0;
             foreach(TemplatePizzaTopping template in templatePizzaToppingsCollection)
             {
-                template.Topping = new Item(Enum.GetName(typeof(Pizza.Toppings), i), 1, toppingPrice);
+                string toppingName = "";
+
+                switch (i)
+                {
+                    case (int)Pizza.Toppings.cheese:
+                        toppingName = "Cheese";
+                        break;
+                    case (int)Pizza.Toppings.pepperoni:
+                        toppingName = "Pepperoni";
+                        break;
+                    case (int)Pizza.Toppings.sausage:
+                        toppingName = "Sausage";
+                        break;
+                    case (int)Pizza.Toppings.ham:
+                        toppingName = "Ham";
+                        break;
+                    case (int)Pizza.Toppings.greenPeppers:
+                        toppingName = "Green Peppers";
+                        break;
+                    case (int)Pizza.Toppings.onions:
+                        toppingName = "Onion";
+                        break;
+                    case (int)Pizza.Toppings.tomatoes:
+                        toppingName = "Tomato";
+                        break;
+                    case (int)Pizza.Toppings.mushrooms:
+                        toppingName = "Mushroom";
+                        break;
+                    case (int)Pizza.Toppings.pineapple:
+                        toppingName = "Pineapple";
+                        break;
+                }
+
+                template.Topping = new Item(toppingName, 1, toppingPrice);
+                template.Setup();
                 i++;
             }
         }
@@ -71,28 +105,26 @@ namespace MomsAndPopsPizzaria
 
         private void MeduimSizeRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-
             toppingPrice = 0.75f;
             pizza.SelectedSize = Pizza.Sizes.medium;
         }
 
         private void LargeSizeRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-
             toppingPrice = 1.00f;
             pizza.SelectedSize = Pizza.Sizes.large;
         }
 
         private void ExtraLargeSizeRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-
             toppingPrice = 1.25f;
             pizza.SelectedSize = Pizza.Sizes.extraLarge;
         }
 
         private void AddToCartButton_Click(object sender, EventArgs e)
         {
-
+            updateCart();
+            Parent.OpenForm("Menu");
         }
 
         private void ThinCrustRadioButton_CheckedChanged(object sender, EventArgs e)

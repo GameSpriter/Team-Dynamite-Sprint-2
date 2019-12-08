@@ -19,9 +19,12 @@ namespace MomsAndPopsPizzaria
             InitializeComponent();
         }
 
-        public void Setup(string ToppingName)
+        public void Setup()
         {
-            ToppingImageBox.Image = Image.FromFile(ToppingName);
+            ToppingImageBox.Image = Properties.Resources.Pepperoni;
+            Console.WriteLine(ToppingImageBox.Image.Height);
+            ToppingCheckBox.Text = Topping.Name;
+            ToppingExtraCheckBox.Text = "Extra " + Topping.Name;
         }
     }
 }
