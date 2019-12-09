@@ -38,49 +38,54 @@
             // PasswordText
             // 
             this.PasswordText.AutoSize = true;
-            this.PasswordText.Location = new System.Drawing.Point(4, 4);
+            this.PasswordText.Location = new System.Drawing.Point(5, 5);
+            this.PasswordText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PasswordText.Name = "PasswordText";
-            this.PasswordText.Size = new System.Drawing.Size(35, 13);
+            this.PasswordText.Size = new System.Drawing.Size(74, 17);
             this.PasswordText.TabIndex = 0;
-            this.PasswordText.Text = "label1";
+            this.PasswordText.Text = "Password*";
             // 
             // PasswordTextBox
             // 
-            this.PasswordTextBox.Location = new System.Drawing.Point(4, 21);
+            this.PasswordTextBox.Location = new System.Drawing.Point(5, 26);
+            this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PasswordTextBox.Name = "PasswordTextBox";
-            this.PasswordTextBox.Size = new System.Drawing.Size(182, 20);
+            this.PasswordTextBox.Size = new System.Drawing.Size(241, 22);
             this.PasswordTextBox.TabIndex = 1;
             // 
             // ConformPasswordTextBox
             // 
-            this.ConformPasswordTextBox.Location = new System.Drawing.Point(192, 21);
+            this.ConformPasswordTextBox.Location = new System.Drawing.Point(256, 26);
+            this.ConformPasswordTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ConformPasswordTextBox.Name = "ConformPasswordTextBox";
-            this.ConformPasswordTextBox.Size = new System.Drawing.Size(182, 20);
+            this.ConformPasswordTextBox.Size = new System.Drawing.Size(241, 22);
             this.ConformPasswordTextBox.TabIndex = 3;
             // 
             // ConfirmPasswordText
             // 
             this.ConfirmPasswordText.AutoSize = true;
-            this.ConfirmPasswordText.Location = new System.Drawing.Point(192, 4);
+            this.ConfirmPasswordText.Location = new System.Drawing.Point(256, 5);
+            this.ConfirmPasswordText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ConfirmPasswordText.Name = "ConfirmPasswordText";
-            this.ConfirmPasswordText.Size = new System.Drawing.Size(35, 13);
+            this.ConfirmPasswordText.Size = new System.Drawing.Size(126, 17);
             this.ConfirmPasswordText.TabIndex = 2;
-            this.ConfirmPasswordText.Text = "label1";
+            this.ConfirmPasswordText.Text = "Confirm Password*";
             // 
             // ErrorText
             // 
             this.ErrorText.AutoSize = true;
             this.ErrorText.BackColor = System.Drawing.Color.Transparent;
             this.ErrorText.ForeColor = System.Drawing.Color.Red;
-            this.ErrorText.Location = new System.Drawing.Point(180, 48);
+            this.ErrorText.Location = new System.Drawing.Point(240, 59);
+            this.ErrorText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ErrorText.Name = "ErrorText";
-            this.ErrorText.Size = new System.Drawing.Size(35, 13);
+            this.ErrorText.Size = new System.Drawing.Size(79, 17);
             this.ErrorText.TabIndex = 4;
-            this.ErrorText.Text = "label1";
+            this.ErrorText.Text = "* Required ";
             // 
             // TemplateNewPassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.Controls.Add(this.ErrorText);
@@ -88,8 +93,9 @@
             this.Controls.Add(this.ConfirmPasswordText);
             this.Controls.Add(this.PasswordTextBox);
             this.Controls.Add(this.PasswordText);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TemplateNewPassword";
-            this.Size = new System.Drawing.Size(382, 72);
+            this.Size = new System.Drawing.Size(509, 89);
             this.ResumeLayout(false);
             this.PerformLayout();
 
