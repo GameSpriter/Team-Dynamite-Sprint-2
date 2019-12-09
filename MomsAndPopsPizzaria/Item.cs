@@ -5,14 +5,21 @@ using System.Text;
 
 namespace MomsAndPopsPizzaria
 {
+    /// <summary>
+    /// This allows Items to be created with a Name, Count, and Price. For use with Toppings, Drinks, Appetizers, and Deserts
+    /// </summary>
     public class Item
-    ///This class allows new items to be created
     {
         public string Name;
         public int Count;
         public float Price;
-<<<<<<< HEAD
 
+        /// <summary>
+        /// Constructor for Item
+        /// </summary>
+        /// <param name="Name">The name of the item</param>
+        /// <param name="Count">The count of the item</param>
+        /// <param name="Price">The price of the item</param>
         public Item(string Name, int Count, float Price)
         {
             this.Name = Name;
@@ -20,15 +27,4 @@ namespace MomsAndPopsPizzaria
             this.Price = Price;
         }
     }
-=======
->>>>>>> master
-
-        public Item(string n, int c, float p)
-        {
-            Name = n;
-            Count = c;
-            Price = p;
-        }
-    }
-
 }

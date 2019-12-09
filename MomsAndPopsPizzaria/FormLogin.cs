@@ -13,19 +13,11 @@ namespace MomsAndPopsPizzaria
 {
     public partial class FormLogin : Form
     {
-<<<<<<< HEAD
         FormController Parent;
-
-        public FormLogin(FormController Parent)
-=======
-        FormSignUp signUpForm = new FormSignUp();
-        FormMenu menuForm = new FormMenu();
-        //FormResetPassword forgotPassword = new FormResetPassword();
 
         public string filename = "LoginInfo.txt";
         
-        public FormLogin()
->>>>>>> master
+        public FormLogin(FormController Parent)
         {
             this.Parent = Parent;
             InitializeComponent();
@@ -41,40 +33,28 @@ namespace MomsAndPopsPizzaria
         {
             if (EmailTextBox.Text != " " && PasswordTextBox.Text !=" ")
             {
-                try
+                if (!File.Exists(filename))
                 {
-                    if (!File.Exists(filename))
-                    {
-                        using (var stream = File.Create(filename));
-                    }
+                    using (var stream = File.Create(filename));
+                }
                     
-                    else if(filename != null)
+                else if(filename != null)
+                {
+                    string readText = File.ReadAllText(filename);
+                    if (readText.Contains(EmailTextBox.Text) == true && readText.Contains(PasswordTextBox.Text)==true)
                     {
-                        string readText = File.ReadAllText(filename);
-                        if (readText.Contains(EmailTextBox.Text) == true && readText.Contains(PasswordTextBox.Text)==true)
-                        {
-                            MessageBox.Show("Logged In!");
-                            menuForm.Show();
-                        }
-                        else
-                        {
-                            using (StreamWriter sw = File.AppendText(filename))
-                            {
-                                sw.WriteLine("Email/Username: " + EmailTextBox.Text + "," + " Password: " + PasswordTextBox.Text);
-                            }
-                            MessageBox.Show("Account Created!");
-                            menuForm.Show();
-                        }
+                        MessageBox.Show("Logged In!");
+                        Parent.OpenForm("FormMenu");
                     }
-
-                }
-                catch (Exception ex)
-                {
-                    throw ex;
-                }
-                finally
-                {
-                    menuForm.Activate();
+                    else
+                    {
+                        using (StreamWriter sw = File.AppendText(filename))
+                        {
+                            sw.WriteLine("Email/Username: " + EmailTextBox.Text + "," + " Password: " + PasswordTextBox.Text);
+                        }
+                        MessageBox.Show("Account Created!");
+                        Parent.OpenForm("FormMenu");
+                    }
                 }
             }
             else
@@ -89,20 +69,7 @@ namespace MomsAndPopsPizzaria
         /// <param name="e"></param>
         private void SignUpButton_Click(object sender, EventArgs e)
         {
-            try
-            {
-                signUpForm.Show();
-            }
-
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-
-            finally
-            {
-                //this.Hide();    
-            }
+            Parent.OpenForm("FormSignup");
         }
 
         /// <summary>

@@ -5,17 +5,17 @@ using System.Text;
 
 namespace MomsAndPopsPizzaria
 {
+    /// <summary>
+    /// This class contains functions related to a Pizza that the customer orders
+    /// </summary>
     public class Pizza
-    ///This class contains functions related to a Pizza that the customer orders
     {
-
         public enum Crusts 
-
         {
             regular = 0,
             thin = 1,
             pan = 2,
-        };
+        }
         public Crusts SelectedCrust;
 
         public enum Sizes 
@@ -24,7 +24,7 @@ namespace MomsAndPopsPizzaria
             medium = 1,
             large = 2,
             extraLarge = 3,
-        };
+        }
         public Sizes SelectedSize;
 
         public enum Toppings 
@@ -38,7 +38,7 @@ namespace MomsAndPopsPizzaria
             sausage = 6,
             onions = 7,
             pineapple = 8,
-        };
+        }
         public List<Item> SelectedToppings;
         public float price;
 
@@ -46,10 +46,7 @@ namespace MomsAndPopsPizzaria
         {
             SelectedCrust = 0;
             SelectedSize = 0;
-<<<<<<< HEAD
             SelectedToppings = new List<Item>();
-=======
->>>>>>> master
         }
 
         public Pizza(Crusts c, Sizes s, List<Item> st)
@@ -71,13 +68,9 @@ namespace MomsAndPopsPizzaria
 
         public void addTopping(string topping)
         {
-<<<<<<< HEAD
-            SelectedToppings.Add(new Item(topping, 1, 0f));
-=======
-
             for(int i = 0; i < SelectedToppings.Count; i++)
             {
-                if(SelectedToppings[i] == topping)
+                if(SelectedToppings[i].Name == topping)
                 {
                     SelectedToppings[i].Count ++;
                 }
@@ -90,17 +83,11 @@ namespace MomsAndPopsPizzaria
                     
                 }
             }
->>>>>>> master
         }
 
         public void updatePrice()
         {
-<<<<<<< HEAD
-            if(SelectedSize == Sizes.small) 
-=======
-
-            if(SelectedSize == 0) 
->>>>>>> master
+            if(SelectedSize == Sizes.small)
             {
                 price = 4.00f;
             }
@@ -116,17 +103,6 @@ namespace MomsAndPopsPizzaria
             {
                 price = 10.00f;
             }
-<<<<<<< HEAD
-=======
-
-            for(int i = 0; i < SelectedToppings.Count; i++)
-            {
-                if(SelectedToppings[i] > 1)
-                {
-                    price += 1.00;
-                }
-            }
->>>>>>> master
         }
     }
 }

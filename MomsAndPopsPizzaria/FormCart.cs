@@ -22,11 +22,7 @@ namespace MomsAndPopsPizzaria
 
         private void FormCart_Load(object sender, EventArgs e)
         {
-<<<<<<< HEAD
 
-=======
-            pageTemplate1.ChangePageTitle("Pizza");
->>>>>>> master
         }
     }
 }
