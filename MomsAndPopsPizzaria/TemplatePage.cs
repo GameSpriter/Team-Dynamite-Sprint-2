@@ -17,11 +17,7 @@ namespace MomsAndPopsPizzaria
             InitializeComponent();
         }
 
-<<<<<<< HEAD
-        public void ChangeName(string newPageTitle)
-=======
         public void ChangePageTitle(string newPageTitle)
->>>>>>> master
         {
             PageTitle.Text = newPageTitle;
         }

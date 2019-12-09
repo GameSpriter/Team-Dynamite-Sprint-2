@@ -45,7 +45,6 @@ E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\De
 <<<<<<< HEAD
 E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormController.resources
 =======
-
 C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.csprojAssemblyReference.cache
 C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplatePizzaCartDisplay.resources
 C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateAddress.resources
@@ -109,5 +108,4 @@ C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug
 C:\Users\skolw\source\repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\bin\Debug\MomsAndPopsPizzaria.exe.config
 C:\Users\skolw\source\repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\bin\Debug\MomsAndPopsPizzaria.exe
 C:\Users\skolw\source\repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\bin\Debug\MomsAndPopsPizzaria.pdb
-
 >>>>>>> master

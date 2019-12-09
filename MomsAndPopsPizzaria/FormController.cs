@@ -29,7 +29,8 @@ namespace MomsAndPopsPizzaria
         {
             pizzas = new List<Pizza>();
 
-            child = new FormLogin(this);
+            //CHANGE THE NEXT LINE TO CHANGE WHAT FORM OPENS
+            child = new FormCustomPizza(this);
             child.Show();
             formHider.Interval = 20;
             formHider.Enabled = true;

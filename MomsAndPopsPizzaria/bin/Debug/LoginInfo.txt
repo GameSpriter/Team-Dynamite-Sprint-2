@@ -1,2 +1,3 @@
 Email/Username: test1, Password: 12345
 Email/Username: test2, Password: 67890
+Email/Username: Admin, Password:  Password1234

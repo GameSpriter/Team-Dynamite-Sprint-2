@@ -43,7 +43,8 @@
             this.PageTitle.Size = new System.Drawing.Size(176, 42);
             this.PageTitle.TabIndex = 2;
             this.PageTitle.Text = "PageTitle";
-            this.PageTitle.Click += new System.EventHandler(this.PageTitle_Click);
+            //Removed as this functionality is for a future update
+            //this.PageTitle.Click += new System.EventHandler(this.PageTitle_Click);
             // 
             // bottomBarTemplate1
             // 
@@ -56,22 +57,12 @@
             // 
             // topBarTemplate1
             // 
-<<<<<<< HEAD
-            this.PageTitle.AutoSize = true;
-            this.PageTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PageTitle.Location = new System.Drawing.Point(4, 164);
-            this.PageTitle.Name = "PageTitle";
-            this.PageTitle.Size = new System.Drawing.Size(151, 37);
-            this.PageTitle.TabIndex = 2;
-            this.PageTitle.Text = "PageTitle";
-=======
             this.topBarTemplate1.BackColor = System.Drawing.Color.Gainsboro;
             this.topBarTemplate1.Location = new System.Drawing.Point(0, 0);
             this.topBarTemplate1.Margin = new System.Windows.Forms.Padding(0);
             this.topBarTemplate1.Name = "topBarTemplate1";
             this.topBarTemplate1.Size = new System.Drawing.Size(1707, 197);
             this.topBarTemplate1.TabIndex = 0;
->>>>>>> master
             // 
             // TemplatePage
             // 
@@ -83,7 +74,8 @@
             this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "TemplatePage";
             this.Size = new System.Drawing.Size(1707, 886);
-            this.Load += new System.EventHandler(this.TemplatePage_Load);
+            //Removed as this functionality is for a future update
+            //this.Load += new System.EventHandler(this.TemplatePage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

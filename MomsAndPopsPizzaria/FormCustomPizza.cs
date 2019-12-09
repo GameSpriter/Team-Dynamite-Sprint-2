@@ -36,7 +36,7 @@ namespace MomsAndPopsPizzaria
         private void FormCustomPizza_Load(object sender, EventArgs e)
         {
             pizza = new Pizza();
-            templatePage1.ChangeName("Pizza");
+            templatePage1.ChangePageTitle("Pizza");
 
             //Setup for Template toppings
             int i = 0;
