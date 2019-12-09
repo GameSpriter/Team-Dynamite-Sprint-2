@@ -32,27 +32,30 @@ namespace MomsAndPopsPizzaria
         /// <param name="e"></param>
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            if (EmailTextBox != null && PasswordTextBox != null)
+            if (EmailTextBox.Text != " " && PasswordTextBox.Text !=" ")
             {
                 try
                 {
-
                     if (!File.Exists(filename))
                     {
-                        using (var stream = File.Create(filename)) ;
+                        using (var stream = File.Create(filename));
                     }
-
+                    
                     else if(filename != null)
                     {
                         string readText = File.ReadAllText(filename);
                         if (readText.Contains(EmailTextBox.Text) == true && readText.Contains(PasswordTextBox.Text)==true)
                         {
+                            MessageBox.Show("Logged In!");
                             menuForm.Show();
                         }
                         else
                         {
-                            File.WriteAllText(filename, "Email/Username: " + EmailTextBox.Text + "," + " Password: " + PasswordTextBox.Text);
-                            Console.WriteLine("Account Created!");
+                            using (StreamWriter sw = File.AppendText(filename))
+                            {
+                                sw.WriteLine("Email/Username: " + EmailTextBox.Text + "," + " Password: " + PasswordTextBox.Text);
+                            }
+                            MessageBox.Show("Account Created!");
                             menuForm.Show();
                         }
                     }
@@ -64,12 +67,12 @@ namespace MomsAndPopsPizzaria
                 }
                 finally
                 {
-                    
+                    menuForm.Activate();
                 }
             }
             else
             {
-                Console.WriteLine("Enter username and password");
+                MessageBox.Show("Enter username and password");
             }
         }
         /// <summary>

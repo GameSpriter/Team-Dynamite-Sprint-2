@@ -52,14 +52,13 @@ namespace MomsAndPopsPizzaria
             {
                 menuForm.Show();
             }
-            catch (Exception ex)
+            catch (ObjectDisposedException ex)
             {
-
-                throw(ex);
+                throw ex;
             }
             finally
             {
-                this.Hide();
+                //this.Hide();
             }
         }
 

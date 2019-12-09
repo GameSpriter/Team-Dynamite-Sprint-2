@@ -1,1 +1,2 @@
-Email/Username: rhandsd, Password: sdsifnnn
+Email/Username: test1, Password: 12345
+Email/Username: test2, Password: 67890
