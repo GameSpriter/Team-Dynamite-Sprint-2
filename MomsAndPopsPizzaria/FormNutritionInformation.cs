@@ -12,8 +12,11 @@ namespace MomsAndPopsPizzaria
 {
     public partial class FormNutritionInformation : Form
     {
-        public FormNutritionInformation()
+        FormController Parent;
+
+        public FormNutritionInformation(FormController Parent)
         {
+            this.Parent = Parent;
             InitializeComponent();
         }
     }

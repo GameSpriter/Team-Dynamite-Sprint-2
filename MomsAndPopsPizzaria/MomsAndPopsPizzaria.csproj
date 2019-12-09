@@ -93,6 +93,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
+    <Compile Include="FormController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormController.Designer.cs">
+      <DependentUpon>FormController.cs</DependentUpon>
+    </Compile>
     <Compile Include="TemplatePizzaCartDisplay.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -248,6 +254,9 @@
       <DependentUpon>TemplateTopBar.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="FormController.resx">
+      <DependentUpon>FormController.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TemplatePizzaCartDisplay.resx">
       <DependentUpon>TemplatePizzaCartDisplay.cs</DependentUpon>
     </EmbeddedResource>
@@ -322,6 +331,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="TemplateNewPassword.resx">
       <DependentUpon>TemplateNewPassword.cs</DependentUpon>
@@ -358,6 +368,36 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Cheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Green Peppers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Ham.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Mushroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Onion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Pepperoni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Pineapple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Sausage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Tomato.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

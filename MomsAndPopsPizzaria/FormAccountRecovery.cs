@@ -12,8 +12,11 @@ namespace MomsAndPopsPizzaria
 {
     public partial class FormAccountRecovery : Form
     {
-        public FormAccountRecovery()
+        FormController Parent;
+
+        public FormAccountRecovery(FormController Parent)
         {
+            this.Parent = Parent;
             InitializeComponent();
         }
 

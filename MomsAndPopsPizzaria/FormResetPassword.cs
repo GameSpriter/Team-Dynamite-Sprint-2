@@ -12,8 +12,11 @@ namespace MomsAndPopsPizzaria
 {
     public partial class FormResetPassword : Form
     {
-        public FormResetPassword()
+        FormController Parent;
+
+        public FormResetPassword(FormController Parent)
         {
+            this.Parent = Parent;
             InitializeComponent();
         }
 

@@ -12,11 +12,13 @@ namespace MomsAndPopsPizzaria
 {
     public partial class FormHome : Form
     {
-        FormLogin loginForm = new FormLogin();
-        FormMenu menuForm = new FormMenu();
-        public FormHome()
+        FormController Parent;
+
+        public FormHome(FormController Parent)
         {
+            this.Parent = Parent;
             InitializeComponent();
+            Parent.Hide(); //Hiding FormController didn't work in FormController's constructor due to timings
         }
 
         /// <summary>
@@ -26,19 +28,7 @@ namespace MomsAndPopsPizzaria
         /// <param name="e"></param>
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            try
-            {
-                loginForm.Show();
-
-            }
-            catch (ObjectDisposedException ex)
-            {
-                throw ex;
-            }
-            finally
-            {
-                //this.Hide();
-            }
+            Parent.OpenForm("formLogin");
         }
 
         /// <summary>
@@ -48,18 +38,7 @@ namespace MomsAndPopsPizzaria
         /// <param name="e"></param>
         private void MenuButton_Click(object sender, EventArgs e)
         {
-            try
-            {
-                menuForm.Show();
-            }
-            catch (ObjectDisposedException ex)
-            {
-                throw ex;
-            }
-            finally
-            {
-                //this.Hide();
-            }
+            Parent.OpenForm("FormMenu");
         }
 
         private void pageTemplate1_Load(object sender, EventArgs e)
