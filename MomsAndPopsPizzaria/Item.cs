@@ -6,6 +6,7 @@ using System.Text;
 namespace MomsAndPopsPizzaria
 {
     public class Item
+    ///This class allows new items to be created
     {
         public string Name;
         public int Count;
@@ -18,4 +19,5 @@ namespace MomsAndPopsPizzaria
             Price = p;
         }
     }
+
 }
