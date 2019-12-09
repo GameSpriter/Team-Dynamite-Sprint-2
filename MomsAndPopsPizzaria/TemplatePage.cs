@@ -27,7 +27,7 @@ namespace MomsAndPopsPizzaria
         }
 
         /// <summary>
-        /// Template title
+        /// Template page title
         /// </summary>
         protected void TemplatePageTitle()
         {
