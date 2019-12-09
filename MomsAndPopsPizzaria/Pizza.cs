@@ -38,10 +38,10 @@ namespace MomsAndPopsPizzaria
         public List<Item> SelectedToppings;
         public float price;
 
-        public Pizze()
+        public Pizza()
         {
-            Crusts = 0;
-            Sizes = 0;
+            SelectedCrust = 0;
+            SelectedSize = 0;
         }
 
         public Pizza(Crusts c, Sizes s, List<Item> st)
@@ -70,7 +70,11 @@ namespace MomsAndPopsPizzaria
                 }
                 else
                 {
-                    SelectedToppings.Add(topping);
+                    if(SelectedToppings.Count < 4)
+                    {
+                        SelectedToppings.Add(new Item(topping, 1, 0f));
+                    }
+                    
                 }
             }
         }
