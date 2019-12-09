@@ -117,4 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Diet Orange" xml:space="preserve">
+    <value>$1.00</value>
+  </data>
+  <data name="Diet Pepsi" xml:space="preserve">
+    <value>$1.00</value>
+  </data>
+  <data name="Diet Root Beer" xml:space="preserve">
+    <value>$1.00</value>
+  </data>
+  <data name="Lemonade" xml:space="preserve">
+    <value>$1.00</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>$1.00</value>
+  </data>
+  <data name="Pepsi" xml:space="preserve">
+    <value>$1.00</value>
+  </data>
+  <data name="Root Beer" xml:space="preserve">
+    <value>$1.00</value>
+  </data>
+  <data name="Sierra Mist" xml:space="preserve">
+    <value>$1.00</value>
+  </data>
+  <data name="Water" xml:space="preserve">
+    <value>$1.00</value>
+  </data>
 </root>

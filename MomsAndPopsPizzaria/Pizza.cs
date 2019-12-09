@@ -6,6 +6,7 @@ using System.Text;
 namespace MomsAndPopsPizzaria
 {
     public class Pizza
+    ///This class contains functions related to a Pizza that the customer orders
     {
         public enum Crusts 
         {
@@ -37,7 +38,13 @@ namespace MomsAndPopsPizzaria
         public List<Item> SelectedToppings;
         public float price;
 
-        public Pizza(Crusts c, Size s, List<Item> st)
+        public Pizze()
+        {
+            Crusts = 0;
+            Sizes = 0;
+        }
+
+        public Pizza(Crusts c, Sizes s, List<Item> st)
         {
             SelectedCrust = c;
             SelectedSize = s;
@@ -46,12 +53,26 @@ namespace MomsAndPopsPizzaria
 
         public void addTopping(Item topping)
         {
-            SelectedToppings.Add(topping);
+            if(SelectedToppings.Count < 4)
+            {
+                SelectedToppings.Add(topping);
+            }
+            
         }
 
         public void addTopping(string topping)
         {
-            //What is the purpose of this method?
+            for(int i = 0; i < SelectedToppings.Count; i++)
+            {
+                if(SelectedToppings[i] == topping)
+                {
+                    SelectedToppings[i].Count ++;
+                }
+                else
+                {
+                    SelectedToppings.Add(topping);
+                }
+            }
         }
 
         private void updatePrice()
@@ -73,10 +94,14 @@ namespace MomsAndPopsPizzaria
                 price += 10.00;
             }
 
-            if(SelectedToppings.Count > 1)
+            for(int i = 0; i < SelectedToppings.Count; i++)
             {
-                price += 1.00;
+                if(SelectedToppings[i] > 1)
+                {
+                    price += 1.00;
+                }
             }
+            
 
         }
     }
