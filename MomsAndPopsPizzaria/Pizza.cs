@@ -6,15 +6,19 @@ using System.Text;
 namespace MomsAndPopsPizzaria
 {
     public class Pizza
+    ///This class contains functions related to a Pizza that the customer orders
     {
-        public enum Crusts
+
+        public enum Crusts 
+
         {
             regular = 0,
             thin = 1,
             pan = 2,
         };
         public Crusts SelectedCrust;
-        public enum Sizes
+
+        public enum Sizes 
         {
             small = 0,
             medium = 1,
@@ -22,7 +26,8 @@ namespace MomsAndPopsPizzaria
             extraLarge = 3,
         };
         public Sizes SelectedSize;
-        public enum Toppings
+
+        public enum Toppings 
         {
             cheese = 0,
             ham = 1,
@@ -52,38 +57,61 @@ namespace MomsAndPopsPizzaria
 
         public void addTopping(Item topping)
         {
-            SelectedToppings.Add(topping);
+
+            if(SelectedToppings.Count < 4)
+            {
+                SelectedToppings.Add(topping);
+            }
+            
         }
 
         public void addTopping(string topping)
         {
-            SelectedToppings.Add(new Item(topping, 1, 0f));
+
+            for(int i = 0; i < SelectedToppings.Count; i++)
+            {
+                if(SelectedToppings[i] == topping)
+                {
+                    SelectedToppings[i].Count ++;
+                }
+                else
+                {
+                    if(SelectedToppings.Count < 4)
+                    {
+                        SelectedToppings.Add(new Item(topping, 1, 0f));
+                    }
+                    
+                }
+            }
         }
 
         private void updatePrice()
         {
-            if (SelectedSize == Sizes.small)
+
+            if(SelectedSize == 0) 
             {
-                price += 4.00f;
+                price  += 4.00;
             }
-            else if (SelectedSize == Sizes.medium)
+            else if(SelectedSize == 1)
             {
-                price += 6.00f;
+                price += 6.00;
             }
-            else if (SelectedSize == Sizes.large)
+            else if(SelectedSize == 2)
             {
-                price += 8.00f;
-            }
-            else
+                price += 8.00;
+            } 
+            else 
             {
-                price += 10.00f;
+                price += 10.00;
             }
 
-            if (SelectedToppings.Count > 1)
+            for(int i = 0; i < SelectedToppings.Count; i++)
             {
-                price += 1.00f;
+                if(SelectedToppings[i] > 1)
+                {
+                    price += 1.00;
+                }
             }
-
         }
     }
 }
