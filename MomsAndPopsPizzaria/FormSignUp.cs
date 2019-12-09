@@ -63,5 +63,14 @@ namespace MomsAndPopsPizzaria
         {
 
         }
+
+        private void pageTemplate1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FirstLastNameUserControl_Load(object sender, EventArgs e)
+        {
+        }
     }
 }

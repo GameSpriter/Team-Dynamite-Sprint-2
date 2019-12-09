@@ -42,4 +42,72 @@ E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\De
 E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateMenuExtras.resources
 E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplatePizzaTopping.resources
 E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplatePizzaCartDisplay.resources
+<<<<<<< HEAD
 E:\Documents\repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormController.resources
+=======
+
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.csprojAssemblyReference.cache
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplatePizzaCartDisplay.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateAddress.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateBottomBar.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormAboutUs.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormAccountRecovery.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormCart.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormContactUs.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormCustomPizza.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormHome.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormLocation.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormLogin.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormMenu.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormNutritionInformation.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormPaymentCheckout.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormPolicyInformation.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormResetPassword.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormSignUp.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormUserSettings.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateMenuDrinks.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateMenuExtras.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateName.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplatePage.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.Properties.Resources.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateNewPassword.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplatePizzaTopping.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateTopBar.resources
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.csproj.GenerateResource.cache
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.exe
+C:\Users\Kai Stoessel\Source\Repos\GameSpriter\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.pdb
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.csprojAssemblyReference.cache
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplatePizzaCartDisplay.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateAddress.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateBottomBar.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormAboutUs.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormAccountRecovery.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormCart.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormContactUs.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormCustomPizza.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormHome.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormLocation.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormLogin.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormMenu.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormNutritionInformation.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormPaymentCheckout.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormPolicyInformation.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormResetPassword.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormSignUp.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.FormUserSettings.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateMenuDrinks.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateMenuExtras.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateName.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplatePage.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.Properties.Resources.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateNewPassword.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplatePizzaTopping.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.TemplateTopBar.resources
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.csproj.GenerateResource.cache
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.exe
+C:\Users\skolw\Source\Repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\obj\Debug\MomsAndPopsPizzaria.pdb
+C:\Users\skolw\source\repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\bin\Debug\MomsAndPopsPizzaria.exe.config
+C:\Users\skolw\source\repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\bin\Debug\MomsAndPopsPizzaria.exe
+C:\Users\skolw\source\repos\Team-Dynamite-Sprint-2\MomsAndPopsPizzaria\bin\Debug\MomsAndPopsPizzaria.pdb
+
+>>>>>>> master

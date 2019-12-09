@@ -16,7 +16,11 @@ namespace MomsAndPopsPizzaria
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new FormController());
+=======
+            Application.Run(new FormCart()); 
+>>>>>>> master
         }
     }
 }

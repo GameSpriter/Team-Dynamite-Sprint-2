@@ -39,6 +39,7 @@
             this.TotalValueText = new System.Windows.Forms.Label();
             this.PizzaLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.TipTextBox = new System.Windows.Forms.TextBox();
+            this.printPreviewControl1 = new System.Windows.Forms.PrintPreviewControl();
             this.CartTotalText = new System.Windows.Forms.Label();
             this.CheckoutButton = new System.Windows.Forms.Button();
             this.templatePizzaCartDisplay1 = new MomsAndPopsPizzaria.TemplatePizzaCartDisplay();
@@ -57,6 +58,7 @@
             this.pageTemplate1.Name = "pageTemplate1";
             this.pageTemplate1.Size = new System.Drawing.Size(1280, 720);
             this.pageTemplate1.TabIndex = 0;
+            this.pageTemplate1.Load += new System.EventHandler(this.FormCart_Load);
             // 
             // PizzasInCartLayoutPanel
             // 
@@ -160,6 +162,7 @@
             this.PizzaLayoutPanel.Controls.Add(this.TipTextBox);
             this.PizzaLayoutPanel.Controls.Add(this.TotalText);
             this.PizzaLayoutPanel.Controls.Add(this.TotalValueText);
+            this.PizzaLayoutPanel.Controls.Add(this.printPreviewControl1);
             this.PizzaLayoutPanel.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.PizzaLayoutPanel.Location = new System.Drawing.Point(1057, 247);
             this.PizzaLayoutPanel.Name = "PizzaLayoutPanel";
@@ -174,6 +177,13 @@
             this.TipTextBox.Name = "TipTextBox";
             this.TipTextBox.Size = new System.Drawing.Size(165, 20);
             this.TipTextBox.TabIndex = 10;
+            // 
+            // printPreviewControl1
+            // 
+            this.printPreviewControl1.Location = new System.Drawing.Point(177, 6);
+            this.printPreviewControl1.Name = "printPreviewControl1";
+            this.printPreviewControl1.Size = new System.Drawing.Size(8, 8);
+            this.printPreviewControl1.TabIndex = 11;
             // 
             // CartTotalText
             // 
@@ -193,7 +203,6 @@
             this.CheckoutButton.TabIndex = 6;
             this.CheckoutButton.Text = "button1";
             this.CheckoutButton.UseVisualStyleBackColor = true;
-            this.CheckoutButton.Click += new System.EventHandler(this.CheckoutButton_Click);
             // 
             // templatePizzaCartDisplay1
             // 
@@ -243,6 +252,7 @@
             this.Controls.Add(this.pageTemplate1);
             this.Name = "FormCart";
             this.Text = "FormCart";
+            this.Load += new System.EventHandler(this.FormCart_Load);
             this.PizzasInCartLayoutPanel.ResumeLayout(false);
             this.PizzaLayoutPanel.ResumeLayout(false);
             this.PizzaLayoutPanel.PerformLayout();
@@ -271,5 +281,6 @@
         private TemplatePizzaCartDisplay templatePizzaCartDisplay3;
         private TemplatePizzaCartDisplay templatePizzaCartDisplay4;
         private TemplatePizzaCartDisplay DrinksAppetizersCartLayout;
+        private System.Windows.Forms.PrintPreviewControl printPreviewControl1;
     }
 }

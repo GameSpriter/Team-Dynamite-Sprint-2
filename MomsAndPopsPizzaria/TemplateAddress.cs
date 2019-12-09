@@ -70,5 +70,10 @@ namespace MomsAndPopsPizzaria
         {
             return false; //Default to avoid errors, remove later
         }
+
+        private void StreetAddressTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

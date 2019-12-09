@@ -45,14 +45,15 @@
             this.pageTemplate1.Location = new System.Drawing.Point(0, 0);
             this.pageTemplate1.Margin = new System.Windows.Forms.Padding(0);
             this.pageTemplate1.Name = "pageTemplate1";
-            this.pageTemplate1.Size = new System.Drawing.Size(1280, 720);
+            this.pageTemplate1.Size = new System.Drawing.Size(1707, 886);
             this.pageTemplate1.TabIndex = 0;
             // 
             // LoginButton
             // 
-            this.LoginButton.Location = new System.Drawing.Point(25, 179);
+            this.LoginButton.Location = new System.Drawing.Point(161, 279);
+            this.LoginButton.Margin = new System.Windows.Forms.Padding(4);
             this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(75, 23);
+            this.LoginButton.Size = new System.Drawing.Size(100, 28);
             this.LoginButton.TabIndex = 1;
             this.LoginButton.Text = "button1";
             this.LoginButton.UseVisualStyleBackColor = true;
@@ -60,81 +61,89 @@
             // 
             // MenuButton
             // 
-            this.MenuButton.Location = new System.Drawing.Point(930, 179);
+            this.MenuButton.Location = new System.Drawing.Point(613, 245);
+            this.MenuButton.Margin = new System.Windows.Forms.Padding(4);
             this.MenuButton.Name = "MenuButton";
-            this.MenuButton.Size = new System.Drawing.Size(75, 23);
+            this.MenuButton.Size = new System.Drawing.Size(100, 28);
             this.MenuButton.TabIndex = 2;
-            this.MenuButton.Text = "button1";
+            this.MenuButton.Text = "Menu";
             this.MenuButton.UseVisualStyleBackColor = true;
             this.MenuButton.Click += new System.EventHandler(this.MenuButton_Click);
             // 
             // RecoverEmailButton
             // 
-            this.RecoverEmailButton.Location = new System.Drawing.Point(220, 430);
+            this.RecoverEmailButton.Location = new System.Drawing.Point(293, 529);
+            this.RecoverEmailButton.Margin = new System.Windows.Forms.Padding(4);
             this.RecoverEmailButton.Name = "RecoverEmailButton";
-            this.RecoverEmailButton.Size = new System.Drawing.Size(75, 23);
+            this.RecoverEmailButton.Size = new System.Drawing.Size(118, 28);
             this.RecoverEmailButton.TabIndex = 3;
-            this.RecoverEmailButton.Text = "button1";
+            this.RecoverEmailButton.Text = "Recover Email";
             this.RecoverEmailButton.UseVisualStyleBackColor = true;
             this.RecoverEmailButton.Click += new System.EventHandler(this.RecoverEmailButton_Click);
             // 
             // RecoverPasswordButton
             // 
-            this.RecoverPasswordButton.Location = new System.Drawing.Point(574, 430);
+            this.RecoverPasswordButton.Location = new System.Drawing.Point(765, 529);
+            this.RecoverPasswordButton.Margin = new System.Windows.Forms.Padding(4);
             this.RecoverPasswordButton.Name = "RecoverPasswordButton";
-            this.RecoverPasswordButton.Size = new System.Drawing.Size(75, 23);
+            this.RecoverPasswordButton.Size = new System.Drawing.Size(126, 28);
             this.RecoverPasswordButton.TabIndex = 4;
-            this.RecoverPasswordButton.Text = "button1";
+            this.RecoverPasswordButton.Text = "Reset Password";
             this.RecoverPasswordButton.UseVisualStyleBackColor = true;
             this.RecoverPasswordButton.Click += new System.EventHandler(this.RecoverPasswordButton_Click);
             // 
             // PhoneNumberText
             // 
             this.PhoneNumberText.AutoSize = true;
-            this.PhoneNumberText.Location = new System.Drawing.Point(220, 294);
+            this.PhoneNumberText.Location = new System.Drawing.Point(293, 362);
+            this.PhoneNumberText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PhoneNumberText.Name = "PhoneNumberText";
-            this.PhoneNumberText.Size = new System.Drawing.Size(35, 13);
+            this.PhoneNumberText.Size = new System.Drawing.Size(74, 17);
             this.PhoneNumberText.TabIndex = 5;
-            this.PhoneNumberText.Text = "label1";
+            this.PhoneNumberText.Text = "Password*";
             // 
             // EmailAddressText
             // 
             this.EmailAddressText.AutoSize = true;
-            this.EmailAddressText.Location = new System.Drawing.Point(574, 294);
+            this.EmailAddressText.Location = new System.Drawing.Point(765, 362);
+            this.EmailAddressText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.EmailAddressText.Name = "EmailAddressText";
-            this.EmailAddressText.Size = new System.Drawing.Size(35, 13);
+            this.EmailAddressText.Size = new System.Drawing.Size(126, 17);
             this.EmailAddressText.TabIndex = 6;
-            this.EmailAddressText.Text = "label2";
+            this.EmailAddressText.Text = "Confirm Password*";
             // 
             // PhoneNumberTextBox
             // 
-            this.PhoneNumberTextBox.Location = new System.Drawing.Point(223, 311);
+            this.PhoneNumberTextBox.Location = new System.Drawing.Point(297, 383);
+            this.PhoneNumberTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.PhoneNumberTextBox.Name = "PhoneNumberTextBox";
-            this.PhoneNumberTextBox.Size = new System.Drawing.Size(158, 20);
+            this.PhoneNumberTextBox.Size = new System.Drawing.Size(209, 22);
             this.PhoneNumberTextBox.TabIndex = 7;
             // 
             // EmailAddressTextBox
             // 
-            this.EmailAddressTextBox.Location = new System.Drawing.Point(577, 311);
+            this.EmailAddressTextBox.Location = new System.Drawing.Point(769, 383);
+            this.EmailAddressTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.EmailAddressTextBox.Name = "EmailAddressTextBox";
-            this.EmailAddressTextBox.Size = new System.Drawing.Size(158, 20);
+            this.EmailAddressTextBox.Size = new System.Drawing.Size(209, 22);
             this.EmailAddressTextBox.TabIndex = 8;
             // 
             // NotificationText
             // 
             this.NotificationText.AutoSize = true;
             this.NotificationText.ForeColor = System.Drawing.Color.Red;
-            this.NotificationText.Location = new System.Drawing.Point(223, 338);
+            this.NotificationText.Location = new System.Drawing.Point(297, 416);
+            this.NotificationText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NotificationText.Name = "NotificationText";
-            this.NotificationText.Size = new System.Drawing.Size(35, 13);
+            this.NotificationText.Size = new System.Drawing.Size(71, 17);
             this.NotificationText.TabIndex = 9;
-            this.NotificationText.Text = "label1";
+            this.NotificationText.Text = "Required*";
             // 
             // FormAccountRecovery
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.ClientSize = new System.Drawing.Size(1707, 886);
             this.Controls.Add(this.NotificationText);
             this.Controls.Add(this.EmailAddressTextBox);
             this.Controls.Add(this.PhoneNumberTextBox);
@@ -145,6 +154,7 @@
             this.Controls.Add(this.MenuButton);
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.pageTemplate1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormAccountRecovery";
             this.Text = "FormAccountRecovery";
             this.ResumeLayout(false);
