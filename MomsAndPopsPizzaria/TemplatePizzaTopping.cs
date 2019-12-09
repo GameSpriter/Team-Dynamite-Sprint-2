@@ -53,7 +53,8 @@ namespace MomsAndPopsPizzaria
 
         private void ToppingExtraCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            if(ToppingExtraCheckBox.Checked)
+            Console.WriteLine(ToppingExtraCheckBox.Checked);
+            if (ToppingExtraCheckBox.Checked)
             {
                 Topping.Count = 2;
             }

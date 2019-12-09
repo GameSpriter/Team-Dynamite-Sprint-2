@@ -14,6 +14,8 @@ namespace MomsAndPopsPizzaria
     {
         private Pizza pizza;
         private float toppingPrice;
+        private bool hasSelectedSize = false;
+        private bool hasSelectedCrust = false;
         FormController Parent;
 
         /// <summary>
@@ -36,6 +38,7 @@ namespace MomsAndPopsPizzaria
             pizza = new Pizza();
             templatePage1.ChangeName("Pizza");
 
+            //Setup for Template toppings
             int i = 0;
             foreach(TemplatePizzaTopping template in ToppingsLayoutPanel.Controls)
             {
@@ -72,8 +75,12 @@ namespace MomsAndPopsPizzaria
                         break;
                 }
 
-                template.Topping = new Item(toppingName, 1, toppingPrice);
+                template.Topping = new Item(toppingName, 0, 0);
                 template.Setup();
+
+                template.ToppingCheckBox.CheckedChanged += new EventHandler(ToppingTextBox_CheckChanged);
+                template.ToppingExtraCheckBox.CheckedChanged += new EventHandler(ToppingTextBox_CheckChanged);
+
                 i++;
             }
         }
@@ -86,25 +93,41 @@ namespace MomsAndPopsPizzaria
             Parent.pizzas.Add(pizza);
         }
 
+        private void ToppingTextBox_CheckChanged(object sender, EventArgs e)
+        {
+            updatePrice();
+        }
+
         /// <summary>
         /// Updates the price on the page
         /// </summary>
         private void updatePrice()
         {
+            pizza.updatePrice();
             float price = pizza.price;
+            int numberOfToppings = 0;
             foreach (TemplatePizzaTopping template in ToppingsLayoutPanel.Controls)
             {
                 if(template.Topping.Count == 2)
                 {
-                    price += toppingPrice * 2;
+                    numberOfToppings++;
+                    numberOfToppings++;
                 }
                 else if(template.Topping.Count == 1)
                 {
-                    price += toppingPrice;
+                    numberOfToppings++;
                 }
             }
-            TotalCostText.Text = "$" + string.Format("{0:0.00}", price);
+            price = price + ((numberOfToppings - 2) * toppingPrice);
 
+            //Validation of price not being lower than it's supposed to be
+            if(price < pizza.price)
+            {
+                price = pizza.price;
+            }
+
+            TotalCostText.Text = "$" + string.Format("{0:0.00}", price);
+            pizza.price = price;
         }
 
         /// <summary>
@@ -118,42 +141,19 @@ namespace MomsAndPopsPizzaria
             Parent.OpenForm("FormMenu");
         }
 
-        #region Size Radio Buttons
-        private void SmallSizeRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
-            toppingPrice = 0.50f;
-            ToppingCostText.Text = "$0.50";
-            pizza.SelectedSize = Pizza.Sizes.small;
-            updatePrice();
-        }
-
-        private void MeduimSizeRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
-            toppingPrice = 0.75f;
-            ToppingCostText.Text = "$0.75";
-            pizza.SelectedSize = Pizza.Sizes.medium;
-            updatePrice();
-        }
-
-        private void LargeSizeRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
-            toppingPrice = 1.00f;
-            ToppingCostText.Text = "$1.00";
-            pizza.SelectedSize = Pizza.Sizes.large;
-            updatePrice();
-        }
-
-        private void ExtraLargeSizeRadioButton_CheckedChanged(object sender, EventArgs e)
-        {
-            toppingPrice = 1.25f;
-            ToppingCostText.Text = "$1.25";
-            pizza.SelectedSize = Pizza.Sizes.extraLarge;
-            updatePrice();
-        }
-        #endregion
-
+        /// <summary>
+        /// Adds the pizza to the cart and returns to the menu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void AddToCartButton_Click(object sender, EventArgs e)
         {
+            //Validation for entering Size and Crust
+            if(!pageComplete())
+            {
+                return;
+            }
+
             //Add the toppings to the pizza
             foreach (TemplatePizzaTopping template in ToppingsLayoutPanel.Controls)
             {
@@ -165,20 +165,83 @@ namespace MomsAndPopsPizzaria
             Parent.OpenForm("Menu");
         }
 
+        /// <summary>
+        /// Validates that a size and crust have been selected
+        /// </summary>
+        /// <returns>True if a size and crust have been selected</returns>
+        private bool pageComplete()
+        {
+            if (!hasSelectedSize)
+            {
+                SizeGroupBox.ForeColor = Color.Red;
+                return false;
+            }
+            if (!hasSelectedCrust)
+            {
+                CrustGroupBox.ForeColor = Color.Red;
+                return false;
+            }
+            return true;
+        }
+
+        #region Size Radio Buttons
+
+        /// <summary>
+        /// Handels radio button changes for size
+        /// </summary>
+        /// <param name="size">The size the pizza is changed to</param>
+        private void SizeRadioButton_CheckedChanged(int size)
+        {
+            //Handeling of if the size has been selected or not
+            hasSelectedSize = true;
+            SizeGroupBox.ForeColor = Color.Black;
+            
+            //Setting up the pizza size
+            pizza.SelectedSize = Pizza.Sizes.small;
+            toppingPrice = 0.50f + (0.25f * size);
+            ToppingCostText.Text = string.Format("${0:0.00}", toppingPrice);
+            updatePrice();
+        }
+
+        private void SmallSizeRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            SizeRadioButton_CheckedChanged(0);
+        }
+
+        private void MeduimSizeRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            SizeRadioButton_CheckedChanged(1);
+        }
+
+        private void LargeSizeRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            SizeRadioButton_CheckedChanged(2);
+        }
+
+        private void ExtraLargeSizeRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            SizeRadioButton_CheckedChanged(3);
+        }
+        #endregion
+
+        
         #region Crust Radio Buttons
         private void ThinCrustRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             pizza.SelectedCrust = Pizza.Crusts.thin;
+            hasSelectedCrust = true;
         }
 
         private void PanCrustRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-            pizza.SelectedCrust = Pizza.Crusts.thin;
+            pizza.SelectedCrust = Pizza.Crusts.pan;
+            hasSelectedCrust = true;
         }
 
         private void RegularCrustRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-            pizza.SelectedCrust = Pizza.Crusts.thin;
+            pizza.SelectedCrust = Pizza.Crusts.regular;
+            hasSelectedCrust = true;
         }
 
         #endregion

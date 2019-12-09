@@ -98,8 +98,8 @@
         #endregion
 
         private System.Windows.Forms.PictureBox ToppingImageBox;
-        private System.Windows.Forms.CheckBox ToppingExtraCheckBox;
-        private System.Windows.Forms.CheckBox ToppingCheckBox;
+        public System.Windows.Forms.CheckBox ToppingExtraCheckBox;
+        public System.Windows.Forms.CheckBox ToppingCheckBox;
         private System.Windows.Forms.Panel panel1;
     }
 }

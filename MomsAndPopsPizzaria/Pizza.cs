@@ -35,23 +35,13 @@ namespace MomsAndPopsPizzaria
             pineapple = 8,
         };
         public List<Item> SelectedToppings;
-        public float price
-        {
-            get
-            {
-                updatePrice();
-                return price;
-            }
-            private set
-            {
-                price = value;
-            }
-        }
+        public float price;
 
         public Pizza()
         {
             SelectedCrust = 0;
             SelectedSize = 0;
+            SelectedToppings = new List<Item>();
         }
 
         public Pizza(Crusts c, Sizes s, List<Item> st)
@@ -71,30 +61,24 @@ namespace MomsAndPopsPizzaria
             SelectedToppings.Add(new Item(topping, 1, 0f));
         }
 
-        private void updatePrice()
+        public void updatePrice()
         {
             if(SelectedSize == Sizes.small) 
             {
-                price += 4.00f;
+                price = 4.00f;
             }
             else if(SelectedSize == Sizes.medium)
             {
-                price += 6.00f;
+                price = 6.00f;
             }
             else if(SelectedSize == Sizes.large)
             {
-                price += 8.00f;
+                price = 8.00f;
             } 
             else
             {
-                price += 10.00f;
+                price = 10.00f;
             }
-
-            if(SelectedToppings.Count > 1)
-            {
-                price += 1.00f;
-            }
-
         }
     }
 }

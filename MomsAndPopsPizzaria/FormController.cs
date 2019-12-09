@@ -18,6 +18,7 @@ namespace MomsAndPopsPizzaria
 
         private Form child;
         private Timer formHider = new Timer();
+        private bool changingForm = false;
 
         public FormController()
         {
@@ -26,6 +27,8 @@ namespace MomsAndPopsPizzaria
 
         private void FormController_Load(object sender, EventArgs e)
         {
+            pizzas = new List<Pizza>();
+
             child = new FormCustomPizza(this);
             child.Show();
             formHider.Interval = 20;
@@ -42,7 +45,14 @@ namespace MomsAndPopsPizzaria
         /// <param name="e">The event arguments</param>
         private void EndApplication(object sender, EventArgs e)
         {
-            Close();
+            if(!changingForm)
+            {
+                Close();
+            }
+            else
+            {
+                changingForm = false;
+            }
         }
 
         /// <summary>
@@ -52,7 +62,6 @@ namespace MomsAndPopsPizzaria
         /// <param name="e">The event arguments</param>
         private void FormHide_Tick(object sender, EventArgs e)
         {
-            
             formHider.Stop();
             formHider.Tick -= new EventHandler(FormHide_Tick);
             formHider = null;
@@ -66,6 +75,7 @@ namespace MomsAndPopsPizzaria
         /// <param name="formName">To open "FormLocation" use "Location" or "FormLocation". Not case Sensitive.</param>
         public void OpenForm(string formName)
         {
+            changingForm = true;
             child.Close();
             child = null;
             switch (formName.ToLower())
