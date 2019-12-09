@@ -35,7 +35,18 @@ namespace MomsAndPopsPizzaria
             pineapple = 8,
         };
         public List<Item> SelectedToppings;
-        public float price;
+        public float price
+        {
+            get
+            {
+                updatePrice();
+                return price;
+            }
+            private set
+            {
+                price = value;
+            }
+        }
 
         public Pizza()
         {

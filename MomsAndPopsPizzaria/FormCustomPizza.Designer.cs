@@ -56,6 +56,8 @@
             this.templatePizzaTopping8 = new MomsAndPopsPizzaria.TemplatePizzaTopping();
             this.templatePizzaTopping9 = new MomsAndPopsPizzaria.TemplatePizzaTopping();
             this.templatePage1 = new MomsAndPopsPizzaria.TemplatePage();
+            this.ToppingCostText = new System.Windows.Forms.Label();
+            this.TotalCostText = new System.Windows.Forms.Label();
             this.SizeGroupBox.SuspendLayout();
             this.SizeLayoutPanel.SuspendLayout();
             this.CrustGroupBox.SuspendLayout();
@@ -372,9 +374,31 @@
             this.templatePage1.Size = new System.Drawing.Size(1280, 720);
             this.templatePage1.TabIndex = 0;
             // 
+            // ToppingCostText
+            // 
+            this.ToppingCostText.AutoSize = true;
+            this.ToppingCostText.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ToppingCostText.Location = new System.Drawing.Point(690, 209);
+            this.ToppingCostText.Name = "ToppingCostText";
+            this.ToppingCostText.Size = new System.Drawing.Size(55, 24);
+            this.ToppingCostText.TabIndex = 8;
+            this.ToppingCostText.Text = "$0.00";
+            // 
+            // TotalCostText
+            // 
+            this.TotalCostText.AutoSize = true;
+            this.TotalCostText.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TotalCostText.Location = new System.Drawing.Point(929, 164);
+            this.TotalCostText.Name = "TotalCostText";
+            this.TotalCostText.Size = new System.Drawing.Size(55, 24);
+            this.TotalCostText.TabIndex = 9;
+            this.TotalCostText.Text = "$0.00";
+            // 
             // FormCustomPizza
             // 
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.TotalCostText);
+            this.Controls.Add(this.ToppingCostText);
             this.Controls.Add(this.ToppingsGroupBox);
             this.Controls.Add(this.CrustGroupBox);
             this.Controls.Add(this.SizeGroupBox);
@@ -429,5 +453,7 @@
         private System.Windows.Forms.RadioButton ThinCrustRadioButton;
         private System.Windows.Forms.RadioButton PanCrustRadioButton;
         private System.Windows.Forms.RadioButton RegularCrustRadioButton;
+        private System.Windows.Forms.Label ToppingCostText;
+        private System.Windows.Forms.Label TotalCostText;
     }
 }
